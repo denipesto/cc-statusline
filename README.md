@@ -3,6 +3,10 @@
 A useful status line for Claude Code: context remaining, plus 🐱 **claudegochi** —
 a tamagotchi whose mood reflects your session.
 
+<p align="center">
+  <img src="docs/demo.gif" alt="claudegochi — a tamagotchi cat that gets hungry as your Claude Code context fills up, then you feed it with /compact" width="640">
+</p>
+
 ## Install in one line
 
 Requires Node.js, git and the Claude Code CLI. Paste the command — it clones and installs.
