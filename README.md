@@ -74,7 +74,7 @@ Re-read on every render, no restart needed.
 
 ## Languages
 
-English is the default; **Русский** ships in the box. Pick a language in `config.json`:
+English is the default; **Russian** ships in the box. Pick a language in `config.json`:
 
 ```json
 { "lang": "ru" }
