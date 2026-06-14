@@ -11,6 +11,16 @@
 import { meter, red, gray, bold, dim, brightGreen, brightYellow, brightRed } from "../colors.mjs";
 import { contextState } from "../tokens.mjs";
 
+// pet name: fixed (config.petName) or the current project's folder name
+function petName(data, config) {
+  if (config?.petNameProject) {
+    const p = data.workspace?.project_dir || data.workspace?.current_dir || "";
+    const parts = p.replace(/[\\/]+$/, "").split(/[\\/]/);
+    if (parts[parts.length - 1]) return parts[parts.length - 1];
+  }
+  return config?.petName || "claudegochi";
+}
+
 function colorFor(ratio) {
   if (ratio >= 0.85) return brightRed;
   if (ratio >= 0.6) return brightYellow;
@@ -60,7 +70,7 @@ export default {
     const paint = colorFor(s.ratio);
     const satiety = 1 - s.ratio;
     const view = {
-      name: ctx.config?.petName || "claudegochi",
+      name: petName(data, ctx.config),
       m,
       say: t(`tamagotchi.${m.key}`),
       paint,

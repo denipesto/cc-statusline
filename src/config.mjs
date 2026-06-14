@@ -18,6 +18,8 @@ export const defaultConfig = {
   contextWindow: null,
   // tamagotchi mode: pet name
   petName: "claudegochi",
+  // show the current project's folder name instead of petName
+  petNameProject: false,
 };
 
 export function loadConfig() {

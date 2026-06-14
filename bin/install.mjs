@@ -17,11 +17,12 @@ import { fileURLToPath } from "node:url";
 const color = process.stdout.isTTY && !process.env.NO_COLOR;
 const x = (c) => (s) => (color ? `\x1b[${c}m${s}\x1b[0m` : s);
 const grn = x("38;5;78"), grnB = x("38;5;120"), dim = x("38;5;244"), bold = x("1"),
-      cyan = x("38;5;80"), red = x("38;5;203"), yel = x("38;5;221"), white = x("97"), track = x("38;5;236");
+      cyan = x("38;5;80"), red = x("38;5;203"), white = x("97"), track = x("38;5;238");
+const GRAD = [29, 35, 41, 78, 84]; // green→mint, for the progress bar
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+const vis = (s) => s.replace(/\x1b\[[0-9;]*m/g, "").length;
 
 function box(lines) {
-  const vis = (s) => s.replace(/\x1b\[[0-9;]*m/g, "").length;
   const w = Math.max(...lines.map(vis));
   const top = dim("╭" + "─".repeat(w + 2) + "╮");
   const bot = dim("╰" + "─".repeat(w + 2) + "╯");
@@ -29,17 +30,33 @@ function box(lines) {
   return [top, ...body, bot].join("\n");
 }
 
-// animated progress line (redraws in place on a TTY; one line per step otherwise)
-async function progress(pct, label) {
-  const w = 24;
-  const fill = Math.round((pct / 100) * w);
-  const bar = grn("█".repeat(fill)) + track("░".repeat(w - fill));
-  const line = `  ${cyan("installing")}  ${bar}  ${String(pct).padStart(3)}%  ${dim(label)}`;
-  if (color) {
-    process.stdout.write("\r\x1b[K" + line);
-  } else {
-    process.stdout.write(`  [${String(pct).padStart(3)}%] ${label}\n`);
+// smooth gradient progress bar
+function progBar(pct, w = 26) {
+  const fill = (pct / 100) * w;
+  let s = "";
+  for (let i = 0; i < w; i++) {
+    const g = GRAD[Math.min(GRAD.length - 1, Math.floor((i / w) * GRAD.length))];
+    if (i < Math.floor(fill)) s += x(`38;5;${g}`)("█");
+    else if (i < fill) s += x(`38;5;${g}`)("▌");
+    else s += track("░");
   }
+  return s;
+}
+async function progress(pct, label) {
+  if (color) process.stdout.write(`\r\x1b[K  ${cyan("installing")}  ${progBar(pct)}  ${String(pct).padStart(3)}%  ${dim(label)}`);
+  else process.stdout.write(`  [${String(pct).padStart(3)}%] ${label}\n`);
+}
+
+// preview of the live sprite (illustrative sample state)
+function previewSprite() {
+  const ratio = 0.28, sat = 1 - ratio, pct = Math.round(ratio * 100);
+  const hearts = red("♥".repeat(4)) + dim("♡");
+  const meter = grn("█".repeat(Math.round(sat * 10))) + track("░".repeat(10 - Math.round(sat * 10)));
+  return [
+    grnB(" /\\_/\\"),
+    grnB("( ^_^ )") + "   " + hearts + "  " + meter + " " + dim(pct + "%"),
+    grnB(" > ω < ") + "   " + dim("full & happy"),
+  ];
 }
 
 // ── args / paths ────────────────────────────────────────────────────
@@ -69,10 +86,6 @@ function saveJson(file, obj) {
   fs.writeFileSync(file, JSON.stringify(obj, null, 2) + "\n");
 }
 
-// happy / sad mascot
-const happyCat = (l) => [grnB(" /\\_/\\ "), grnB("( ^ω^ )") + "   " + l, grnB(" > ω < ")];
-const sadCat = (l) => [red(" /\\_/\\ "), red("( ; _ ;)") + "   " + l, red(" >   < ")];
-
 async function run() {
   console.log("");
   console.log("  " + bold(cyan("cc-statusline")) + dim("  ·  status line for Claude Code"));
@@ -86,9 +99,10 @@ async function run() {
     if (fs.existsSync(settingsPath)) { bak = settingsPath + ".bak"; fs.copyFileSync(settingsPath, bak); }
     delete settings.statusLine;
     saveJson(settingsPath, settings);
-    const cat = sadCat(white("uninstalled — bye!"));
     console.log(box([
-      cat[0], cat[1], cat[2], "",
+      red(" /\\_/\\"),
+      red("( ; _ ;)") + "   " + white("uninstalled — bye!"),
+      red(" >   < "), "",
       `${dim("settings")}  ${short(settingsPath)}`,
       bak ? `${dim("backup  ")}  ${short(bak)}` : "",
     ].filter(Boolean)));
@@ -121,15 +135,19 @@ async function run() {
   for (let i = 0; i < steps.length; i++) {
     steps[i][1]();
     await progress(Math.round(((i + 1) / steps.length) * 100), steps[i][0]);
-    await sleep(140);
+    await sleep(150);
   }
   if (color) process.stdout.write("\r\x1b[K");
   console.log("");
 
+  // live preview
+  console.log("  " + dim("this is what you'll see:"));
+  for (const l of previewSprite()) console.log("    " + l);
+  console.log("");
+
   const cfgLine = [wantMode && `mode → ${wantMode}`, wantLang && `lang → ${wantLang}`].filter(Boolean).join("   ");
-  const cat = happyCat(white(bold("cc-statusline is ready!")));
   console.log(box([
-    cat[0], cat[1], cat[2], "",
+    `${grn("✓")} ${white(bold("cc-statusline is ready!"))}`,
     `${dim("settings")}  ${short(settingsPath)}`,
     `${dim("script  ")}  ${short(scriptPath)}`,
     bak ? `${dim("backup  ")}  ${short(bak)}` : "",
@@ -137,6 +155,10 @@ async function run() {
   ].filter(Boolean)));
   console.log("");
   console.log("  " + grn("→") + " " + bold("Restart Claude Code") + dim(" (close & reopen the terminal) to apply."));
+  const removeCmd = process.platform === "win32"
+    ? "irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.ps1 | iex"
+    : "curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.sh | sh";
+  console.log("  " + dim("remove anytime:  ") + cyan(removeCmd));
   console.log("");
 }
 

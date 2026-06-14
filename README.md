@@ -20,6 +20,17 @@ curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/instal
 The bootstrap clones the repo into `~/.cc-statusline` and runs the installer.
 Then **restart Claude Code**.
 
+### Uninstall in one line
+
+```powershell
+irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.ps1 | iex
+```
+```sh
+curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.sh | sh
+```
+
+Removes the status line from `settings.json` (your config and the backup are left in place).
+
 ### Manual (clone + installer)
 
 ```sh
@@ -53,6 +64,7 @@ Re-read on every render, no restart needed.
 | `widgets` | `["context", ...]` | which widgets and order (normal mode) |
 | `petStyle` | `"sprite"` \| `"compact"` | cat as 3 lines / 1 line |
 | `petName` | string | pet name |
+| `petNameProject` | `true` \| `false` | show the current project's folder name instead of `petName` |
 | `contextWindow` | `null` \| number | context window (`null` = auto: 200k / 1M for `[1m]`) |
 | `separator` | string | separator between widgets |
 
