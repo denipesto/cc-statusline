@@ -4,6 +4,7 @@
 // Each widget is isolated: a throwing/slow widget never kills the line.
 
 import { loadConfig } from "./config.mjs";
+import { makeT } from "./i18n.mjs";
 import { dim } from "./colors.mjs";
 import context from "./widgets/context.mjs";
 import tamagotchi from "./widgets/tamagotchi.mjs";
@@ -27,7 +28,8 @@ async function readStdin() {
 async function main() {
   const data = await readStdin();
   const config = loadConfig();
-  const ctx = { config, cwd: data.workspace?.current_dir || process.cwd() };
+  const t = makeT(config.lang || "en");
+  const ctx = { config, t, cwd: data.workspace?.current_dir || process.cwd() };
 
   // mode toggle: "tamagotchi" renders the pet instead of the normal widget list.
   const widgetList = config.mode === "tamagotchi" ? ["tamagotchi"] : config.widgets;

@@ -23,17 +23,17 @@ function hearts(satiety) {
 }
 
 // Pick a mood. Priority: starving > hungry > sleepy(night) > content > ok.
-// eyes/mouth keep a fixed width so the sprite stays aligned.
+// eyes/mouth keep a fixed width so the sprite stays aligned. `key` -> i18n phrase.
 function mood(ratio, hour) {
   const night = hour >= 23 || hour < 6;
-  if (ratio >= 0.9) return { eyes: "x_x", mouth: "!", emoji: "🙀", say: "ПОКОРМИ! /compact" };
-  if (ratio >= 0.75) return { eyes: ";_;", mouth: "~", emoji: "😿", say: "урчит животик…" };
-  if (night) return { eyes: "-_-", mouth: "z", emoji: "😴", say: "поздно, спатки? zZ" };
-  if (ratio < 0.5) return { eyes: "^_^", mouth: "ω", emoji: "😺", say: "сыт и доволен" };
-  return { eyes: "o_o", mouth: "‿", emoji: "😸", say: "бодрячком" };
+  if (ratio >= 0.9) return { eyes: "x_x", mouth: "!", emoji: "🙀", key: "starving" };
+  if (ratio >= 0.75) return { eyes: ";_;", mouth: "~", emoji: "😿", key: "hungry" };
+  if (night) return { eyes: "-_-", mouth: "z", emoji: "😴", key: "sleepy" };
+  if (ratio < 0.5) return { eyes: "^_^", mouth: "ω", emoji: "😺", key: "content" };
+  return { eyes: "o_o", mouth: "‿", emoji: "😸", key: "ok" };
 }
 
-function spriteView({ name, m, paint, heartsStr, meterStr, pct }) {
+function spriteView({ name, m, say, paint, heartsStr, meterStr, pct }) {
   // cat sprite, padded to a fixed column, then the info panel on the right
   const raw = [" /\\_/\\", `( ${m.eyes} )`, ` > ${m.mouth} <`];
   const w = Math.max(...raw.map((r) => r.length));
@@ -41,12 +41,12 @@ function spriteView({ name, m, paint, heartsStr, meterStr, pct }) {
   return [
     `${cat[0]}   ${bold(name)}`,
     `${cat[1]}   ${heartsStr}  ${meterStr} ${pct}%`,
-    `${cat[2]}   ${dim(m.say)}`,
+    `${cat[2]}   ${dim(say)}`,
   ].join("\n");
 }
 
-function compactView({ name, m, paint, heartsStr, meterStr, pct }) {
-  return [m.emoji, bold(name), " ", heartsStr, paint(meterStr), dim(`${m.say} · ctx ${pct}%`)].join(" ");
+function compactView({ name, m, say, paint, heartsStr, meterStr, pct }) {
+  return [m.emoji, bold(name), " ", heartsStr, paint(meterStr), dim(`${say} · ctx ${pct}%`)].join(" ");
 }
 
 export default {
@@ -55,12 +55,14 @@ export default {
     const s = contextState(data, ctx.config);
     if (!s) return null;
 
+    const t = ctx.t || ((k) => k.split(".").pop());
     const m = mood(s.ratio, new Date().getHours());
     const paint = colorFor(s.ratio);
     const satiety = 1 - s.ratio;
     const view = {
       name: ctx.config?.petName || "claudegochi",
       m,
+      say: t(`tamagotchi.${m.key}`),
       paint,
       heartsStr: hearts(satiety),
       meterStr: paint(meter(satiety, 10)),

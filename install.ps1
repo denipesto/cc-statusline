@@ -14,11 +14,11 @@ foreach ($cmd in 'git', 'node') {
 }
 
 if (Test-Path (Join-Path $dir '.git')) {
-  Write-Host "↻ updating $dir"
-  git -C $dir pull --ff-only
+  Write-Host ("  " + [char]0x2193 + " updating cc-statusline…") -ForegroundColor DarkGray
+  git -C $dir pull --ff-only --quiet
 } else {
-  Write-Host "↓ cloning into $dir"
-  git clone --depth 1 $repo $dir
+  Write-Host ("  " + [char]0x2193 + " downloading cc-statusline…") -ForegroundColor DarkGray
+  git clone --depth 1 --quiet $repo $dir
 }
 
 node (Join-Path $dir 'bin/install.mjs') @args

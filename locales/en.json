@@ -1,0 +1,13 @@
+{
+  "name": "English",
+  "tamagotchi": {
+    "starving": "FEED ME! /compact",
+    "hungry": "tummy rumbling…",
+    "sleepy": "late… nap time? zZ",
+    "content": "full & happy",
+    "ok": "feeling good"
+  },
+  "context": {
+    "left": "left"
+  }
+}

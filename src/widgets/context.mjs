@@ -8,8 +8,9 @@ export default {
   render(data, ctx) {
     const s = contextState(data, ctx.config);
     if (!s) return null;
+    const t = ctx.t || (() => "left");
     const pct = Math.round(s.ratio * 100);
-    const text = `ctx ${bar(s.ratio, 10)} ${pct}% · ${fmtTokens(s.left)} left`;
+    const text = `ctx ${bar(s.ratio, 10)} ${pct}% · ${fmtTokens(s.left)} ${t("context.left")}`;
     return colorByRatio(s.ratio, text);
   },
 };

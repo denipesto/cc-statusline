@@ -1,8 +1,9 @@
-// Visual demo: render the tamagotchi in every mood, using synthetic fixtures.
+// Visual demo: render the tamagotchi in every mood, in each locale.
 // Run: node test/demo.mjs
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import tama from "../src/widgets/tamagotchi.mjs";
+import { makeT, listLocales } from "../src/i18n.mjs";
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const fix = (n) => path.join(here, `fix-${n}.jsonl`);
@@ -23,11 +24,15 @@ const cases = [
   ["compact line (82%)", fix(82), 14, "compact"],
 ];
 
-for (const [label, transcript, hour, petStyle] of cases) {
-  const data = { model: { id: "claude-opus-4-8" }, transcript_path: transcript };
-  const ctx = { config: { contextWindow: 200000, petName: "claudegochi", petStyle } };
-  const out = at(hour, () => tama.render(data, ctx));
-  console.log(`\n── ${label} ──`);
-  console.log(out);
+for (const { code, name } of listLocales()) {
+  console.log(`\n══════════ locale: ${code} (${name}) ══════════`);
+  const t = makeT(code);
+  for (const [label, transcript, hour, petStyle] of cases) {
+    const data = { model: { id: "claude-opus-4-8" }, transcript_path: transcript };
+    const ctx = { config: { contextWindow: 200000, petName: "claudegochi", petStyle }, t };
+    const out = at(hour, () => tama.render(data, ctx));
+    console.log(`\n── ${label} ──`);
+    console.log(out);
+  }
 }
 console.log("");

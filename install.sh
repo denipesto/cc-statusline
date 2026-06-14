@@ -15,11 +15,11 @@ for cmd in git node; do
 done
 
 if [ -d "$DIR/.git" ]; then
-  echo "↻ updating $DIR"
-  git -C "$DIR" pull --ff-only
+  printf '  \033[2m↓ updating cc-statusline…\033[0m\n'
+  git -C "$DIR" pull --ff-only --quiet
 else
-  echo "↓ cloning into $DIR"
-  git clone --depth 1 "$REPO" "$DIR"
+  printf '  \033[2m↓ downloading cc-statusline…\033[0m\n'
+  git clone --depth 1 --quiet "$REPO" "$DIR"
 fi
 
 node "$DIR/bin/install.mjs" "$@"

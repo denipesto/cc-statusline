@@ -1,11 +1,11 @@
 # cc-statusline
 
-Полезный status line для Claude Code (анти-Kickbacks): остаток контекста, и режим
-🐱 **claudegochi** — тамагочи, чьё настроение = состояние сессии.
+A useful status line for Claude Code: context remaining, plus 🐱 **claudegochi** —
+a tamagotchi whose mood reflects your session.
 
-## Установка одной строкой
+## Install in one line
 
-Требуется Node.js, git и Claude Code CLI. Вставь команду — клонирует и поставит само.
+Requires Node.js, git and the Claude Code CLI. Paste the command — it clones and installs.
 
 **Windows (PowerShell):**
 ```powershell
@@ -17,10 +17,10 @@ irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/install.ps1 |
 curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/install.sh | sh
 ```
 
-Bootstrap клонирует репозиторий в `~/.cc-statusline` и запускает установщик.
-После — **перезапусти Claude Code**.
+The bootstrap clones the repo into `~/.cc-statusline` and runs the installer.
+Then **restart Claude Code**.
 
-### Вручную (клон + установщик)
+### Manual (clone + installer)
 
 ```sh
 git clone https://github.com/denipesto/cc-statusline.git
@@ -28,41 +28,62 @@ cd cc-statusline
 node bin/install.mjs
 ```
 
-Установщик сам впишет `statusLine` в `~/.claude/settings.json` с **абсолютными путями
-к node и скрипту** (вычисляются от места клонирования — PATH не важен, папка может быть
-где угодно), сделает бэкап `settings.json.bak` и не тронет остальной конфиг.
+The installer writes `statusLine` into `~/.claude/settings.json` using **absolute paths
+to node and the script** (computed from the clone location — PATH doesn't matter, the
+folder can live anywhere), backs up `settings.json.bak`, and leaves the rest of the config
+untouched. From the project folder: `npm run setup`.
 
-Из папки проекта то же самое: `npm run setup`.
-
-После установки **перезапусти Claude Code** (закрыть/открыть терминал).
-
-### Варианты
+### Options
 
 ```sh
-node bin/install.mjs --mode tamagotchi   # установить и сразу включить кота
-node bin/install.mjs --mode normal       # установить в режиме бара контекста
-node bin/install.mjs --uninstall         # убрать statusLine из settings.json
+node bin/install.mjs --mode tamagotchi   # install and switch the cat on
+node bin/install.mjs --mode normal       # install in context-bar mode
+node bin/install.mjs --uninstall         # remove statusLine from settings.json
 ```
 
 (`npm run remove` = `--uninstall`.)
 
-## Настройка — `config.json`
+## Configure — `config.json`
 
-Перечитывается на каждом рендере, перезапуск не нужен.
+Re-read on every render, no restart needed.
 
-| Поле | Значения | Что делает |
+| Field | Values | What it does |
 |---|---|---|
-| `mode` | `"normal"` \| `"tamagotchi"` | режим |
-| `widgets` | `["context", ...]` | какие виджеты и порядок (для normal) |
-| `petStyle` | `"sprite"` \| `"compact"` | кот 3 строки / 1 строка |
-| `petName` | строка | имя питомца |
-| `contextWindow` | `null` \| число | окно контекста (`null` = авто: 200k / 1M для `[1m]`) |
-| `separator` | строка | разделитель виджетов |
+| `mode` | `"normal"` \| `"tamagotchi"` | which mode to render |
+| `widgets` | `["context", ...]` | which widgets and order (normal mode) |
+| `petStyle` | `"sprite"` \| `"compact"` | cat as 3 lines / 1 line |
+| `petName` | string | pet name |
+| `contextWindow` | `null` \| number | context window (`null` = auto: 200k / 1M for `[1m]`) |
+| `separator` | string | separator between widgets |
 
-## Разработка
+## Languages
 
-```sh
-npm run demo    # показать кота во всех настроениях (синтетические фикстуры)
+English is the default; **Русский** ships in the box. Pick a language in `config.json`:
+
+```json
+{ "lang": "ru" }
 ```
 
-Идеи и бэклог — в [IDEAS.md](./IDEAS.md).
+…or at install time: `node bin/install.mjs --lang ru`.
+
+### Add your language (PRs welcome)
+
+1. Copy `locales/en.json` to `locales/<code>.json` (e.g. `de.json`, `fr.json`, `ja.json`).
+2. Translate the **values** only — keep the keys and any `/commands` intact.
+3. Set `"lang": "<code>"` in `config.json` and run `npm run demo` to check it.
+4. Open a pull request.
+
+Missing keys fall back to English, so partial translations work fine. See
+[`locales/README.md`](./locales/README.md) for the full guide.
+
+## Development
+
+```sh
+npm run demo    # render the cat in every mood (synthetic fixtures)
+```
+
+Ideas and backlog live in [IDEAS.md](./IDEAS.md).
+
+## License
+
+MIT

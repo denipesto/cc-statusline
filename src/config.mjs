@@ -6,6 +6,8 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 export const defaultConfig = {
+  // UI language (locales/<lang>.json); falls back to English for missing keys
+  lang: "en",
   // "normal" = render the widgets list; "tamagotchi" = render the pet instead
   mode: "normal",
   // widget names to render, in order (see REGISTRY in statusline.mjs)
