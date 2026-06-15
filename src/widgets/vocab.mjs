@@ -6,7 +6,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import { dim, bold, c256 } from "../colors.mjs";
+import { dim, c256, THEMES } from "../colors.mjs";
 
 const file = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "data", "vocab.json");
 let POOL = [];
@@ -20,6 +20,7 @@ export default {
     if (!POOL.length) return null;
     const now = ctx.now ?? Date.now();
     const e = POOL[Math.floor(now / SLOT) % POOL.length];
-    return c256(80)("🗣 ") + bold(e.en) + " " + dim(e.ipa) + dim(" · " + e.ru);
+    const accent = c256((THEMES[ctx.config?.petTheme] || THEMES.warm).low);
+    return accent("🗣 " + e.en) + " " + dim(e.ipa) + dim(" · " + e.ru);
   },
 };

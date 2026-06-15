@@ -1,6 +1,6 @@
 // ⭐ MVP widget: how much of the context window is used + how much is left.
 
-import { bar, colorByRatio, fmtTokens } from "../colors.mjs";
+import { gradientBar, c256, THEMES, dim, fmtTokens } from "../colors.mjs";
 import { contextState } from "../tokens.mjs";
 
 export default {
@@ -9,8 +9,10 @@ export default {
     const s = contextState(data, ctx.config);
     if (!s) return null;
     const t = ctx.t || (() => "left");
-    const pct = Math.round(s.ratio * 100);
-    const text = `ctx ${bar(s.ratio, 10)} ${pct}% · ${fmtTokens(s.left)} ${t("context.left")}`;
-    return colorByRatio(s.ratio, text);
+    const theme = THEMES[ctx.config?.petTheme] || THEMES.warm;
+    const toneN = s.ratio >= 0.85 ? theme.high : s.ratio >= 0.6 ? theme.mid : theme.low;
+    const ctxBar = gradientBar(s.ratio, 10, theme.grad);
+    const pct = c256(toneN)(`${Math.round(s.ratio * 100)}%`);
+    return `${dim("ctx")} ${ctxBar} ${pct}  ${dim("· " + fmtTokens(s.left) + " " + t("context.left"))}`;
   },
 };

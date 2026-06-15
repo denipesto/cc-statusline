@@ -89,7 +89,9 @@ Note: slash commands always invoke the model (a small token cost); `ccg` does no
 
 ## Configure — `config.json`
 
-Re-read on every render, no restart needed.
+Re-read on every render, no restart needed. `config.json` is per-user (gitignored);
+without one, the built-in defaults apply — see [`config.example.json`](./config.example.json).
+Any keys you set are merged over the defaults, so a partial file is fine.
 
 | Field | Values | What it does |
 |---|---|---|
