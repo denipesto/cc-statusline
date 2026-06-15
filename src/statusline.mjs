@@ -9,12 +9,14 @@ import { dim } from "./colors.mjs";
 import context from "./widgets/context.mjs";
 import tamagotchi from "./widgets/tamagotchi.mjs";
 import quote from "./widgets/quote.mjs";
+import vocab from "./widgets/vocab.mjs";
 
 // widget name -> module. Add new widgets here as they land.
 const REGISTRY = {
   context,
   tamagotchi,
   quote,
+  vocab,
 };
 
 async function readStdin() {
