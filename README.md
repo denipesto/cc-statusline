@@ -58,6 +58,20 @@ node bin/install.mjs --uninstall         # remove statusLine from settings.json
 
 (`npm run remove` = `--uninstall`.)
 
+## Configure from chat — `/claudegochi`
+
+The installer registers a `/claudegochi` slash command. Type it in Claude Code for
+an **interactive menu** (arrow keys + Enter), or pass arguments directly:
+
+```
+/claudegochi              # interactive menu
+/claudegochi theme cool   # palette: warm | cool | mono
+/claudegochi mode normal  # plain context bar (no pet)
+/claudegochi show         # print current settings
+```
+
+(New slash commands appear after you restart Claude Code.)
+
 ## Configure — `config.json`
 
 Re-read on every render, no restart needed.

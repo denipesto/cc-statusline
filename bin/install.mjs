@@ -71,7 +71,42 @@ const scriptPath = path.join(repoRoot, "src", "statusline.mjs").replace(/\\/g, "
 const nodePath = process.execPath.replace(/\\/g, "/");
 const settingsPath = path.join(os.homedir(), ".claude", "settings.json");
 const configPath = path.join(repoRoot, "config.json");
+const configCli = path.join(repoRoot, "bin", "cc-config.mjs").replace(/\\/g, "/");
+const commandPath = path.join(os.homedir(), ".claude", "commands", "claudegochi.md");
 const short = (p) => p.replace(os.homedir(), "~").replace(/\\/g, "/");
+
+const slashCommand = `---
+description: Configure claudegochi / cc-statusline (interactive menu, or pass args)
+argument-hint: [blank for menu | theme cool | mode normal | name Murka]
+allowed-tools: Bash(node "${configCli}":*), AskUserQuestion
+---
+Current cc-statusline settings:
+!\`node "${configCli}" show\`
+
+Arguments the user passed: "$ARGUMENTS"
+
+**If arguments were given**, apply them directly: run \`node "${configCli}" $ARGUMENTS\`
+and confirm the change in one short line. Stop.
+
+**If NO arguments were given**, run an interactive menu so the user picks with
+arrow keys + Enter. Use the AskUserQuestion tool:
+
+1. First question - "What do you want to change?" with options (put the CURRENT
+   value from above in each description):
+   Theme / Mode / Pet name / Pet style / Something else
+2. Then a follow-up AskUserQuestion for the chosen setting's value:
+   - Theme: warm / cool / mono
+   - Mode: tamagotchi (the pet) / normal (plain context bar)
+   - Pet name: project folder name / fixed "claudegochi"
+   - Pet style: sprite (3 lines) / compact (1 line)
+   - Something else: first ask which key (lang, petReactGit, petAnimate,
+     contextWindow, refreshInterval), then its value
+3. Apply with \`node "${configCli}" <key> <value>\` (map Theme to petTheme,
+   Mode to mode, Pet name to petNameProject true|false, Pet style to petStyle)
+   and confirm in one short line.
+
+One change per run unless the user asks to keep going. Config applies on the next
+status-line render (refreshInterval needs a restart).`;
 
 function loadJson(file, fallback) {
   try {
@@ -99,6 +134,7 @@ async function run() {
     if (fs.existsSync(settingsPath)) { bak = settingsPath + ".bak"; fs.copyFileSync(settingsPath, bak); }
     delete settings.statusLine;
     saveJson(settingsPath, settings);
+    try { fs.rmSync(commandPath); } catch {}
     console.log(box([
       red(" /\\_/\\"),
       red("( ; _ ;)") + "   " + white("uninstalled — bye!"),
@@ -127,6 +163,10 @@ async function run() {
         if (wantLang) cfg.lang = wantLang;
         saveJson(configPath, cfg);
       }
+    }],
+    ["registering /claudegochi command…", () => {
+      fs.mkdirSync(path.dirname(commandPath), { recursive: true });
+      fs.writeFileSync(commandPath, slashCommand + "\n");
     }],
     ["verifying…", () => {
       const v = loadJson(settingsPath, {});
@@ -157,6 +197,7 @@ async function run() {
   ].filter(Boolean)));
   console.log("");
   console.log("  " + grn("→") + " " + bold("Restart Claude Code") + dim(" (close & reopen the terminal) to apply."));
+  console.log("  " + dim("then tweak it from chat:  ") + cyan("/claudegochi theme cool"));
   const removeCmd = process.platform === "win32"
     ? "irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.ps1 | iex"
     : "curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.sh | sh";
