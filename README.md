@@ -13,12 +13,12 @@ Requires Node.js, git and the Claude Code CLI. Paste the command — it clones a
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/install.ps1 | iex
+irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.ps1 | iex
 ```
 
 **macOS / Linux / Git Bash:**
 ```sh
-curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.sh | sh
 ```
 
 The bootstrap clones the repo into `~/.cc-statusline` and runs the installer.
@@ -27,10 +27,10 @@ Then **restart Claude Code**.
 ### Uninstall in one line
 
 ```powershell
-irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.ps1 | iex
+irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.ps1 | iex
 ```
 ```sh
-curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.sh | sh
+curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.sh | sh
 ```
 
 Removes the status line from `settings.json` (your config and the backup are left in place).
@@ -168,7 +168,7 @@ Missing keys fall back to English, so partial translations work fine. See
 npm run demo    # render the cat in every mood (synthetic fixtures)
 ```
 
-Ideas and backlog live in [IDEAS.md](./IDEAS.md).
+Ideas and backlog live in [IDEAS.md](./docs/IDEAS.md).
 
 ## License
 

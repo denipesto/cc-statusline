@@ -257,10 +257,10 @@
 <script>
 /* ---------- install tabs ---------- */
 const CMDS=[
-  {prompt:'PS&gt;', cmd:'irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/install.ps1 | iex',
-   rm:'irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.ps1 | iex'},
-  {prompt:'$', cmd:'curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/install.sh | sh',
-   rm:'curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.sh | sh'},
+  {prompt:'PS&gt;', cmd:'irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.ps1 | iex',
+   rm:'irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.ps1 | iex'},
+  {prompt:'$', cmd:'curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.sh | sh',
+   rm:'curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.sh | sh'},
 ];
 let curCmd=0;
 const ipr=document.getElementById('iprompt'), itx=document.getElementById('icmdtext'),
@@ -404,7 +404,7 @@ function frame(){
   capEl.textContent='satiety = free context · hearts drain as it fills · /compact feeds the cat';
 }
 
-const cmd='irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/install.ps1 | iex';
+const cmd='irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.ps1 | iex';
 const cmdEl=document.getElementById('cmd'), curEl=document.getElementById('cur');
 let ci=0;
 (function type(){

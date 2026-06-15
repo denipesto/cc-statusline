@@ -200,8 +200,8 @@ async function run() {
   console.log("  " + dim("change settings, no tokens — just type:  ") + cyan("ccg theme cool"));
   console.log("  " + dim("interactive menu (in a real terminal):   ") + cyan(`node "${configCli}"`));
   const removeCmd = process.platform === "win32"
-    ? "irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.ps1 | iex"
-    : "curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.sh | sh";
+    ? "irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.ps1 | iex"
+    : "curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.sh | sh";
   console.log("  " + dim("remove anytime:  ") + cyan(removeCmd));
   console.log("");
 }
