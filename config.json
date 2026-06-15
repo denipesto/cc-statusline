@@ -12,5 +12,7 @@
   "petTheme": "warm",
   "petReactGit": true,
   "petAnimate": true,
+  "petInspire": true,
+  "goal": null,
   "refreshInterval": 2
 }

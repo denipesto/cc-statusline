@@ -101,6 +101,8 @@ Re-read on every render, no restart needed.
 | `petNameProject` | `true` \| `false` | show the current project's folder name instead of `petName` |
 | `petReactGit` | `true` \| `false` | react to new commits (cheap, throttled git call) |
 | `petAnimate` | `true` \| `false` | ~1fps blink / sleepy animation |
+| `petInspire` | `true` \| `false` | rotate an inspiring line (goal / quote / progress / cheer) when in a good mood |
+| `goal` | string \| `null` | your goal of the day, shown as a north-star (`ccg goal finish the auth flow`, clear with `ccg goal none`) |
 | `refreshInterval` | integer ≥ 1 | seconds between timer refreshes (the installer writes this into `settings.json` so the animation keeps ticking while idle) |
 | `contextWindow` | `null` \| number | context window (`null` = auto: 200k / 1M for `[1m]`) |
 | `separator` | string | separator between widgets |
