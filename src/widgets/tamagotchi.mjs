@@ -6,11 +6,11 @@
 // config.json: { "mode":"tamagotchi", "petName":"claudegochi", "petStyle":"sprite",
 //                "petNameProject":false, "petReactGit":true }
 
-import { gray, bold, dim, brightGreen, brightYellow, brightRed, solidBar, fmtTokens } from "../colors.mjs";
+import { gray, bold, dim, sGreen, sAmber, sRed, gradientBar, fmtTokens } from "../colors.mjs";
 import { contextState } from "../tokens.mjs";
 import { tick } from "../pet.mjs";
 
-const colorFor = (r) => (r >= 0.85 ? brightRed : r >= 0.6 ? brightYellow : brightGreen);
+const colorFor = (r) => (r >= 0.85 ? sRed : r >= 0.6 ? sAmber : sGreen);
 
 function petName(data, config) {
   if (config?.petNameProject) {
@@ -33,20 +33,20 @@ function sprite(stage, eyes, mouth) {
 
 // pick mood: flash reactions > hunger > tiredness/night > happiness
 function mood(ratio, energy, hour, flash) {
-  if (flash === "levelup") return { eyes: "★_★", mouth: "▽", key: "levelup", paint: brightGreen };
-  if (flash === "commit")  return { eyes: "^_^", mouth: "▽", key: "commit", paint: brightGreen };
-  if (flash === "fed")     return { eyes: "^_^", mouth: "u", key: "fed", paint: brightGreen };
-  if (flash === "newday")  return { eyes: "^_^", mouth: "w", key: "newday", paint: brightGreen };
+  if (flash === "levelup") return { eyes: "★_★", mouth: "▽", key: "levelup", paint: sGreen };
+  if (flash === "commit")  return { eyes: "^_^", mouth: "▽", key: "commit", paint: sGreen };
+  if (flash === "fed")     return { eyes: "^_^", mouth: "u", key: "fed", paint: sGreen };
+  if (flash === "newday")  return { eyes: "^_^", mouth: "w", key: "newday", paint: sGreen };
 
   const night = hour >= 23 || hour < 6;
-  if (ratio >= 0.9)  return { eyes: "x_x", mouth: "!", key: "starving", paint: brightRed };
-  if (ratio >= 0.78) return { eyes: ";_;", mouth: "~", key: "hungry", paint: brightYellow };
+  if (ratio >= 0.9)  return { eyes: "x_x", mouth: "!", key: "starving", paint: sRed };
+  if (ratio >= 0.78) return { eyes: ";_;", mouth: "~", key: "hungry", paint: sAmber };
   if (energy < 0.22) return { eyes: "-_-", mouth: "z", key: "tired", paint: gray };
   if (night && ratio < 0.7) return { eyes: "-_-", mouth: "z", key: "sleepy", paint: gray };
-  if (ratio >= 0.6)  return { eyes: "o_o", mouth: "~", key: "peckish", paint: brightYellow };
-  if (ratio < 0.25 && energy > 0.5) return { eyes: "^‿^", mouth: "w", key: "ecstatic", paint: brightGreen };
-  if (ratio < 0.45)  return { eyes: "^_^", mouth: "w", key: "content", paint: brightGreen };
-  return { eyes: "o_o", mouth: "u", key: "ok", paint: brightGreen };
+  if (ratio >= 0.6)  return { eyes: "o_o", mouth: "~", key: "peckish", paint: sAmber };
+  if (ratio < 0.25 && energy > 0.5) return { eyes: "^‿^", mouth: "w", key: "ecstatic", paint: sGreen };
+  if (ratio < 0.45)  return { eyes: "^_^", mouth: "w", key: "content", paint: sGreen };
+  return { eyes: "o_o", mouth: "u", key: "ok", paint: sGreen };
 }
 
 export default {
@@ -99,7 +99,7 @@ export default {
     const name = petName(data, cfg);
     const stageWord = tr(`stage.${pet.stage}`);
     const pct = Math.round(ratio * 100);
-    const ctxBar = solidBar(ratio, 8, colorFor(ratio));
+    const ctxBar = gradientBar(ratio, 10);
     const pctTxt = colorFor(ratio)(`${pct}%`);
 
     // compact one-liner: face · name · level · context% · mood
@@ -115,7 +115,7 @@ export default {
     const w = Math.max(l0.length, l1.length, l2.length);
     const cat = [l0, l1, l2].map((l) => paint(l.padEnd(w)));
 
-    const streak = pet.streak > 1 ? "  " + brightRed(`🔥${pet.streak}`) : "";
+    const streak = pet.streak > 1 ? "  " + sRed(`🔥${pet.streak}`) : "";
 
     return [
       `${cat[0]}   ${bold(name)}   ${dim(`Lv.${pet.level} ${stageWord}`)}${streak}`,

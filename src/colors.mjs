@@ -42,6 +42,30 @@ export function solidBar(fill, width, paintFn) {
   return paintFn("█".repeat(f)) + trackDim("█".repeat(Math.max(width - f, 0)));
 }
 
+// Softer designed 256-color palette (less neon than ANSI brights)
+export const sGreen = ansi("38;5;114");
+export const sAmber = ansi("38;5;179");
+export const sRed = ansi("38;5;203");
+
+// Gradient bar: filled cells shade green→amber→red along the length, with a
+// sub-cell partial last block; empty cells are a dim dark track.
+const GRAD = [78, 114, 149, 179, 215, 209, 203];
+const EIGHTHS = ["", "▏", "▎", "▍", "▌", "▋", "▊", "▉"];
+export function gradientBar(fill, width = 10) {
+  const r = Math.max(0, Math.min(fill, 1));
+  const full = r * width;
+  const whole = Math.floor(full);
+  const frac = full - whole;
+  let out = "";
+  for (let i = 0; i < width; i++) {
+    const col = GRAD[Math.min(GRAD.length - 1, Math.floor((i / width) * GRAD.length))];
+    if (i < whole) out += ansi(`38;5;${col}`)("█");
+    else if (i === whole && frac > 0.08) out += ansi(`38;5;${col}`)(EIGHTHS[Math.max(1, Math.round(frac * 8))]);
+    else out += trackDim("█");
+  }
+  return out;
+}
+
 // Compact token formatting: 940 → "940", 72000 → "72k", 1240000 → "1.2M"
 export function fmtTokens(n) {
   if (n >= 1_000_000) return (n / 1_000_000).toFixed(1).replace(/\.0$/, "") + "M";
