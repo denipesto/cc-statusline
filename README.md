@@ -117,7 +117,8 @@ claudegochi is a persistent pet (saved in `~/.cc-statusline-pet.json`, shared ac
 all projects):
 
 - **Needs** — hunger tracks your context fill; energy drops over a long session.
-- **Evolution** — earns XP and levels up: 🥚 egg → kitten → cat → elder.
+- **Characters** — pick your creature with `petChar` (cat, dog, fox, dragon, robot…); the 🥚 egg (Lv.0) hatches into it.
+- **Evolution** — earns XP and levels up; high levels become an *elder*.
 - **Reactions** — feeding it with `/compact` (a context drop), landing commits, and
   daily streaks all grant XP and a short happy reaction.
 - **Animation** — blinks and dozes at ~1fps (kept ticking by `refreshInterval`).

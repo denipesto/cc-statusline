@@ -215,7 +215,7 @@
       </div>
       <div class="card">
         <h3>claudegochi — tamagotchi <span class="badge live">LIVE</span></h3>
-        <p>A 3-line ASCII cat whose mood is your session state. Satiety = free context, hearts drain, he sleeps at night. Toggle it with a single field in <span class="mono">config.json</span>.</p>
+        <p>A 4-line ASCII creature (cat, fox, dragon, robot… pick with <span class="mono">ccg char</span>) whose mood is your session state. It eats context, levels up, and reacts to commits & <span class="mono">/compact</span>.</p>
       </div>
     </div>
   </section>
@@ -317,18 +317,18 @@ document.getElementById('road-prog-bar').style.width=(SHIPPED.length/total*100).
 
 /* ---------- character gallery (hover = hatch animation) ---------- */
 const PETS=[
-  {n:"cat",     c:"#7ace86", spr:[" /\\_/\\","( ^_^ )"," > w <"]},
-  {n:"dog",     c:"#e0b15c", spr:[" /\\__/\\","( ^_^ )"," (_w_)"]},
-  {n:"bunny",   c:"#d7d7d7", spr:["  (\\_/)"," ( ^_^ )"," (\")_(\")"]},
-  {n:"bear",    c:"#c99a6a", spr:[" (o)_(o)","( ^_^ )","  \\w/"]},
-  {n:"fox",     c:"#e08a4a", spr:[" |\\__/|","( ^_^ )"," \\>w</"]},
-  {n:"frog",    c:"#8fce5a", spr:["  _____","(o ^_^ o)","  \\_w_/"]},
-  {n:"robot",   c:"#74d0e0", spr:[" ,[___],","{ ^_^ }"," |o-w-o|"]},
-  {n:"dragon",  c:"#b06ef0", spr:[" /=\\_/=\\","( ^_^ )"," ~>w<~"]},
-  {n:"panda",   c:"#cfcfcf", spr:[" (q)_(p)","( ^_^ )","  \\w/"]},
-  {n:"penguin", c:"#9bb6cf", spr:["   __","<( ^_^ )>","  /^w^\\"]},
+  {n:"cat",     c:"#7ace86", spr:[" /\\_/\\","( ^_^ )"," > w <"," (\")_(\")"]},
+  {n:"dog",     c:"#e0b15c", spr:[" /\\__/\\","( ^_^ )"," ( w )",' U"---"U']},
+  {n:"bunny",   c:"#d7d7d7", spr:["  (\\_/)"," ( ^_^ )","  > w <"," (\")_(\")"]},
+  {n:"bear",    c:"#c99a6a", spr:[" (o)_(o)","( ^_^ )"," ( w )","  (___)"]},
+  {n:"fox",     c:"#e08a4a", spr:[" |\\__/|","( ^_^ )"," \\ w /",'  "\\_/"']},
+  {n:"frog",    c:"#8fce5a", spr:["  _____","( ^_^ )"," ( w )","  \\___/"]},
+  {n:"robot",   c:"#74d0e0", spr:[" ,[___],","[ ^_^ ]"," |_w_|"," /|. .|\\"]},
+  {n:"dragon",  c:"#b06ef0", spr:[" <\\_/\\>","( ^_^ )"," < w >"," /\\^^^/\\"]},
+  {n:"panda",   c:"#cfcfcf", spr:[" (q)_(p)","( ^_^ )"," ( w )","  (___)"]},
+  {n:"penguin", c:"#9bb6cf", spr:["   __","<( ^_^ )>","  | w |","  /_-_\\"]},
 ];
-const EGG=[" .---.","( o_o )"," `---'"], CRACK=[" .-v-.","( -_- )"," '-^-'"];
+const EGG=["  .---."," ( o_o )"," (     )","  `---'"], CRACK=["  .-v-."," ( -_- )"," (. _ .)","  '-^-'"];
 const gRoot=document.getElementById('gallery');
 for(const p of PETS){
   const el=document.createElement('div'); el.className='tile';

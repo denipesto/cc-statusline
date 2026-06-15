@@ -6,7 +6,7 @@
 // config.json: { "mode":"tamagotchi", "petName":"claudegochi", "petStyle":"sprite",
 //                "petNameProject":false, "petReactGit":true }
 
-import { gray, bold, dim, c256, THEMES, gradientBar, fmtTokens } from "../colors.mjs";
+import { gray, bold, dim, c256, THEMES, gradientBar, solidBar, fmtTokens } from "../colors.mjs";
 import { contextState } from "../tokens.mjs";
 import { tick } from "../pet.mjs";
 import { CHARS, EGG } from "../chars.mjs";
@@ -113,17 +113,21 @@ export default {
       ].join(" ");
     }
 
-    // 3-line sprite: who · context · mood
-    const [l0, l1, l2] = sprite(pet.stage, char, eyes, m.mouth);
-    const w = Math.max(l0.length, l1.length, l2.length);
-    const cat = [l0, l1, l2].map((l) => paint(l.padEnd(w)));
+    // 4-line sprite: who · context · mood · xp
+    const lines = sprite(pet.stage, char, eyes, m.mouth);
+    const w = Math.max(...lines.map((l) => l.length));
+    const cat = lines.map((l) => paint(l.padEnd(w)));
 
     const streak = pet.streak > 1 ? "  " + c256(theme.high)(`🔥${pet.streak}`) : "";
+    const xpPct = Math.round((pet.xpInto / pet.xpNeed) * 100);
+    const xpBar = solidBar(pet.xpInto / pet.xpNeed, 6, c256(theme.low));
 
-    return [
-      `${cat[0]}   ${bold(name)}   ${dim(`Lv.${pet.level} ${stageWord}`)}${streak}`,
-      `${cat[1]}   ${dim("ctx")} ${ctxBar} ${pctTxt}  ${dim("· " + fmtTokens(s.left) + " left")}`,
-      `${cat[2]}   ${paint(say)}`,
-    ].join("\n");
+    const info = [
+      `${bold(name)}   ${dim(`Lv.${pet.level} ${stageWord}`)}${streak}`,
+      `${dim("ctx")} ${ctxBar} ${pctTxt}  ${dim("· " + fmtTokens(s.left) + " left")}`,
+      paint(say),
+      `${dim("xp")} ${xpBar} ${dim(xpPct + "%")}`,
+    ];
+    return cat.map((c, i) => `${c}   ${info[i] || ""}`).join("\n");
   },
 };
