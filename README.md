@@ -126,7 +126,7 @@ In `"mode": "normal"` the `widgets` list is rendered in order, joined by `separa
 |---|---|
 | `context` | context bar + `%` + tokens left |
 | `quote` | a short craft/building quote of the day |
-| `vocab` | meeting/standup English — word + IPA + RU, rotates ~1/min (`src/data/vocab.json`) |
+| `vocab` | meeting/standup English — word + IPA + RU, rotates ~1/min (~1200 phrases in `src/data/vocab.json`) |
 | `tamagotchi` | the pet (also the whole of `tamagotchi` mode) |
 
 ```json

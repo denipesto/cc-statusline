@@ -1,37 +1,5972 @@
 [
-  { "en": "circle back", "ipa": "/ˈsɜːkəl bæk/", "ru": "вернуться к вопросу позже" },
-  { "en": "take it offline", "ipa": "/teɪk ɪt ˈɒflaɪn/", "ru": "обсудить отдельно, не на общем созвоне" },
-  { "en": "on the same page", "ipa": "/ɒn ðə seɪm peɪdʒ/", "ru": "понимать одинаково, договориться" },
-  { "en": "heads up", "ipa": "/hedz ʌp/", "ru": "предупреждение, «к сведению»" },
-  { "en": "loop you in", "ipa": "/luːp juː ɪn/", "ru": "подключить тебя к вопросу" },
-  { "en": "blocker", "ipa": "/ˈblɒkə/", "ru": "то, что мешает прогрессу" },
-  { "en": "I'm blocked on", "ipa": "/aɪm blɒkt ɒn/", "ru": "я застрял из-за (зависимости)" },
-  { "en": "bandwidth", "ipa": "/ˈbændwɪdθ/", "ru": "ресурс времени и сил" },
-  { "en": "touch base", "ipa": "/tʌtʃ beɪs/", "ru": "связаться, свериться" },
-  { "en": "quick win", "ipa": "/kwɪk wɪn/", "ru": "быстрая лёгкая победа" },
-  { "en": "low-hanging fruit", "ipa": "/ˌləʊ ˈhæŋɪŋ fruːt/", "ru": "самое лёгкое, с чего начать" },
-  { "en": "deep dive", "ipa": "/diːp daɪv/", "ru": "детальный разбор" },
-  { "en": "align on", "ipa": "/əˈlaɪn ɒn/", "ru": "согласовать, договориться по" },
-  { "en": "follow up", "ipa": "/ˈfɒləʊ ʌp/", "ru": "продолжить, проследить" },
-  { "en": "heads-down", "ipa": "/ˌhedz ˈdaʊn/", "ru": "режим сосредоточенной работы" },
-  { "en": "sync up", "ipa": "/sɪŋk ʌp/", "ru": "синхронизироваться" },
-  { "en": "ETA", "ipa": "/ˌiː tiː ˈeɪ/", "ru": "ожидаемое время готовности" },
-  { "en": "scope creep", "ipa": "/skəʊp kriːp/", "ru": "незаметное разрастание задач" },
-  { "en": "ballpark", "ipa": "/ˈbɔːlpɑːk/", "ru": "примерная оценка" },
-  { "en": "nail down", "ipa": "/neɪl daʊn/", "ru": "точно определить, зафиксировать" },
-  { "en": "spin up", "ipa": "/spɪn ʌp/", "ru": "быстро запустить (сервис/процесс)" },
-  { "en": "wrap up", "ipa": "/ræp ʌp/", "ru": "завершать" },
-  { "en": "on track", "ipa": "/ɒn træk/", "ru": "идём по плану" },
-  { "en": "reach out", "ipa": "/riːtʃ aʊt/", "ru": "связаться, обратиться" },
-  { "en": "give me a shout", "ipa": "/ɡɪv miː ə ʃaʊt/", "ru": "дай знать" },
-  { "en": "ramp up", "ipa": "/ræmp ʌp/", "ru": "наращивать (темп/объём)" },
-  { "en": "iterate", "ipa": "/ˈɪtəreɪt/", "ru": "дорабатывать по шагам" },
-  { "en": "unblock", "ipa": "/ʌnˈblɒk/", "ru": "убрать преграду, разблокировать" },
-  { "en": "takeaway", "ipa": "/ˈteɪkəweɪ/", "ru": "главный вывод" },
-  { "en": "action item", "ipa": "/ˈækʃən ˌaɪtəm/", "ru": "задача к выполнению" },
-  { "en": "parking lot", "ipa": "/ˈpɑːkɪŋ lɒt/", "ru": "отложить вопрос на потом" },
-  { "en": "raise a flag", "ipa": "/reɪz ə flæɡ/", "ru": "поднять проблему/риск" },
-  { "en": "gut check", "ipa": "/ɡʌt tʃek/", "ru": "быстрая проверка интуиции" },
-  { "en": "ship it", "ipa": "/ʃɪp ɪt/", "ru": "выкатить, релизнуть" },
-  { "en": "good to go", "ipa": "/ɡʊd tə ɡəʊ/", "ru": "всё готово, можно запускать" }
+ {
+  "en": "touch base",
+  "ipa": "/tʌtʃ beɪs/",
+  "ru": "кратко переговорить"
+ },
+ {
+  "en": "carry out",
+  "ipa": "/ˈkæri ˌaʊt/",
+  "ru": "выполнять, осуществлять"
+ },
+ {
+  "en": "on the same page",
+  "ipa": "/ɒn ðə seɪm peɪdʒ/",
+  "ru": "понимать друг друга"
+ },
+ {
+  "en": "tech spike",
+  "ipa": "/tɛk spaɪk/",
+  "ru": "исследовательский прототип"
+ },
+ {
+  "en": "just jumping on quickly",
+  "ipa": "/dʒʌst ˈdʒʌmpɪŋ ɑn ˈkwɪkli/",
+  "ru": "быстро подключился"
+ },
+ {
+  "en": "align",
+  "ipa": "/əˈlaɪn/",
+  "ru": "согласовывать, выравнивать"
+ },
+ {
+  "en": "allocate resources",
+  "ipa": "/ˈæləkeɪt rɪˈsɔrsɪz/",
+  "ru": "распределить ресурсы"
+ },
+ {
+  "en": "if I understand you correctly",
+  "ipa": "/ɪf aɪ ˌʌndərˈstænd ju kəˈrɛktli/",
+  "ru": "если я правильно понял"
+ },
+ {
+  "en": "circling back on this",
+  "ipa": "/ˈsɜːrkəlɪŋ bæk ɒn ðɪs/",
+  "ru": "возвращаясь к этому"
+ },
+ {
+  "en": "loop in",
+  "ipa": "/luːp ɪn/",
+  "ru": "подключить к обсуждению"
+ },
+ {
+  "en": "set up",
+  "ipa": "/ˌsɛt ˈʌp/",
+  "ru": "настраивать, организовывать"
+ },
+ {
+  "en": "circle back",
+  "ipa": "/ˈsɜːrkəl bæk/",
+  "ru": "вернуться к теме"
+ },
+ {
+  "en": "yak shaving",
+  "ipa": "/jæk ˈʃeɪvɪŋ/",
+  "ru": "цепочка побочных задач"
+ },
+ {
+  "en": "i'll be right back",
+  "ipa": "/aɪl bi raɪt bæk/",
+  "ru": "сейчас вернусь"
+ },
+ {
+  "en": "iterate",
+  "ipa": "/ˈɪtəreɪt/",
+  "ru": "итерировать, повторять цикл"
+ },
+ {
+  "en": "approve a budget",
+  "ipa": "/əˈpruv ə ˈbʌdʒɪt/",
+  "ru": "утвердить бюджет"
+ },
+ {
+  "en": "could you walk me through that",
+  "ipa": "/kʊd ju wɔk mi θru ðæt/",
+  "ru": "объясните подробнее"
+ },
+ {
+  "en": "wanted to check in",
+  "ipa": "/ˈwɒntɪd tə tʃɛk ɪn/",
+  "ru": "хотел уточнить статус"
+ },
+ {
+  "en": "ping me",
+  "ipa": "/pɪŋ miː/",
+  "ru": "напиши / напомни мне"
+ },
+ {
+  "en": "break down",
+  "ipa": "/ˌbreɪk ˈdaʊn/",
+  "ru": "разбивать на части"
+ },
+ {
+  "en": "take offline",
+  "ipa": "/teɪk ˈɒflaɪn/",
+  "ru": "обсудить отдельно"
+ },
+ {
+  "en": "dead code",
+  "ipa": "/dɛd koʊd/",
+  "ru": "неиспользуемый код"
+ },
+ {
+  "en": "sorry, i had a connection issue",
+  "ipa": "/ˈsɑri aɪ hæd ə kəˈnɛkʃən ˈɪʃu/",
+  "ru": "проблемы с соединением"
+ },
+ {
+  "en": "refactor",
+  "ipa": "/riːˈfæktər/",
+  "ru": "рефакторить код"
+ },
+ {
+  "en": "assign a task",
+  "ipa": "/əˈsaɪn ə tæsk/",
+  "ru": "назначить задачу"
+ },
+ {
+  "en": "i'd push back on that a little",
+  "ipa": "/aɪd pʊʃ bæk ɒn ðæt ə ˈlɪtl/",
+  "ru": "я бы немного возразил"
+ },
+ {
+  "en": "per our last conversation",
+  "ipa": "/pɜːr aʊər læst ˌkɒnvərˈseɪʃən/",
+  "ru": "согласно нашему разговору"
+ },
+ {
+  "en": "move the needle",
+  "ipa": "/muːv ðə ˈniːdl̩/",
+  "ru": "сдвинуть с места"
+ },
+ {
+  "en": "take over",
+  "ipa": "/ˌteɪk ˈoʊvər/",
+  "ru": "брать под контроль"
+ },
+ {
+  "en": "peel the onion",
+  "ipa": "/piːl ðə ˈʌnjən/",
+  "ru": "разобраться глубже"
+ },
+ {
+  "en": "green build",
+  "ipa": "/ɡriːn bɪld/",
+  "ru": "успешная сборка"
+ },
+ {
+  "en": "can you repeat that, please",
+  "ipa": "/kæn ju rɪˈpit ðæt pliz/",
+  "ru": "можете повторить"
+ },
+ {
+  "en": "deploy",
+  "ipa": "/dɪˈplɔɪ/",
+  "ru": "развёртывать, деплоить"
+ },
+ {
+  "en": "attend a standup",
+  "ipa": "/əˈtɛnd ə ˈstændʌp/",
+  "ru": "присутствовать на стендапе"
+ },
+ {
+  "en": "so what you're saying is",
+  "ipa": "/soʊ wʌt jʊr ˈseɪɪŋ ɪz/",
+  "ru": "то есть вы имеете в виду"
+ },
+ {
+  "en": "hope this finds you well",
+  "ipa": "/hoʊp ðɪs faɪndz juː wɛl/",
+  "ru": "надеюсь, у вас всё хорошо"
+ },
+ {
+  "en": "at capacity",
+  "ipa": "/æt kəˈpæsɪti/",
+  "ru": "загружен полностью"
+ },
+ {
+  "en": "bring up",
+  "ipa": "/ˌbrɪŋ ˈʌp/",
+  "ru": "поднимать вопрос"
+ },
+ {
+  "en": "boil the frog",
+  "ipa": "/bɔɪl ðə frɒɡ/",
+  "ru": "незаметно меняться"
+ },
+ {
+  "en": "red build",
+  "ipa": "/rɛd bɪld/",
+  "ru": "сломанная сборка"
+ },
+ {
+  "en": "i think you froze",
+  "ipa": "/aɪ θɪŋk ju froʊz/",
+  "ru": "кажется, вы зависли"
+ },
+ {
+  "en": "orchestrate",
+  "ipa": "/ˈɔːrkɪstreɪt/",
+  "ru": "оркестровать, координировать"
+ },
+ {
+  "en": "block a ticket",
+  "ipa": "/blɑk ə ˈtɪkɪt/",
+  "ru": "заблокировать задачу"
+ },
+ {
+  "en": "i think we might be talking past each other",
+  "ipa": "/aɪ θɪŋk wi maɪt bi ˈtɔkɪŋ pæst iːtʃ ˈʌðər/",
+  "ru": "мы говорим о разном"
+ },
+ {
+  "en": "please see below",
+  "ipa": "/pliːz siː bɪˈloʊ/",
+  "ru": "смотрите ниже"
+ },
+ {
+  "en": "bandwidth",
+  "ipa": "/ˈbændwɪdθ/",
+  "ru": "свободное время / ресурс"
+ },
+ {
+  "en": "move forward",
+  "ipa": "/ˌmuːv ˈfɔːrwərd/",
+  "ru": "продвигаться вперёд"
+ },
+ {
+  "en": "pivot",
+  "ipa": "/ˈpɪvət/",
+  "ru": "резко сменить курс"
+ },
+ {
+  "en": "brown bag",
+  "ipa": "/braʊn bæɡ/",
+  "ru": "неформальный обучающий доклад"
+ },
+ {
+  "en": "you're breaking up",
+  "ipa": "/jʊr ˈbreɪkɪŋ ʌp/",
+  "ru": "вас плохо слышно"
+ },
+ {
+  "en": "automate",
+  "ipa": "/ˈɔːtəmeɪt/",
+  "ru": "автоматизировать"
+ },
+ {
+  "en": "break a bottleneck",
+  "ipa": "/breɪk ə ˈbɑtlnɛk/",
+  "ru": "устранить узкое место"
+ },
+ {
+  "en": "bear with me for a second",
+  "ipa": "/bɛr wɪð mi fər ə ˈsɛkənd/",
+  "ru": "подождите секунду"
+ },
+ {
+  "en": "happy to jump on a call",
+  "ipa": "/ˈhæpi tə dʒʌmp ɒn ə kɔːl/",
+  "ru": "готов созвониться"
+ },
+ {
+  "en": "hard stop",
+  "ipa": "/hɑːrd stɑːp/",
+  "ru": "жёсткий дедлайн встречи"
+ },
+ {
+  "en": "pull together",
+  "ipa": "/ˌpʊl təˈɡɛðər/",
+  "ru": "собрать воедино"
+ },
+ {
+  "en": "put a pin in it",
+  "ipa": "/pʊt ə pɪn ɪn ɪt/",
+  "ru": "отложить на потом"
+ },
+ {
+  "en": "bus factor",
+  "ipa": "/bʌs ˈfæktər/",
+  "ru": "риск зависимости от одного человека"
+ },
+ {
+  "en": "i lost you for a second",
+  "ipa": "/aɪ lɔst ju fər ə ˈsɛkənd/",
+  "ru": "вы пропали на секунду"
+ },
+ {
+  "en": "deprecate",
+  "ipa": "/ˈdeprikeɪt/",
+  "ru": "объявлять устаревшим"
+ },
+ {
+  "en": "build a pipeline",
+  "ipa": "/bɪld ə ˈpaɪplaɪn/",
+  "ru": "создать конвейер"
+ },
+ {
+  "en": "i take your point, however",
+  "ipa": "/aɪ teɪk jʊr pɔɪnt haʊˈɛvər/",
+  "ru": "понимаю вас, однако"
+ },
+ {
+  "en": "wanted to flag this",
+  "ipa": "/ˈwɒntɪd tə flæɡ ðɪs/",
+  "ru": "хотел обратить внимание"
+ },
+ {
+  "en": "EOD",
+  "ipa": "/ˌiː oʊ ˈdiː/",
+  "ru": "к концу рабочего дня"
+ },
+ {
+  "en": "check in",
+  "ipa": "/ˌtʃɛk ˈɪn/",
+  "ru": "уточнить статус, отметиться"
+ },
+ {
+  "en": "synergy",
+  "ipa": "/ˈsɪnərdʒi/",
+  "ru": "совместный эффект"
+ },
+ {
+  "en": "load testing",
+  "ipa": "/loʊd ˈtɛstɪŋ/",
+  "ru": "нагрузочное тестирование"
+ },
+ {
+  "en": "let me try reconnecting",
+  "ipa": "/lɛt mi traɪ ˌrikəˈnɛktɪŋ/",
+  "ru": "попробую переподключиться"
+ },
+ {
+  "en": "implement",
+  "ipa": "/ˈɪmpləment/",
+  "ru": "реализовывать, внедрять"
+ },
+ {
+  "en": "build consensus",
+  "ipa": "/bɪld kənˈsɛnsəs/",
+  "ru": "выработать согласие"
+ },
+ {
+  "en": "let me make sure i've got this right",
+  "ipa": "/lɛt mi meɪk ʃʊr aɪv ɡɒt ðɪs raɪt/",
+  "ru": "дайте убедиться правильно ли понял"
+ },
+ {
+  "en": "keeping you in the loop",
+  "ipa": "/ˈkiːpɪŋ juː ɪn ðə luːp/",
+  "ru": "держу вас в курсе"
+ },
+ {
+  "en": "async",
+  "ipa": "/ˈeɪsɪŋk/",
+  "ru": "вне встречи, письменно"
+ },
+ {
+  "en": "check out",
+  "ipa": "/ˌtʃɛk ˈaʊt/",
+  "ru": "проверить, ознакомиться"
+ },
+ {
+  "en": "leverage",
+  "ipa": "/ˈlevərɪdʒ/",
+  "ru": "использовать с выгодой"
+ },
+ {
+  "en": "canary release",
+  "ipa": "/kəˈnɛri rɪˈliːs/",
+  "ru": "постепенный выкат на малую аудиторию"
+ },
+ {
+  "en": "my internet is acting up",
+  "ipa": "/maɪ ˈɪntərˌnɛt ɪz ˈæktɪŋ ʌp/",
+  "ru": "интернет барахлит"
+ },
+ {
+  "en": "integrate",
+  "ipa": "/ˈɪntɪɡreɪt/",
+  "ru": "интегрировать, объединять"
+ },
+ {
+  "en": "carry out a review",
+  "ipa": "/ˈkæri aʊt ə rɪˈvju/",
+  "ru": "провести проверку"
+ },
+ {
+  "en": "can we unpack that a bit",
+  "ipa": "/kæn wi ʌnˈpæk ðæt ə bɪt/",
+  "ru": "можем разобрать подробнее"
+ },
+ {
+  "en": "please advise",
+  "ipa": "/pliːz ədˈvaɪz/",
+  "ru": "прошу дать совет"
+ },
+ {
+  "en": "follow up",
+  "ipa": "/ˈfɑːloʊ ʌp/",
+  "ru": "уточнить позже"
+ },
+ {
+  "en": "step up",
+  "ipa": "/ˌstɛp ˈʌp/",
+  "ru": "взять на себя больше"
+ },
+ {
+  "en": "run it up the flagpole",
+  "ipa": "/rʌn ɪt ʌp ðə ˈflæɡpoʊl/",
+  "ru": "проверить реакцию"
+ },
+ {
+  "en": "shadow mode",
+  "ipa": "/ˈʃædoʊ moʊd/",
+  "ru": "параллельная работа без эффекта"
+ },
+ {
+  "en": "can you see my screen now",
+  "ipa": "/kæn ju si maɪ skrin naʊ/",
+  "ru": "видите мой экран"
+ },
+ {
+  "en": "optimize",
+  "ipa": "/ˈɑːptɪmaɪz/",
+  "ru": "оптимизировать"
+ },
+ {
+  "en": "chair a meeting",
+  "ipa": "/tʃɛr ə ˈmiːtɪŋ/",
+  "ru": "вести собрание"
+ },
+ {
+  "en": "i'd like to offer a different perspective",
+  "ipa": "/aɪd laɪk tu ˈɒfər ə ˈdɪfrənt pərˈspɛktɪv/",
+  "ru": "хочу предложить другой взгляд"
+ },
+ {
+  "en": "feel free to reach out",
+  "ipa": "/fiːl friː tə riːtʃ aʊt/",
+  "ru": "не стесняйтесь обращаться"
+ },
+ {
+  "en": "step back",
+  "ipa": "/ˌstɛp ˈbæk/",
+  "ru": "отступить, переосмыслить"
+ },
+ {
+  "en": "elephant in the room",
+  "ipa": "/ˈelɪfənt ɪn ðə ruːm/",
+  "ru": "очевидная проблема"
+ },
+ {
+  "en": "blue-green deploy",
+  "ipa": "/bluː ɡriːn dɪˈplɔɪ/",
+  "ru": "переключение между двумя средами"
+ },
+ {
+  "en": "i'll stop sharing for now",
+  "ipa": "/aɪl stɑp ˈʃɛrɪŋ fər naʊ/",
+  "ru": "прекращу демонстрацию"
+ },
+ {
+  "en": "provision",
+  "ipa": "/prəˈvɪʒən/",
+  "ru": "обеспечивать ресурсами"
+ },
+ {
+  "en": "challenge assumptions",
+  "ipa": "/ˈtʃælɪndʒ əˈsʌmpʃənz/",
+  "ru": "оспаривать допущения"
+ },
+ {
+  "en": "just so we're on the same page",
+  "ipa": "/dʒʌst soʊ wɪr ɒn ðə seɪm peɪdʒ/",
+  "ru": "чтобы мы понимали одинаково"
+ },
+ {
+  "en": "i'll defer to you on this",
+  "ipa": "/aɪl dɪˈfɜːr tə juː ɒn ðɪs/",
+  "ru": "оставляю решение за вами"
+ },
+ {
+  "en": "take it to DM",
+  "ipa": "/teɪk ɪt tə ˌdiː ˈɛm/",
+  "ru": "обсудить в личке"
+ },
+ {
+  "en": "reach out",
+  "ipa": "/ˌriːtʃ ˈaʊt/",
+  "ru": "связаться, обратиться"
+ },
+ {
+  "en": "think outside the box",
+  "ipa": "/θɪŋk aʊtˈsaɪd ðə bɒks/",
+  "ru": "мыслить нестандартно"
+ },
+ {
+  "en": "trunk-based dev",
+  "ipa": "/trʌŋk beɪst dɛv/",
+  "ru": "разработка прямо в trunk"
+ },
+ {
+  "en": "let me pull that up",
+  "ipa": "/lɛt mi pʊl ðæt ʌp/",
+  "ru": "сейчас открою это"
+ },
+ {
+  "en": "triage",
+  "ipa": "/ˈtriːɑːʒ/",
+  "ru": "расставлять приоритеты задач"
+ },
+ {
+  "en": "clarify requirements",
+  "ipa": "/ˈklærɪfaɪ rɪˈkwaɪərmənts/",
+  "ru": "уточнить требования"
+ },
+ {
+  "en": "i hear you, but i'm not fully convinced",
+  "ipa": "/aɪ hɪr ju bʌt aɪm nɒt ˈfʊli kənˈvɪnst/",
+  "ru": "понимаю, но не убеждён"
+ },
+ {
+  "en": "as a reminder",
+  "ipa": "/æz ə rɪˈmaɪndər/",
+  "ru": "напоминаю"
+ },
+ {
+  "en": "drill down",
+  "ipa": "/drɪl daʊn/",
+  "ru": "углубиться в детали"
+ },
+ {
+  "en": "cut down",
+  "ipa": "/ˌkʌt ˈdaʊn/",
+  "ru": "сократить, уменьшить"
+ },
+ {
+  "en": "move the goalposts",
+  "ipa": "/muːv ðə ˈɡoʊlpoʊsts/",
+  "ru": "менять условия"
+ },
+ {
+  "en": "strangler fig",
+  "ipa": "/ˈstræŋɡlər fɪɡ/",
+  "ru": "паттерн постепенной замены системы"
+ },
+ {
+  "en": "bear with me one second",
+  "ipa": "/bɛr wɪð mi wʌn ˈsɛkənd/",
+  "ru": "подождите секунду"
+ },
+ {
+  "en": "benchmark",
+  "ipa": "/ˈbentʃmɑːrk/",
+  "ru": "тестировать производительность"
+ },
+ {
+  "en": "close a sprint",
+  "ipa": "/kloʊz ə sprɪnt/",
+  "ru": "закрыть спринт"
+ },
+ {
+  "en": "what do you mean exactly",
+  "ipa": "/wʌt du ju miːn ɪɡˈzæktli/",
+  "ru": "что именно вы имеете в виду"
+ },
+ {
+  "en": "does that work for you?",
+  "ipa": "/dʌz ðæt wɜːrk fər juː/",
+  "ru": "вам это подходит?"
+ },
+ {
+  "en": "cut back",
+  "ipa": "/ˌkʌt ˈbæk/",
+  "ru": "урезать ресурсы"
+ },
+ {
+  "en": "skin in the game",
+  "ipa": "/skɪn ɪn ðə ɡeɪm/",
+  "ru": "личная заинтересованность"
+ },
+ {
+  "en": "golden path",
+  "ipa": "/ˈɡoʊldən pæθ/",
+  "ru": "рекомендуемый способ разработки"
+ },
+ {
+  "en": "sorry about that",
+  "ipa": "/ˈsɑri əˈbaʊt ðæt/",
+  "ru": "извините за это"
+ },
+ {
+  "en": "audit",
+  "ipa": "/ˈɔːdɪt/",
+  "ru": "проверять, проводить аудит"
+ },
+ {
+  "en": "communicate progress",
+  "ipa": "/kəˈmjuːnɪkeɪt ˈprɑɡrɛs/",
+  "ru": "сообщать о прогрессе"
+ },
+ {
+  "en": "you raise a valid concern",
+  "ipa": "/ju reɪz ə ˈvælɪd kənˈsɜːrn/",
+  "ru": "вы поднимаете обоснованный вопрос"
+ },
+ {
+  "en": "let me know if you need anything else",
+  "ipa": "/lɛt miː noʊ ɪf juː niːd ˈɛnɪθɪŋ ɛls/",
+  "ru": "дайте знать, если нужна помощь"
+ },
+ {
+  "en": "deprioritize",
+  "ipa": "/diːpraɪˈɔːrɪtaɪz/",
+  "ru": "понизить приоритет"
+ },
+ {
+  "en": "come up with",
+  "ipa": "/ˌkʌm ˈʌp wɪð/",
+  "ru": "придумать, предложить"
+ },
+ {
+  "en": "keep the lights on",
+  "ipa": "/kiːp ðə laɪts ɒn/",
+  "ru": "поддерживать работу"
+ },
+ {
+  "en": "paved road",
+  "ipa": "/peɪvd roʊd/",
+  "ru": "стандартный инструментарий команды"
+ },
+ {
+  "en": "totally makes sense",
+  "ipa": "/ˈtoʊtəli meɪks sɛns/",
+  "ru": "полностью понятно"
+ },
+ {
+  "en": "negotiate",
+  "ipa": "/nɪˈɡoʊʃieɪt/",
+  "ru": "согласовывать, договариваться"
+ },
+ {
+  "en": "complete a deliverable",
+  "ipa": "/kəmˈpliːt ə dɪˈlɪvərəbl/",
+  "ru": "выполнить результат работы"
+ },
+ {
+  "en": "i'm inclined to agree with that",
+  "ipa": "/aɪm ɪnˈklaɪnd tu əˈɡriː wɪð ðæt/",
+  "ru": "склонен с этим согласиться"
+ },
+ {
+  "en": "just wanted to make sure we're aligned",
+  "ipa": "/dʒʌst ˈwɒntɪd tə meɪk ʃʊər wɪər əˈlaɪnd/",
+  "ru": "хотел убедиться, что понимаем одинаково"
+ },
+ {
+  "en": "unblock",
+  "ipa": "/ʌnˈblɑːk/",
+  "ru": "снять блокировку"
+ },
+ {
+  "en": "come across",
+  "ipa": "/ˌkʌm əˈkrɔːs/",
+  "ru": "натолкнуться, произвести впечатление"
+ },
+ {
+  "en": "above the fold",
+  "ipa": "/əˈbʌv ðə foʊld/",
+  "ru": "самое важное"
+ },
+ {
+  "en": "toil",
+  "ipa": "/tɔɪl/",
+  "ru": "рутинная ручная операционная работа"
+ },
+ {
+  "en": "i'm with you on that",
+  "ipa": "/aɪm wɪð ju ɑn ðæt/",
+  "ru": "я с вами согласен"
+ },
+ {
+  "en": "facilitate",
+  "ipa": "/fəˈsɪlɪteɪt/",
+  "ru": "способствовать, упрощать"
+ },
+ {
+  "en": "conduct a retrospective",
+  "ipa": "/kənˈdʌkt ə ˌrɛtrəˈspɛktɪv/",
+  "ru": "провести ретроспективу"
+ },
+ {
+  "en": "can you give me a concrete example",
+  "ipa": "/kæn ju ɡɪv mi ə kɒnˈkriːt ɪɡˈzæmpəl/",
+  "ru": "приведите конкретный пример"
+ },
+ {
+  "en": "apologies for the delay",
+  "ipa": "/əˈpɒlədʒɪz fər ðə dɪˈleɪ/",
+  "ru": "извиняюсь за задержку"
+ },
+ {
+  "en": "cut scope",
+  "ipa": "/kʌt skoʊp/",
+  "ru": "урезать объём задач"
+ },
+ {
+  "en": "come through",
+  "ipa": "/ˌkʌm ˈθruː/",
+  "ru": "выполнить, не подвести"
+ },
+ {
+  "en": "blue sky thinking",
+  "ipa": "/bluː skaɪ ˈθɪŋkɪŋ/",
+  "ru": "свободное мышление"
+ },
+ {
+  "en": "runbook",
+  "ipa": "/ˈrʌnbʊk/",
+  "ru": "инструкция по эксплуатации"
+ },
+ {
+  "en": "absolutely, go ahead",
+  "ipa": "/ˌæbsəˈlutli ɡoʊ əˈhɛd/",
+  "ru": "конечно, продолжайте"
+ },
+ {
+  "en": "onboard",
+  "ipa": "/ˈɒnbɔːrd/",
+  "ru": "вводить в должность"
+ },
+ {
+  "en": "define scope",
+  "ipa": "/dɪˈfaɪn skoʊp/",
+  "ru": "определить объём работ"
+ },
+ {
+  "en": "i'm not entirely sure about that",
+  "ipa": "/aɪm nɒt ɪnˈtaɪərli ʃʊr əˈbaʊt ðæt/",
+  "ru": "я не совсем в этом уверен"
+ },
+ {
+  "en": "per your request",
+  "ipa": "/pɜːr jər rɪˈkwɛst/",
+  "ru": "по вашей просьбе"
+ },
+ {
+  "en": "ship it",
+  "ipa": "/ʃɪp ɪt/",
+  "ru": "выпустить / задеплоить"
+ },
+ {
+  "en": "put together",
+  "ipa": "/ˌpʊt təˈɡɛðər/",
+  "ru": "составить, собрать"
+ },
+ {
+  "en": "boil down to",
+  "ipa": "/bɔɪl daʊn tuː/",
+  "ru": "сводиться к"
+ },
+ {
+  "en": "postmortem",
+  "ipa": "/poʊstˈmɔːrtəm/",
+  "ru": "разбор инцидента после сбоя"
+ },
+ {
+  "en": "sorry to interrupt",
+  "ipa": "/ˈsɑri tə ˌɪntəˈrʌpt/",
+  "ru": "простите, что перебиваю"
+ },
+ {
+  "en": "offboard",
+  "ipa": "/ˈɒfbɔːrd/",
+  "ru": "выводить из проекта"
+ },
+ {
+  "en": "delegate authority",
+  "ipa": "/ˈdɛlɪɡeɪt ɔːˈθɑrɪti/",
+  "ru": "делегировать полномочия"
+ },
+ {
+  "en": "to be more precise",
+  "ipa": "/tə bi mɔːr prɪˈsaɪs/",
+  "ru": "если быть точнее"
+ },
+ {
+  "en": "attaching for your reference",
+  "ipa": "/əˈtætʃɪŋ fər jər ˈrɛfərəns/",
+  "ru": "прикладываю для справки"
+ },
+ {
+  "en": "on track",
+  "ipa": "/ɑːn træk/",
+  "ru": "всё идёт по плану"
+ },
+ {
+  "en": "put off",
+  "ipa": "/ˌpʊt ˈɔːf/",
+  "ru": "откладывать, переносить"
+ },
+ {
+  "en": "burn rate",
+  "ipa": "/bɜːrn reɪt/",
+  "ru": "скорость расхода средств"
+ },
+ {
+  "en": "incident retro",
+  "ipa": "/ˈɪnsɪdənt ˈrɛtroʊ/",
+  "ru": "разбор инцидента"
+ },
+ {
+  "en": "can i jump in here",
+  "ipa": "/kæn aɪ dʒʌmp ɪn hɪr/",
+  "ru": "могу я вставить слово"
+ },
+ {
+  "en": "rollback",
+  "ipa": "/ˈroʊlbæk/",
+  "ru": "откат изменений"
+ },
+ {
+  "en": "deliver on time",
+  "ipa": "/dɪˈlɪvər ɑn taɪm/",
+  "ru": "сдать в срок"
+ },
+ {
+  "en": "that's an interesting angle",
+  "ipa": "/ðæts ən ˈɪntrəstɪŋ ˈæŋɡəl/",
+  "ru": "интересный взгляд на вещи"
+ },
+ {
+  "en": "please find attached",
+  "ipa": "/pliːz faɪnd əˈtætʃt/",
+  "ru": "в приложении найдёте"
+ },
+ {
+  "en": "off track",
+  "ipa": "/ɔːf træk/",
+  "ru": "отклонились от плана"
+ },
+ {
+  "en": "put forward",
+  "ipa": "/ˌpʊt ˈfɔːrwərd/",
+  "ru": "выдвигать предложение"
+ },
+ {
+  "en": "core competency",
+  "ipa": "/kɔːr ˈkɒmpɪtənsi/",
+  "ru": "ключевая компетенция"
+ },
+ {
+  "en": "on-call rotation",
+  "ipa": "/ɒn kɔːl roʊˈteɪʃən/",
+  "ru": "дежурство по расписанию"
+ },
+ {
+  "en": "just to add to that",
+  "ipa": "/dʒʌst tə æd tə ðæt/",
+  "ru": "добавлю к этому"
+ },
+ {
+  "en": "rollout",
+  "ipa": "/ˈroʊlaʊt/",
+  "ru": "постепенный выпуск"
+ },
+ {
+  "en": "deploy a fix",
+  "ipa": "/dɪˈplɔɪ ə fɪks/",
+  "ru": "выкатить исправление"
+ },
+ {
+  "en": "i wanted to bring this to your attention",
+  "ipa": "/aɪ ˈwɒntɪd tə brɪŋ ðɪs tə jər əˈtɛnʃən/",
+  "ru": "хотел привлечь ваше внимание"
+ },
+ {
+  "en": "at risk",
+  "ipa": "/æt rɪsk/",
+  "ru": "под угрозой срыва"
+ },
+ {
+  "en": "put in",
+  "ipa": "/ˌpʊt ˈɪn/",
+  "ru": "вкладывать усилия"
+ },
+ {
+  "en": "cut corners",
+  "ipa": "/kʌt ˈkɔːrnərz/",
+  "ru": "халтурить, экономить"
+ },
+ {
+  "en": "pager duty",
+  "ipa": "/ˈpeɪdʒər ˈduːti/",
+  "ru": "дежурное дежурство на инциденты"
+ },
+ {
+  "en": "great point, actually",
+  "ipa": "/ɡreɪt pɔɪnt ˈæktʃuəli/",
+  "ru": "отличное замечание"
+ },
+ {
+  "en": "prototype",
+  "ipa": "/ˈproʊtətaɪp/",
+  "ru": "прототипировать"
+ },
+ {
+  "en": "document a process",
+  "ipa": "/ˈdɑkjʊmɛnt ə ˈprɑsɛs/",
+  "ru": "задокументировать процесс"
+ },
+ {
+  "en": "let's make sure we're aligned",
+  "ipa": "/lɛts meɪk ʃʊr wɪr əˈlaɪnd/",
+  "ru": "убедимся, что понимаем одинаково"
+ },
+ {
+  "en": "could you please confirm?",
+  "ipa": "/kʊd juː pliːz kənˈfɜːrm/",
+  "ru": "не могли бы вы подтвердить?"
+ },
+ {
+  "en": "status update",
+  "ipa": "/ˈsteɪtəs ˈʌpdeɪt/",
+  "ru": "обновление по статусу"
+ },
+ {
+  "en": "take on",
+  "ipa": "/ˌteɪk ˈɔːn/",
+  "ru": "брать на себя задачу"
+ },
+ {
+  "en": "deliverable",
+  "ipa": "/dɪˈlɪvərəbl/",
+  "ru": "ожидаемый результат"
+ },
+ {
+  "en": "blast radius",
+  "ipa": "/blæst ˈreɪdiəs/",
+  "ru": "масштаб потенциального ущерба"
+ },
+ {
+  "en": "i completely agree",
+  "ipa": "/aɪ kəmˈplitli əˈɡri/",
+  "ru": "полностью согласен"
+ },
+ {
+  "en": "modularize",
+  "ipa": "/ˈmɒdʒʊləraɪz/",
+  "ru": "разбивать на модули"
+ },
+ {
+  "en": "draft a proposal",
+  "ipa": "/dræft ə prəˈpoʊzəl/",
+  "ru": "составить предложение"
+ },
+ {
+  "en": "moving this to tomorrow",
+  "ipa": "/ˈmuːvɪŋ ðɪs tə təˈmɒroʊ/",
+  "ru": "переносим на завтра"
+ },
+ {
+  "en": "capacity planning",
+  "ipa": "/kəˈpæsɪti ˈplænɪŋ/",
+  "ru": "планирование загрузки"
+ },
+ {
+  "en": "take up",
+  "ipa": "/ˌteɪk ˈʌp/",
+  "ru": "занять время/место, взяться"
+ },
+ {
+  "en": "dog and pony show",
+  "ipa": "/dɒɡ ænd ˈpoʊni ʃoʊ/",
+  "ru": "показательная презентация"
+ },
+ {
+  "en": "circuit breaker",
+  "ipa": "/ˈsɜːrkɪt ˈbreɪkər/",
+  "ru": "автоматический предохранитель для сервиса"
+ },
+ {
+  "en": "that's a good question",
+  "ipa": "/ðæts ə ɡʊd ˈkwɛstʃən/",
+  "ru": "хороший вопрос"
+ },
+ {
+  "en": "decouple",
+  "ipa": "/diːˈkʌpəl/",
+  "ru": "разделять зависимости"
+ },
+ {
+  "en": "drive alignment",
+  "ipa": "/draɪv əˈlaɪnmənt/",
+  "ru": "добиться согласованности"
+ },
+ {
+  "en": "i'd have to disagree on that point",
+  "ipa": "/aɪd hæv tu ˌdɪsəˈɡriː ɒn ðæt pɔɪnt/",
+  "ru": "здесь я вынужден не согласиться"
+ },
+ {
+  "en": "tagging you here",
+  "ipa": "/ˈtæɡɪŋ juː hɪər/",
+  "ru": "отмечаю вас здесь"
+ },
+ {
+  "en": "sign off",
+  "ipa": "/saɪn ɔːf/",
+  "ru": "одобрить / согласовать"
+ },
+ {
+  "en": "take off",
+  "ipa": "/ˌteɪk ˈɔːf/",
+  "ru": "стартовать, набирать обороты"
+ },
+ {
+  "en": "drink the Kool-Aid",
+  "ipa": "/drɪŋk ðə kuːl eɪd/",
+  "ru": "слепо верить"
+ },
+ {
+  "en": "bulkhead pattern",
+  "ipa": "/ˈbʊlhɛd ˈpætərn/",
+  "ru": "изоляция ресурсов для отказоустойчивости"
+ },
+ {
+  "en": "let me think about that",
+  "ipa": "/lɛt mi θɪŋk əˈbaʊt ðæt/",
+  "ru": "дайте подумаю"
+ },
+ {
+  "en": "encapsulate",
+  "ipa": "/ɪnˈkæpsjʊleɪt/",
+  "ru": "инкапсулировать"
+ },
+ {
+  "en": "drive adoption",
+  "ipa": "/draɪv əˈdɑpʃən/",
+  "ru": "стимулировать внедрение"
+ },
+ {
+  "en": "just to be clear about what we're proposing",
+  "ipa": "/dʒʌst tə bi klɪr əˈbaʊt wʌt wɪr prəˈpoʊzɪŋ/",
+  "ru": "уточним, что именно мы предлагаем"
+ },
+ {
+  "en": "adding context below",
+  "ipa": "/ˈædɪŋ ˈkɒntɛkst bɪˈloʊ/",
+  "ru": "добавляю контекст ниже"
+ },
+ {
+  "en": "rubber stamp",
+  "ipa": "/ˈrʌbər stæmp/",
+  "ru": "формально согласовать"
+ },
+ {
+  "en": "turn around",
+  "ipa": "/ˌtɜːrn əˈraʊnd/",
+  "ru": "развернуть ситуацию, исправить"
+ },
+ {
+  "en": "eating our own dog food",
+  "ipa": "/iːtɪŋ aʊər oʊn dɒɡ fuːd/",
+  "ru": "использовать свой продукт"
+ },
+ {
+  "en": "retry storm",
+  "ipa": "/rɪˈtraɪ stɔːrm/",
+  "ru": "шквал повторных запросов"
+ },
+ {
+  "en": "i'll follow up on that",
+  "ipa": "/aɪl ˈfɑloʊ ʌp ɑn ðæt/",
+  "ru": "уточню это позже"
+ },
+ {
+  "en": "throttle",
+  "ipa": "/ˈθrɒtəl/",
+  "ru": "ограничивать поток запросов"
+ },
+ {
+  "en": "escalate an issue",
+  "ipa": "/ˈɛskəleɪt ən ˈɪʃuː/",
+  "ru": "эскалировать проблему"
+ },
+ {
+  "en": "in other words",
+  "ipa": "/ɪn ˈʌðər wɜːrdz/",
+  "ru": "другими словами"
+ },
+ {
+  "en": "please weigh in when you can",
+  "ipa": "/pliːz weɪ ɪn wɛn juː kæn/",
+  "ru": "выскажитесь, когда будет время"
+ },
+ {
+  "en": "kick off",
+  "ipa": "/kɪk ɔːf/",
+  "ru": "стартовая встреча"
+ },
+ {
+  "en": "turn in",
+  "ipa": "/ˌtɜːrn ˈɪn/",
+  "ru": "сдать работу, представить"
+ },
+ {
+  "en": "end of day",
+  "ipa": "/end əv deɪ/",
+  "ru": "к концу дня"
+ },
+ {
+  "en": "thundering herd",
+  "ipa": "/ˈθʌndərɪŋ hɜːrd/",
+  "ru": "одновременный шквал запросов"
+ },
+ {
+  "en": "noted, thanks",
+  "ipa": "/ˈnoʊtɪd θæŋks/",
+  "ru": "принял, спасибо"
+ },
+ {
+  "en": "cache",
+  "ipa": "/kæʃ/",
+  "ru": "кэшировать данные"
+ },
+ {
+  "en": "establish a workflow",
+  "ipa": "/ɪˈstæblɪʃ ə ˈwɜrkfloʊ/",
+  "ru": "выстроить рабочий процесс"
+ },
+ {
+  "en": "what i'm getting at is",
+  "ipa": "/wʌt aɪm ˈɡɛtɪŋ æt ɪz/",
+  "ru": "то, что я имею в виду"
+ },
+ {
+  "en": "to close the loop on this",
+  "ipa": "/tə kloʊz ðə luːp ɒn ðɪs/",
+  "ru": "чтобы завершить вопрос"
+ },
+ {
+  "en": "wrap up",
+  "ipa": "/ræp ʌp/",
+  "ru": "завершить / подвести итог"
+ },
+ {
+  "en": "turn down",
+  "ipa": "/ˌtɜːrn ˈdaʊn/",
+  "ru": "отклонять предложение"
+ },
+ {
+  "en": "fast track",
+  "ipa": "/fæst træk/",
+  "ru": "ускоренный путь"
+ },
+ {
+  "en": "cold start",
+  "ipa": "/koʊld stɑːrt/",
+  "ru": "запуск с нуля без кэша"
+ },
+ {
+  "en": "i'll take a note of that",
+  "ipa": "/aɪl teɪk ə noʊt əv ðæt/",
+  "ru": "запишу это"
+ },
+ {
+  "en": "migrate",
+  "ipa": "/ˈmaɪɡreɪt/",
+  "ru": "мигрировать, переносить"
+ },
+ {
+  "en": "evaluate performance",
+  "ipa": "/ɪˈvæljueɪt pərˈfɔrməns/",
+  "ru": "оценить производительность"
+ },
+ {
+  "en": "i think there's some merit to that",
+  "ipa": "/aɪ θɪŋk ðɛrz sʌm ˈmɛrɪt tə ðæt/",
+  "ru": "в этом есть смысл"
+ },
+ {
+  "en": "i'll take it from here",
+  "ipa": "/aɪl teɪk ɪt frəm hɪər/",
+  "ru": "дальше возьму на себя"
+ },
+ {
+  "en": "piggyback on",
+  "ipa": "/ˈpɪɡibæk ɑːn/",
+  "ru": "добавить к чужой теме"
+ },
+ {
+  "en": "hand in",
+  "ipa": "/ˌhænd ˈɪn/",
+  "ru": "сдать, передать"
+ },
+ {
+  "en": "foot in the door",
+  "ipa": "/fʊt ɪn ðə dɔːr/",
+  "ru": "первый шаг"
+ },
+ {
+  "en": "warm cache",
+  "ipa": "/wɔːrm kæʃ/",
+  "ru": "прогретый кэш"
+ },
+ {
+  "en": "let's table that for now",
+  "ipa": "/lɛts ˈteɪbəl ðæt fər naʊ/",
+  "ru": "отложим пока это"
+ },
+ {
+  "en": "scaffold",
+  "ipa": "/ˈskæfoʊld/",
+  "ru": "создавать каркас проекта"
+ },
+ {
+  "en": "facilitate a workshop",
+  "ipa": "/fəˈsɪlɪteɪt ə ˈwɜrkʃɑp/",
+  "ru": "провести воркшоп"
+ },
+ {
+  "en": "sorry, could you repeat that",
+  "ipa": "/ˈsɒri kʊd ju rɪˈpiːt ðæt/",
+  "ru": "простите, повторите пожалуйста"
+ },
+ {
+  "en": "blocking your calendar for",
+  "ipa": "/ˈblɒkɪŋ jər ˈkæləndər fər/",
+  "ru": "бронирую время в вашем календаре"
+ },
+ {
+  "en": "take the lead",
+  "ipa": "/teɪk ðə liːd/",
+  "ru": "взять ответственность"
+ },
+ {
+  "en": "hand off",
+  "ipa": "/ˌhænd ˈɔːf/",
+  "ru": "передать ответственность"
+ },
+ {
+  "en": "get buy-in",
+  "ipa": "/ɡet ˈbaɪɪn/",
+  "ru": "получить одобрение"
+ },
+ {
+  "en": "cache miss",
+  "ipa": "/kæʃ mɪs/",
+  "ru": "промах кэша"
+ },
+ {
+  "en": "can we circle back to that",
+  "ipa": "/kæn wi ˈsɜrkəl bæk tə ðæt/",
+  "ru": "вернёмся к этому позже"
+ },
+ {
+  "en": "sanitize",
+  "ipa": "/ˈsænɪtaɪz/",
+  "ru": "очищать, проверять данные"
+ },
+ {
+  "en": "file a bug",
+  "ipa": "/faɪl ə bʌɡ/",
+  "ru": "завести баг"
+ },
+ {
+  "en": "i'm not sure i'd frame it that way",
+  "ipa": "/aɪm nɒt ʃʊr aɪd freɪm ɪt ðæt weɪ/",
+  "ru": "я бы сформулировал иначе"
+ },
+ {
+  "en": "just a quick note",
+  "ipa": "/dʒʌst ə kwɪk noʊt/",
+  "ru": "лишь краткая заметка"
+ },
+ {
+  "en": "own it",
+  "ipa": "/oʊn ɪt/",
+  "ru": "взять под контроль"
+ },
+ {
+  "en": "pass on",
+  "ipa": "/ˌpæs ˈɔːn/",
+  "ru": "передать информацию"
+ },
+ {
+  "en": "get our ducks in a row",
+  "ipa": "/ɡet aʊər dʌks ɪn ə roʊ/",
+  "ru": "навести порядок"
+ },
+ {
+  "en": "cache stampede",
+  "ipa": "/kæʃ stæmˈpiːd/",
+  "ru": "шквал запросов при сбросе кэша"
+ },
+ {
+  "en": "we're running low on time",
+  "ipa": "/wɪr ˈrʌnɪŋ loʊ ɑn taɪm/",
+  "ru": "время заканчивается"
+ },
+ {
+  "en": "serialize",
+  "ipa": "/ˈsɪəriəlaɪz/",
+  "ru": "сериализовать"
+ },
+ {
+  "en": "flag a blocker",
+  "ipa": "/flæɡ ə ˈblɑkər/",
+  "ru": "обозначить блокер"
+ },
+ {
+  "en": "we might need to revisit that assumption",
+  "ipa": "/wi maɪt niːd tə ˌriːˈvɪzɪt ðæt əˈsʌmpʃən/",
+  "ru": "стоит пересмотреть это допущение"
+ },
+ {
+  "en": "reaching out to see if",
+  "ipa": "/ˈriːtʃɪŋ aʊt tə siː ɪf/",
+  "ru": "обращаюсь, чтобы узнать"
+ },
+ {
+  "en": "pass along",
+  "ipa": "/ˌpæs əˈlɔːŋ/",
+  "ru": "переслать, перенаправить"
+ },
+ {
+  "en": "give the green light",
+  "ipa": "/ɡɪv ðə ɡriːn laɪt/",
+  "ru": "дать добро"
+ },
+ {
+  "en": "write-through cache",
+  "ipa": "/raɪt θruː kæʃ/",
+  "ru": "кэш с немедленной записью"
+ },
+ {
+  "en": "let's wrap this up",
+  "ipa": "/lɛts ræp ðɪs ʌp/",
+  "ru": "давайте подведём итог"
+ },
+ {
+  "en": "deserialize",
+  "ipa": "/diːˈsɪəriəlaɪz/",
+  "ru": "десериализовать"
+ },
+ {
+  "en": "follow up on",
+  "ipa": "/ˈfɑloʊ ʌp ɑn/",
+  "ru": "проследить за выполнением"
+ },
+ {
+  "en": "absolutely, and on top of that",
+  "ipa": "/ˌæbsəˈluːtli ænd ɒn tɒp əv ðæt/",
+  "ru": "совершенно верно, и к тому же"
+ },
+ {
+  "en": "any updates on your end?",
+  "ipa": "/ˈɛni ʌpˈdeɪts ɒn jər ɛnd/",
+  "ru": "есть ли новости с вашей стороны?"
+ },
+ {
+  "en": "dependency",
+  "ipa": "/dɪˈpɛndənsi/",
+  "ru": "зависимость между задачами"
+ },
+ {
+  "en": "move on",
+  "ipa": "/ˌmuːv ˈɔːn/",
+  "ru": "переходить к следующему"
+ },
+ {
+  "en": "go-to-market",
+  "ipa": "/ˈɡoʊ tuː ˈmɑːrkɪt/",
+  "ru": "стратегия выхода"
+ },
+ {
+  "en": "eventual consistency",
+  "ipa": "/ɪˈvɛntʃuəl kənˈsɪstənsi/",
+  "ru": "конечная согласованность данных"
+ },
+ {
+  "en": "any final questions",
+  "ipa": "/ˈɛni ˈfaɪnəl ˈkwɛstʃənz/",
+  "ru": "есть последние вопросы"
+ },
+ {
+  "en": "stub",
+  "ipa": "/stʌb/",
+  "ru": "заглушка, мок-объект"
+ },
+ {
+  "en": "formulate a strategy",
+  "ipa": "/ˈfɔrmjuleɪt ə ˈstrætɪdʒi/",
+  "ru": "разработать стратегию"
+ },
+ {
+  "en": "can we slow down a little",
+  "ipa": "/kæn wi sloʊ daʊn ə ˈlɪtl/",
+  "ru": "можем немного притормозить"
+ },
+ {
+  "en": "leaving this with you",
+  "ipa": "/ˈliːvɪŋ ðɪs wɪð juː/",
+  "ru": "оставляю это вам"
+ },
+ {
+  "en": "escalate",
+  "ipa": "/ˈɛskəleɪt/",
+  "ru": "передать выше по цепочке"
+ },
+ {
+  "en": "move ahead",
+  "ipa": "/ˌmuːv əˈhɛd/",
+  "ru": "двигаться вперёд"
+ },
+ {
+  "en": "golden handcuffs",
+  "ipa": "/ˈɡoʊldən ˈhændkʌfs/",
+  "ru": "удержание привилегиями"
+ },
+ {
+  "en": "optimistic locking",
+  "ipa": "/ˌɒptɪˈmɪstɪk ˈlɒkɪŋ/",
+  "ru": "оптимистичная блокировка"
+ },
+ {
+  "en": "thanks everyone for joining",
+  "ipa": "/θæŋks ˈɛvriˌwʌn fər ˈdʒɔɪnɪŋ/",
+  "ru": "спасибо всем за участие"
+ },
+ {
+  "en": "patch",
+  "ipa": "/pætʃ/",
+  "ru": "патч, исправление"
+ },
+ {
+  "en": "foster collaboration",
+  "ipa": "/ˈfɑstər kəˌlæbəˈreɪʃən/",
+  "ru": "развивать сотрудничество"
+ },
+ {
+  "en": "that resonates with me",
+  "ipa": "/ðæt ˈrɛzəneɪts wɪð mi/",
+  "ru": "это мне близко / согласен"
+ },
+ {
+  "en": "sounds good to me",
+  "ipa": "/saʊndz ɡʊd tə miː/",
+  "ru": "меня устраивает"
+ },
+ {
+  "en": "stakeholder",
+  "ipa": "/ˈsteɪkˌhoʊldər/",
+  "ru": "заинтересованная сторона"
+ },
+ {
+  "en": "move up",
+  "ipa": "/ˌmuːv ˈʌp/",
+  "ru": "продвинуться по карьере"
+ },
+ {
+  "en": "gut check",
+  "ipa": "/ɡʌt tʃek/",
+  "ru": "интуитивная проверка"
+ },
+ {
+  "en": "pessimistic locking",
+  "ipa": "/ˌpɛsɪˈmɪstɪk ˈlɒkɪŋ/",
+  "ru": "пессимистичная блокировка"
+ },
+ {
+  "en": "talk soon",
+  "ipa": "/tɔk sun/",
+  "ru": "скоро поговорим"
+ },
+ {
+  "en": "hotfix",
+  "ipa": "/ˈhɒtfɪks/",
+  "ru": "срочное исправление"
+ },
+ {
+  "en": "get sign-off",
+  "ipa": "/ɡɛt ˈsaɪnˌɔf/",
+  "ru": "получить одобрение"
+ },
+ {
+  "en": "i want to make sure i understand the ask",
+  "ipa": "/aɪ wɒnt tə meɪk ʃʊr aɪ ˌʌndərˈstænd ðə æsk/",
+  "ru": "хочу убедиться, что понял задачу"
+ },
+ {
+  "en": "let's sync up",
+  "ipa": "/lɛts sɪŋk ʌp/",
+  "ru": "давайте скоординируемся"
+ },
+ {
+  "en": "buy-in",
+  "ipa": "/ˈbaɪ ɪn/",
+  "ru": "поддержка от участников"
+ },
+ {
+  "en": "work out",
+  "ipa": "/ˌwɜːrk ˈaʊt/",
+  "ru": "решить, разработать"
+ },
+ {
+  "en": "dead letter queue",
+  "ipa": "/dɛd ˈlɛtər kjuː/",
+  "ru": "очередь недоставленных сообщений"
+ },
+ {
+  "en": "have a good one",
+  "ipa": "/hæv ə ɡʊd wʌn/",
+  "ru": "хорошего дня"
+ },
+ {
+  "en": "workaround",
+  "ipa": "/ˈwɜːrkəraʊnd/",
+  "ru": "временное решение"
+ },
+ {
+  "en": "get stakeholder buy-in",
+  "ipa": "/ɡɛt ˈsteɪkhoʊldər ˈbaɪɪn/",
+  "ru": "заручиться поддержкой заинтересованных"
+ },
+ {
+  "en": "could you clarify what you mean by that",
+  "ipa": "/kʊd ju ˈklærɪfaɪ wʌt ju miːn baɪ ðæt/",
+  "ru": "уточните, что вы имеете в виду"
+ },
+ {
+  "en": "bumping this up",
+  "ipa": "/ˈbʌmpɪŋ ðɪs ʌp/",
+  "ru": "поднимаю вверх в очереди"
+ },
+ {
+  "en": "bandwidth check",
+  "ipa": "/ˈbændwɪdθ tʃɛk/",
+  "ru": "проверка загруженности команды"
+ },
+ {
+  "en": "work through",
+  "ipa": "/ˌwɜːrk ˈθruː/",
+  "ru": "проработать, разобраться"
+ },
+ {
+  "en": "heads up",
+  "ipa": "/hedz ʌp/",
+  "ru": "предупреждение заранее"
+ },
+ {
+  "en": "fan-out",
+  "ipa": "/fæn aʊt/",
+  "ru": "разветвление запроса на несколько"
+ },
+ {
+  "en": "catch you later",
+  "ipa": "/kætʃ ju ˈleɪtər/",
+  "ru": "увидимся позже"
+ },
+ {
+  "en": "regression",
+  "ipa": "/rɪˈɡreʃən/",
+  "ru": "регрессия, откат качества"
+ },
+ {
+  "en": "handle a complaint",
+  "ipa": "/ˈhændl ə kəmˈpleɪnt/",
+  "ru": "обработать жалобу"
+ },
+ {
+  "en": "i'd go along with that",
+  "ipa": "/aɪd ɡoʊ əˈlɒŋ wɪð ðæt/",
+  "ru": "я бы с этим согласился"
+ },
+ {
+  "en": "i'll follow up by end of day",
+  "ipa": "/aɪl ˈfɒloʊ ʌp baɪ ɛnd ɒv deɪ/",
+  "ru": "отпишу до конца дня"
+ },
+ {
+  "en": "flag it",
+  "ipa": "/flæɡ ɪt/",
+  "ru": "обозначить проблему"
+ },
+ {
+  "en": "work around",
+  "ipa": "/ˌwɜːrk əˈraʊnd/",
+  "ru": "найти обходной путь"
+ },
+ {
+  "en": "hit the ground running",
+  "ipa": "/hɪt ðə ɡraʊnd ˈrʌnɪŋ/",
+  "ru": "начать сразу в темпе"
+ },
+ {
+  "en": "fan-in",
+  "ipa": "/fæn ɪn/",
+  "ru": "сбор результатов из нескольких источников"
+ },
+ {
+  "en": "bye for now",
+  "ipa": "/baɪ fər naʊ/",
+  "ru": "пока"
+ },
+ {
+  "en": "throughput",
+  "ipa": "/ˈθruːpʊt/",
+  "ru": "пропускная способность"
+ },
+ {
+  "en": "identify a gap",
+  "ipa": "/aɪˈdɛntɪfaɪ ə ɡæp/",
+  "ru": "выявить пробел"
+ },
+ {
+  "en": "let me add to what was just said",
+  "ipa": "/lɛt mi æd tə wʌt wəz dʒʌst sɛd/",
+  "ru": "позвольте добавить к сказанному"
+ },
+ {
+  "en": "this is time-sensitive",
+  "ipa": "/ðɪs ɪz ˈtaɪmˌsɛnsɪtɪv/",
+  "ru": "это срочно"
+ },
+ {
+  "en": "surface an issue",
+  "ipa": "/ˈsɜːrfɪs ən ˈɪʃuː/",
+  "ru": "поднять проблему"
+ },
+ {
+  "en": "work with",
+  "ipa": "/ˌwɜːrk ˈwɪð/",
+  "ru": "работать совместно"
+ },
+ {
+  "en": "hockey stick growth",
+  "ipa": "/ˈhɒki stɪk ɡroʊθ/",
+  "ru": "резкий рост"
+ },
+ {
+  "en": "scatter-gather",
+  "ipa": "/ˈskætər ˈɡæðər/",
+  "ru": "паттерн разброса и сбора данных"
+ },
+ {
+  "en": "hope that helps",
+  "ipa": "/hoʊp ðæt hɛlps/",
+  "ru": "надеюсь, поможет"
+ },
+ {
+  "en": "latency",
+  "ipa": "/ˈleɪtənsi/",
+  "ru": "задержка, латентность"
+ },
+ {
+  "en": "implement a solution",
+  "ipa": "/ˈɪmplɪmɛnt ə səˈluːʃən/",
+  "ru": "внедрить решение"
+ },
+ {
+  "en": "that's not quite how i see it",
+  "ipa": "/ðæts nɒt kwaɪt haʊ aɪ siː ɪt/",
+  "ru": "я вижу это немного иначе"
+ },
+ {
+  "en": "pending your approval",
+  "ipa": "/ˈpɛndɪŋ jər əˈpruːvəl/",
+  "ru": "ожидает вашего одобрения"
+ },
+ {
+  "en": "walk through",
+  "ipa": "/wɔːk θruː/",
+  "ru": "разобрать пошагово"
+ },
+ {
+  "en": "nail down",
+  "ipa": "/ˌneɪl ˈdaʊn/",
+  "ru": "окончательно определить"
+ },
+ {
+  "en": "in the pipeline",
+  "ipa": "/ɪn ðə ˈpaɪplaɪn/",
+  "ru": "в процессе разработки"
+ },
+ {
+  "en": "saga pattern",
+  "ipa": "/ˈsɑːɡə ˈpætərn/",
+  "ru": "распределённая транзакция через события"
+ },
+ {
+  "en": "does that answer your question",
+  "ipa": "/dʌz ðæt ˈænsər jʊr ˈkwɛstʃən/",
+  "ru": "ответил на вопрос"
+ },
+ {
+  "en": "resilience",
+  "ipa": "/rɪˈzɪliəns/",
+  "ru": "устойчивость, надёжность"
+ },
+ {
+  "en": "improve throughput",
+  "ipa": "/ɪmˈpruv ˈθruːpʊt/",
+  "ru": "увеличить пропускную способность"
+ },
+ {
+  "en": "i think we're essentially saying the same thing",
+  "ipa": "/aɪ θɪŋk wɪr ɪˈsɛnʃəli ˈseɪɪŋ ðə seɪm θɪŋ/",
+  "ru": "думаю, мы говорим об одном"
+ },
+ {
+  "en": "could we schedule a quick call?",
+  "ipa": "/kʊd wiː ˈskɛdʒuːl ə kwɪk kɔːl/",
+  "ru": "можем ли созвониться ненадолго?"
+ },
+ {
+  "en": "run the numbers",
+  "ipa": "/rʌn ðə ˈnʌmbərz/",
+  "ru": "посчитать / проверить цифры"
+ },
+ {
+  "en": "pin down",
+  "ipa": "/ˌpɪn ˈdaʊn/",
+  "ru": "чётко зафиксировать"
+ },
+ {
+  "en": "in the weeds",
+  "ipa": "/ɪn ðə wiːdz/",
+  "ru": "увязнуть в деталях"
+ },
+ {
+  "en": "outbox pattern",
+  "ipa": "/ˈaʊtbɒks ˈpætərn/",
+  "ru": "надёжная публикация событий через БД"
+ },
+ {
+  "en": "let me know if you have questions",
+  "ipa": "/lɛt mi noʊ ɪf ju hæv ˈkwɛstʃənz/",
+  "ru": "пишите если есть вопросы"
+ },
+ {
+  "en": "redundancy",
+  "ipa": "/rɪˈdʌndənsi/",
+  "ru": "избыточность, резервирование"
+ },
+ {
+  "en": "initiate a project",
+  "ipa": "/ɪˈnɪʃieɪt ə ˈprɑdʒɛkt/",
+  "ru": "инициировать проект"
+ },
+ {
+  "en": "if i'm reading the room correctly",
+  "ipa": "/ɪf aɪm ˈriːdɪŋ ðə ruːm kəˈrɛktli/",
+  "ru": "если я правильно чувствую ситуацию"
+ },
+ {
+  "en": "happy to clarify",
+  "ipa": "/ˈhæpi tə ˈklærɪfaɪ/",
+  "ru": "готов пояснить"
+ },
+ {
+  "en": "baseline",
+  "ipa": "/ˈbeɪslaɪn/",
+  "ru": "исходный уровень"
+ },
+ {
+  "en": "iron out",
+  "ipa": "/ˌaɪərn ˈaʊt/",
+  "ru": "устранить проблему, разгладить"
+ },
+ {
+  "en": "kick the tires",
+  "ipa": "/kɪk ðə ˈtaɪərz/",
+  "ru": "проверить на деле"
+ },
+ {
+  "en": "idempotency key",
+  "ipa": "/aɪˈdɛmpətənsi kiː/",
+  "ru": "ключ для защиты от дублей запросов"
+ },
+ {
+  "en": "happy to help",
+  "ipa": "/ˈhæpi tə hɛlp/",
+  "ru": "рад помочь"
+ },
+ {
+  "en": "scalability",
+  "ipa": "/ˌskeɪləˈbɪlɪti/",
+  "ru": "масштабируемость"
+ },
+ {
+  "en": "kick off a sprint",
+  "ipa": "/kɪk ɔf ə sprɪnt/",
+  "ru": "запустить спринт"
+ },
+ {
+  "en": "on a related note",
+  "ipa": "/ɒn ə rɪˈleɪtɪd noʊt/",
+  "ru": "по смежной теме"
+ },
+ {
+  "en": "to summarize",
+  "ipa": "/tə ˈsʌməraɪz/",
+  "ru": "подводя итог"
+ },
+ {
+  "en": "hard deadline",
+  "ipa": "/hɑːrd ˈdɛdlaɪn/",
+  "ru": "жёсткий срок"
+ },
+ {
+  "en": "hash out",
+  "ipa": "/ˌhæʃ ˈaʊt/",
+  "ru": "проработать детали"
+ },
+ {
+  "en": "land and expand",
+  "ipa": "/lænd ænd ɪkˈspænd/",
+  "ru": "закрепиться и расширяться"
+ },
+ {
+  "en": "request deduplication",
+  "ipa": "/rɪˈkwɛst ˌdiːdjuːplɪˈkeɪʃən/",
+  "ru": "дедупликация повторных запросов"
+ },
+ {
+  "en": "no problem at all",
+  "ipa": "/noʊ ˈprɑbləm æt ɔl/",
+  "ru": "совсем не проблема"
+ },
+ {
+  "en": "maintainability",
+  "ipa": "/meɪnˌteɪnəˈbɪlɪti/",
+  "ru": "сопровождаемость кода"
+ },
+ {
+  "en": "launch a feature",
+  "ipa": "/lɔːntʃ ə ˈfiːtʃər/",
+  "ru": "выпустить функцию"
+ },
+ {
+  "en": "i'd like to challenge that assumption",
+  "ipa": "/aɪd laɪk tə ˈtʃælɪndʒ ðæt əˈsʌmpʃən/",
+  "ru": "хочу оспорить это допущение"
+ },
+ {
+  "en": "i'll ping you",
+  "ipa": "/aɪl pɪŋ juː/",
+  "ru": "напишу вам"
+ },
+ {
+  "en": "stretch goal",
+  "ipa": "/strɛtʃ ɡoʊl/",
+  "ru": "амбициозная цель сверху"
+ },
+ {
+  "en": "flesh out",
+  "ipa": "/ˌflɛʃ ˈaʊt/",
+  "ru": "детализировать, наполнить"
+ },
+ {
+  "en": "lay the groundwork",
+  "ipa": "/leɪ ðə ˈɡraʊndwɜːrk/",
+  "ru": "заложить основу"
+ },
+ {
+  "en": "at-least-once delivery",
+  "ipa": "/æt liːst wʌns dɪˈlɪvəri/",
+  "ru": "гарантия минимум одной доставки"
+ },
+ {
+  "en": "don't mention it",
+  "ipa": "/doʊnt ˈmɛnʃən ɪt/",
+  "ru": "не стоит благодарности"
+ },
+ {
+  "en": "observability",
+  "ipa": "/əbˌzɜːrvəˈbɪlɪti/",
+  "ru": "наблюдаемость системы"
+ },
+ {
+  "en": "lead a team",
+  "ipa": "/liːd ə tiːm/",
+  "ru": "руководить командой"
+ },
+ {
+  "en": "to make sure we're talking about the same thing",
+  "ipa": "/tə meɪk ʃʊr wɪr ˈtɔkɪŋ əˈbaʊt ðə seɪm θɪŋ/",
+  "ru": "чтобы удостовериться, что говорим об одном"
+ },
+ {
+  "en": "just making sure this doesn't fall through the cracks",
+  "ipa": "/dʒʌst ˈmeɪkɪŋ ʃʊər ðɪs ˈdʌznt fɔːl θruː ðə kræks/",
+  "ru": "чтобы это не потерялось"
+ },
+ {
+  "en": "go-live",
+  "ipa": "/ˈɡoʊ laɪv/",
+  "ru": "дата выхода в продакшн"
+ },
+ {
+  "en": "fill in",
+  "ipa": "/ˌfɪl ˈɪn/",
+  "ru": "заменять, вводить в курс"
+ },
+ {
+  "en": "level the playing field",
+  "ipa": "/ˈlevəl ðə ˈpleɪɪŋ fiːld/",
+  "ru": "уравнять условия"
+ },
+ {
+  "en": "exactly-once delivery",
+  "ipa": "/ɪɡˈzæktli wʌns dɪˈlɪvəri/",
+  "ru": "гарантия ровно одной доставки"
+ },
+ {
+  "en": "of course, no worries",
+  "ipa": "/əv kɔrs noʊ ˈwʌriz/",
+  "ru": "конечно, без проблем"
+ },
+ {
+  "en": "idempotent",
+  "ipa": "/aɪˈdempətənt/",
+  "ru": "идемпотентный"
+ },
+ {
+  "en": "leverage expertise",
+  "ipa": "/ˈlɛvərɪdʒ ˌɛkspɜrˈtiːz/",
+  "ru": "использовать экспертизу"
+ },
+ {
+  "en": "i largely agree, with one caveat",
+  "ipa": "/aɪ ˈlɑːrdʒli əˈɡriː wɪð wʌn ˈkæviæt/",
+  "ru": "в целом согласен, с одной оговоркой"
+ },
+ {
+  "en": "wanted to get your take on this",
+  "ipa": "/ˈwɒntɪd tə ɡɛt jər teɪk ɒn ðɪs/",
+  "ru": "хотел узнать ваше мнение"
+ },
+ {
+  "en": "fill out",
+  "ipa": "/ˌfɪl ˈaʊt/",
+  "ru": "заполнить форму"
+ },
+ {
+  "en": "lift all boats",
+  "ipa": "/lɪft ɔːl boʊts/",
+  "ru": "принести пользу всем"
+ },
+ {
+  "en": "backpressure",
+  "ipa": "/ˈbækprɛʃər/",
+  "ru": "противодавление в потоке данных"
+ },
+ {
+  "en": "i appreciate that",
+  "ipa": "/aɪ əˈpriʃiˌeɪt ðæt/",
+  "ru": "ценю это"
+ },
+ {
+  "en": "immutable",
+  "ipa": "/ɪˈmjuːtəbəl/",
+  "ru": "неизменяемый"
+ },
+ {
+  "en": "log a request",
+  "ipa": "/lɔɡ ə rɪˈkwɛst/",
+  "ru": "зафиксировать запрос"
+ },
+ {
+  "en": "that's worth considering",
+  "ipa": "/ðæts wɜːrθ kənˈsɪdərɪŋ/",
+  "ru": "это стоит рассмотреть"
+ },
+ {
+  "en": "30,000-foot view",
+  "ipa": "/ˌθɜːrti ˈθaʊzənd fʊt vjuː/",
+  "ru": "взгляд на высоком уровне"
+ },
+ {
+  "en": "zoom in",
+  "ipa": "/ˌzuːm ˈɪn/",
+  "ru": "сфокусироваться на деталях"
+ },
+ {
+  "en": "long tail",
+  "ipa": "/lɒŋ teɪl/",
+  "ru": "длинный хвост"
+ },
+ {
+  "en": "rate limiting",
+  "ipa": "/reɪt ˈlɪmɪtɪŋ/",
+  "ru": "ограничение частоты запросов"
+ },
+ {
+  "en": "thanks for the heads up",
+  "ipa": "/θæŋks fər ðə hɛdz ʌp/",
+  "ru": "спасибо за предупреждение"
+ },
+ {
+  "en": "asynchronous",
+  "ipa": "/eɪˈsɪŋkrənəs/",
+  "ru": "асинхронный"
+ },
+ {
+  "en": "manage dependencies",
+  "ipa": "/ˈmænɪdʒ dɪˈpɛndənsiz/",
+  "ru": "управлять зависимостями"
+ },
+ {
+  "en": "i want to flag a potential issue",
+  "ipa": "/aɪ wɒnt tə flæɡ ə pəˈtɛnʃəl ˈɪʃuː/",
+  "ru": "хочу обозначить возможную проблему"
+ },
+ {
+  "en": "take your time with this",
+  "ipa": "/teɪk jər taɪm wɪð ðɪs/",
+  "ru": "не торопитесь с этим"
+ },
+ {
+  "en": "zoom out",
+  "ipa": "/zuːm aʊt/",
+  "ru": "посмотреть шире"
+ },
+ {
+  "en": "token bucket",
+  "ipa": "/ˈtoʊkən ˈbʌkɪt/",
+  "ru": "алгоритм ограничения запросов"
+ },
+ {
+  "en": "good to know",
+  "ipa": "/ɡʊd tə noʊ/",
+  "ru": "полезно знать"
+ },
+ {
+  "en": "concurrent",
+  "ipa": "/kənˈkɜːrənt/",
+  "ru": "параллельный, конкурентный"
+ },
+ {
+  "en": "measure impact",
+  "ipa": "/ˈmɛʒər ˈɪmpækt/",
+  "ru": "измерить эффект"
+ },
+ {
+  "en": "my understanding is slightly different",
+  "ipa": "/maɪ ˌʌndərˈstændɪŋ ɪz ˈslaɪtli ˈdɪfrənt/",
+  "ru": "моё понимание немного отличается"
+ },
+ {
+  "en": "cc'ing the team",
+  "ipa": "/siː siːɪŋ ðə tiːm/",
+  "ru": "добавляю команду в копию"
+ },
+ {
+  "en": "level set",
+  "ipa": "/ˈlɛvl̩ sɛt/",
+  "ru": "синхронизировать понимание"
+ },
+ {
+  "en": "low-hanging fruit",
+  "ipa": "/loʊ ˈhæŋɪŋ fruːt/",
+  "ru": "лёгкая добыча"
+ },
+ {
+  "en": "leaky bucket",
+  "ipa": "/ˈliːki ˈbʌkɪt/",
+  "ru": "алгоритм сглаживания трафика"
+ },
+ {
+  "en": "got it, thank you",
+  "ipa": "/ɡɑt ɪt θæŋk ju/",
+  "ru": "понял, спасибо"
+ },
+ {
+  "en": "stateless",
+  "ipa": "/ˈsteɪtlɪs/",
+  "ru": "без состояния"
+ },
+ {
+  "en": "merge a pull request",
+  "ipa": "/mɜrdʒ ə pʊl rɪˈkwɛst/",
+  "ru": "слить пулл-реквест"
+ },
+ {
+  "en": "i think that deserves a closer look",
+  "ipa": "/aɪ θɪŋk ðæt dɪˈzɜːrvz ə ˈkloʊsər lʊk/",
+  "ru": "это требует более детального изучения"
+ },
+ {
+  "en": "heads-up: this changed",
+  "ipa": "/hɛdz ʌp ðɪs tʃeɪndʒd/",
+  "ru": "внимание: это изменилось"
+ },
+ {
+  "en": "double-click on",
+  "ipa": "/ˈdʌbl̩ klɪk ɑːn/",
+  "ru": "разобрать подробнее"
+ },
+ {
+  "en": "pull back",
+  "ipa": "/ˌpʊl ˈbæk/",
+  "ru": "отступить, сократить"
+ },
+ {
+  "en": "make it rain",
+  "ipa": "/meɪk ɪt reɪn/",
+  "ru": "привлечь деньги"
+ },
+ {
+  "en": "p99 latency",
+  "ipa": "/piː ˈnaɪnti naɪn ˈleɪtənsi/",
+  "ru": "99-й перцентиль задержки"
+ },
+ {
+  "en": "sounds like a plan",
+  "ipa": "/saʊndz laɪk ə plæn/",
+  "ru": "звучит как план"
+ },
+ {
+  "en": "ephemeral",
+  "ipa": "/ɪˈfemərəl/",
+  "ru": "временный, недолговечный"
+ },
+ {
+  "en": "mitigate risk",
+  "ipa": "/ˈmɪtɪɡeɪt rɪsk/",
+  "ru": "снизить риск"
+ },
+ {
+  "en": "at the risk of sounding repetitive",
+  "ipa": "/æt ðə rɪsk əv ˈsaʊndɪŋ rɪˈpɛtɪtɪv/",
+  "ru": "рискуя повториться"
+ },
+ {
+  "en": "more details to follow",
+  "ipa": "/mɔːr ˈdiːteɪlz tə ˈfɒloʊ/",
+  "ru": "подробности будут позже"
+ },
+ {
+  "en": "connect the dots",
+  "ipa": "/kəˈnɛkt ðə dɑːts/",
+  "ru": "связать факты вместе"
+ },
+ {
+  "en": "pull in",
+  "ipa": "/ˌpʊl ˈɪn/",
+  "ru": "привлечь, задействовать"
+ },
+ {
+  "en": "mission critical",
+  "ipa": "/ˈmɪʃən ˈkrɪtɪkəl/",
+  "ru": "критически важный"
+ },
+ {
+  "en": "tail latency",
+  "ipa": "/teɪl ˈleɪtənsi/",
+  "ru": "задержки у худших запросов"
+ },
+ {
+  "en": "perfect, let's do it",
+  "ipa": "/ˈpɜrfɪkt lɛts du ɪt/",
+  "ru": "отлично, сделаем"
+ },
+ {
+  "en": "persist",
+  "ipa": "/pərˈsɪst/",
+  "ru": "сохранять данные"
+ },
+ {
+  "en": "monitor metrics",
+  "ipa": "/ˈmɑnɪtər ˈmɛtrɪks/",
+  "ru": "отслеживать метрики"
+ },
+ {
+  "en": "can i offer an alternative view",
+  "ipa": "/kæn aɪ ˈɒfər ən ɔːlˈtɜːrnətɪv vjuː/",
+  "ru": "позвольте предложить другую точку зрения"
+ },
+ {
+  "en": "a few things to cover",
+  "ipa": "/ə fjuː θɪŋz tə ˈkʌvər/",
+  "ru": "несколько вещей для обсуждения"
+ },
+ {
+  "en": "moving parts",
+  "ipa": "/ˈmuːvɪŋ pɑːrts/",
+  "ru": "много переменных / задач"
+ },
+ {
+  "en": "pull off",
+  "ipa": "/ˌpʊl ˈɔːf/",
+  "ru": "успешно осуществить"
+ },
+ {
+  "en": "north star metric",
+  "ipa": "/nɔːrθ stɑːr ˈmetrɪk/",
+  "ru": "ключевая метрика"
+ },
+ {
+  "en": "error budget",
+  "ipa": "/ˈɛrər ˈbʌdʒɪt/",
+  "ru": "допустимый лимит ошибок/простоя"
+ },
+ {
+  "en": "that works for me",
+  "ipa": "/ðæt wɜrks fər mi/",
+  "ru": "мне подходит"
+ },
+ {
+  "en": "propagate",
+  "ipa": "/ˈprɒpəɡeɪt/",
+  "ru": "распространять изменения"
+ },
+ {
+  "en": "negotiate a timeline",
+  "ipa": "/nɪˈɡoʊʃieɪt ə ˈtaɪmlaɪn/",
+  "ru": "согласовать сроки"
+ },
+ {
+  "en": "that's partly true, but",
+  "ipa": "/ðæts ˈpɑːrtli truː bʌt/",
+  "ru": "это отчасти верно, но"
+ },
+ {
+  "en": "thoughts?",
+  "ipa": "/θɔːts/",
+  "ru": "что думаете?"
+ },
+ {
+  "en": "handoff",
+  "ipa": "/ˈhændɔːf/",
+  "ru": "передача задачи коллеге"
+ },
+ {
+  "en": "pull through",
+  "ipa": "/ˌpʊl ˈθruː/",
+  "ru": "справиться, выйти из кризиса"
+ },
+ {
+  "en": "on the radar",
+  "ipa": "/ɒn ðə ˈreɪdɑːr/",
+  "ru": "в поле зрения"
+ },
+ {
+  "en": "SLO burn rate",
+  "ipa": "/ˌɛs ɛl ˈoʊ bɜːrn reɪt/",
+  "ru": "скорость расхода бюджета ошибок"
+ },
+ {
+  "en": "i'm fine with that",
+  "ipa": "/aɪm faɪn wɪð ðæt/",
+  "ru": "я не против"
+ },
+ {
+  "en": "intercept",
+  "ipa": "/ˌɪntərˈsept/",
+  "ru": "перехватывать запросы"
+ },
+ {
+  "en": "onboard a new hire",
+  "ipa": "/ˈɑnbɔrd ə njuː haɪr/",
+  "ru": "ввести в должность новичка"
+ },
+ {
+  "en": "i think the key question here is",
+  "ipa": "/aɪ θɪŋk ðə kiː ˈkwɛstʃən hɪr ɪz/",
+  "ru": "ключевой вопрос здесь"
+ },
+ {
+  "en": "please action this",
+  "ipa": "/pliːz ˈækʃən ðɪs/",
+  "ru": "прошу принять меры"
+ },
+ {
+  "en": "pass the baton",
+  "ipa": "/pæs ðə bəˈtɑːn/",
+  "ru": "передать эстафету"
+ },
+ {
+  "en": "lay out",
+  "ipa": "/ˌleɪ ˈaʊt/",
+  "ru": "изложить, представить план"
+ },
+ {
+  "en": "on the table",
+  "ipa": "/ɒn ðə ˈteɪbəl/",
+  "ru": "обсуждается"
+ },
+ {
+  "en": "four nines",
+  "ipa": "/fɔːr naɪnz/",
+  "ru": "доступность 99,99%"
+ },
+ {
+  "en": "either way works",
+  "ipa": "/ˈiðər weɪ wɜrks/",
+  "ru": "любой вариант подойдёт"
+ },
+ {
+  "en": "proxy",
+  "ipa": "/ˈprɒksi/",
+  "ru": "прокси, посредник"
+ },
+ {
+  "en": "open a ticket",
+  "ipa": "/ˈoʊpən ə ˈtɪkɪt/",
+  "ru": "создать тикет"
+ },
+ {
+  "en": "with respect, i'd see it differently",
+  "ipa": "/wɪð rɪˈspɛkt aɪd siː ɪt ˈdɪfrəntli/",
+  "ru": "при всём уважении, я вижу иначе"
+ },
+ {
+  "en": "awaiting your feedback",
+  "ipa": "/əˈweɪtɪŋ jər ˈfiːdbæk/",
+  "ru": "жду вашей обратной связи"
+ },
+ {
+  "en": "overhead",
+  "ipa": "/ˈoʊvərˌhɛd/",
+  "ru": "накладные расходы / лишние шаги"
+ },
+ {
+  "en": "lay down",
+  "ipa": "/ˌleɪ ˈdaʊn/",
+  "ru": "устанавливать правила"
+ },
+ {
+  "en": "open the kimono",
+  "ipa": "/ˈoʊpən ðə kɪˈmoʊnoʊ/",
+  "ru": "раскрыть информацию"
+ },
+ {
+  "en": "let's go with that",
+  "ipa": "/lɛts ɡoʊ wɪð ðæt/",
+  "ru": "остановимся на этом"
+ },
+ {
+  "en": "fallback",
+  "ipa": "/ˈfɔːlbæk/",
+  "ru": "запасной вариант"
+ },
+ {
+  "en": "optimize a query",
+  "ipa": "/ˈɑptɪmaɪz ə ˈkwɪri/",
+  "ru": "оптимизировать запрос"
+ },
+ {
+  "en": "just to recap what's been said",
+  "ipa": "/dʒʌst tə ˌriːˈkæp wʌts bɪn sɛd/",
+  "ru": "подведём итог сказанному"
+ },
+ {
+  "en": "let me pull up the details",
+  "ipa": "/lɛt miː pʊl ʌp ðə ˈdiːteɪlz/",
+  "ru": "сейчас достану подробности"
+ },
+ {
+  "en": "bottleneck",
+  "ipa": "/ˈbɑːtl̩ˌnɛk/",
+  "ru": "узкое место"
+ },
+ {
+  "en": "lay off",
+  "ipa": "/ˌleɪ ˈɔːf/",
+  "ru": "сокращать персонал"
+ },
+ {
+  "en": "out of pocket",
+  "ipa": "/aʊt əv ˈpɒkɪt/",
+  "ru": "недоступен"
+ },
+ {
+  "en": "structured logging",
+  "ipa": "/ˈstrʌktʃərd ˈlɒɡɪŋ/",
+  "ru": "логирование в структурированном формате"
+ },
+ {
+  "en": "we're all set then",
+  "ipa": "/wɪr ɔl sɛt ðɛn/",
+  "ru": "тогда всё готово"
+ },
+ {
+  "en": "graceful",
+  "ipa": "/ˈɡreɪsfəl/",
+  "ru": "корректный, мягкий выход"
+ },
+ {
+  "en": "outline a plan",
+  "ipa": "/ˈaʊtlaɪn ə plæn/",
+  "ru": "набросать план"
+ },
+ {
+  "en": "are we all in agreement on this",
+  "ipa": "/ɑːr wi ɔːl ɪn əˈɡriːmənt ɒn ðɪs/",
+  "ru": "все ли согласны с этим"
+ },
+ {
+  "en": "can you take a look?",
+  "ipa": "/kæn juː teɪk ə lʊk/",
+  "ru": "не могли бы взглянуть?"
+ },
+ {
+  "en": "pain point",
+  "ipa": "/peɪn pɔɪnt/",
+  "ru": "проблемное место"
+ },
+ {
+  "en": "bring in",
+  "ipa": "/ˌbrɪŋ ˈɪn/",
+  "ru": "привлечь, пригласить"
+ },
+ {
+  "en": "over the wall",
+  "ipa": "/ˈoʊvər ðə wɔːl/",
+  "ru": "передать без общения"
+ },
+ {
+  "en": "distributed tracing",
+  "ipa": "/dɪˈstrɪbjuːtɪd ˈtreɪsɪŋ/",
+  "ru": "трассировка запросов через сервисы"
+ },
+ {
+  "en": "i think we're good",
+  "ipa": "/aɪ θɪŋk wɪr ɡʊd/",
+  "ru": "думаю, всё в порядке"
+ },
+ {
+  "en": "verbose",
+  "ipa": "/vɜːrˈboʊs/",
+  "ru": "подробный, многословный"
+ },
+ {
+  "en": "own a feature",
+  "ipa": "/oʊn ə ˈfiːtʃər/",
+  "ru": "отвечать за функцию"
+ },
+ {
+  "en": "let me think out loud for a moment",
+  "ipa": "/lɛt mi θɪŋk aʊt laʊd fər ə ˈmoʊmənt/",
+  "ru": "позвольте порассуждать вслух"
+ },
+ {
+  "en": "i'll loop in the relevant folks",
+  "ipa": "/aɪl luːp ɪn ðə ˈrɛlɪvənt foʊks/",
+  "ru": "включу нужных людей в переписку"
+ },
+ {
+  "en": "quick win",
+  "ipa": "/kwɪk wɪn/",
+  "ru": "быстрый ощутимый результат"
+ },
+ {
+  "en": "bring on",
+  "ipa": "/ˌbrɪŋ ˈɔːn/",
+  "ru": "принять на работу"
+ },
+ {
+  "en": "span",
+  "ipa": "/spæn/",
+  "ru": "отрезок трассировки запроса"
+ },
+ {
+  "en": "anything else before we close",
+  "ipa": "/ˈɛniθɪŋ ɛls bɪˈfɔr wi kloʊz/",
+  "ru": "ещё что-то перед закрытием"
+ },
+ {
+  "en": "granular",
+  "ipa": "/ˈɡrænjʊlər/",
+  "ru": "детальный, гранулярный"
+ },
+ {
+  "en": "participate in a review",
+  "ipa": "/pɑrˈtɪsɪpeɪt ɪn ə rɪˈvju/",
+  "ru": "участвовать в ревью"
+ },
+ {
+  "en": "i'd argue the opposite",
+  "ipa": "/aɪd ˈɑːrɡjuː ðə ˈɒpəzɪt/",
+  "ru": "я бы утверждал обратное"
+ },
+ {
+  "en": "stepping in for",
+  "ipa": "/ˈstɛpɪŋ ɪn fər/",
+  "ru": "заменяю (кого-то)"
+ },
+ {
+  "en": "bring forward",
+  "ipa": "/ˌbrɪŋ ˈfɔːrwərd/",
+  "ru": "перенести на раньше"
+ },
+ {
+  "en": "park it",
+  "ipa": "/pɑːrk ɪt/",
+  "ru": "отложить вопрос"
+ },
+ {
+  "en": "trace context",
+  "ipa": "/treɪs ˈkɒntɛkst/",
+  "ru": "контекст распределённой трассировки"
+ },
+ {
+  "en": "let's keep moving",
+  "ipa": "/lɛts kip ˈmuvɪŋ/",
+  "ru": "двигаемся дальше"
+ },
+ {
+  "en": "robust",
+  "ipa": "/roʊˈbʌst/",
+  "ru": "надёжный, устойчивый"
+ },
+ {
+  "en": "pitch an idea",
+  "ipa": "/pɪtʃ ən aɪˈdiːə/",
+  "ru": "предложить идею"
+ },
+ {
+  "en": "can you be more specific",
+  "ipa": "/kæn ju bi mɔːr spɪˈsɪfɪk/",
+  "ru": "можете уточнить конкретнее"
+ },
+ {
+  "en": "wrapping up the thread",
+  "ipa": "/ˈræpɪŋ ʌp ðə θrɛd/",
+  "ru": "завершаю переписку"
+ },
+ {
+  "en": "deep dive",
+  "ipa": "/diːp daɪv/",
+  "ru": "детальный разбор темы"
+ },
+ {
+  "en": "hold off",
+  "ipa": "/ˌhoʊld ˈɔːf/",
+  "ru": "отложить, повременить"
+ },
+ {
+  "en": "pick up the slack",
+  "ipa": "/pɪk ʌp ðə slæk/",
+  "ru": "восполнить пробел"
+ },
+ {
+  "en": "cardinality explosion",
+  "ipa": "/ˌkɑːrdɪˈnælɪti ɪkˈsploʊʒən/",
+  "ru": "взрыв числа уникальных метрик"
+ },
+ {
+  "en": "moving on to the next point",
+  "ipa": "/ˈmuvɪŋ ɑn tə ðə nɛkst pɔɪnt/",
+  "ru": "переходим к следующему"
+ },
+ {
+  "en": "brittle",
+  "ipa": "/ˈbrɪtəl/",
+  "ru": "хрупкий (о коде)"
+ },
+ {
+  "en": "plan a release",
+  "ipa": "/plæn ə rɪˈliːs/",
+  "ru": "спланировать релиз"
+ },
+ {
+  "en": "i'd like to come back to that",
+  "ipa": "/aɪd laɪk tə kʌm bæk tə ðæt/",
+  "ru": "хотел бы вернуться к этому"
+ },
+ {
+  "en": "i'll send over a calendar invite",
+  "ipa": "/aɪl sɛnd ˈoʊvər ə ˈkæləndər ɪnˈvaɪt/",
+  "ru": "пришлю приглашение в календарь"
+ },
+ {
+  "en": "time-box",
+  "ipa": "/ˈtaɪm bɑːks/",
+  "ru": "ограничить по времени"
+ },
+ {
+  "en": "hold back",
+  "ipa": "/ˌhoʊld ˈbæk/",
+  "ru": "сдерживать, задерживать"
+ },
+ {
+  "en": "golden signals",
+  "ipa": "/ˈɡoʊldən ˈsɪɡnəlz/",
+  "ru": "4 ключевых метрики надёжности"
+ },
+ {
+  "en": "i'll hand it back to you",
+  "ipa": "/aɪl hænd ɪt bæk tə ju/",
+  "ru": "возвращаю слово вам"
+ },
+ {
+  "en": "opaque",
+  "ipa": "/oʊˈpeɪk/",
+  "ru": "непрозрачный, неочевидный"
+ },
+ {
+  "en": "present findings",
+  "ipa": "/prɪˈzɛnt ˈfaɪndɪŋz/",
+  "ru": "представить результаты"
+ },
+ {
+  "en": "what's the basis for that claim",
+  "ipa": "/wʌts ðə ˈbeɪsɪs fər ðæt kleɪm/",
+  "ru": "на чём основывается это утверждение"
+ },
+ {
+  "en": "no action needed on your part",
+  "ipa": "/noʊ ˈækʃən ˈniːdɪd ɒn jər pɑːrt/",
+  "ru": "с вашей стороны действий не требуется"
+ },
+ {
+  "en": "run interference",
+  "ipa": "/rʌn ˈɪntərfɪrəns/",
+  "ru": "помочь снять препятствия"
+ },
+ {
+  "en": "hold up",
+  "ipa": "/ˌhoʊld ˈʌp/",
+  "ru": "задерживать, стопорить"
+ },
+ {
+  "en": "pipeline",
+  "ipa": "/ˈpaɪplaɪn/",
+  "ru": "воронка продаж"
+ },
+ {
+  "en": "chaos engineering",
+  "ipa": "/ˈkeɪɒs ˌɛndʒɪˈnɪərɪŋ/",
+  "ru": "намеренное внесение сбоев для проверки"
+ },
+ {
+  "en": "over to you",
+  "ipa": "/ˈoʊvər tə ju/",
+  "ru": "передаю вам слово"
+ },
+ {
+  "en": "coherent",
+  "ipa": "/koʊˈhɪrənt/",
+  "ru": "согласованный, цельный"
+ },
+ {
+  "en": "prioritize a backlog",
+  "ipa": "/praɪˈɔrɪtaɪz ə ˈbæklɔɡ/",
+  "ru": "приоритизировать бэклог"
+ },
+ {
+  "en": "i follow your reasoning, but",
+  "ipa": "/aɪ ˈfɒloʊ jʊr ˈriːzənɪŋ bʌt/",
+  "ru": "понимаю вашу логику, но"
+ },
+ {
+  "en": "this is just for your awareness",
+  "ipa": "/ðɪs ɪz dʒʌst fər jər əˈwɛrnɪs/",
+  "ru": "просто для вашего сведения"
+ },
+ {
+  "en": "in the loop",
+  "ipa": "/ɪn ðə luːp/",
+  "ru": "в курсе происходящего"
+ },
+ {
+  "en": "keep up",
+  "ipa": "/ˌkiːp ˈʌp/",
+  "ru": "не отставать, поддерживать темп"
+ },
+ {
+  "en": "play hardball",
+  "ipa": "/pleɪ ˈhɑːrdbɔːl/",
+  "ru": "жёстко вести переговоры"
+ },
+ {
+  "en": "game day",
+  "ipa": "/ɡeɪm deɪ/",
+  "ru": "учебная тревога для отработки инцидентов"
+ },
+ {
+  "en": "who wants to go first",
+  "ipa": "/hu wɑnts tə ɡoʊ fɜrst/",
+  "ru": "кто хочет начать"
+ },
+ {
+  "en": "cohesion",
+  "ipa": "/koʊˈhiːʒən/",
+  "ru": "связность компонентов"
+ },
+ {
+  "en": "provide an estimate",
+  "ipa": "/prəˈvaɪd ən ˈɛstɪmɪt/",
+  "ru": "дать оценку"
+ },
+ {
+  "en": "let's double-check that before moving on",
+  "ipa": "/lɛts ˈdʌbəl tʃɛk ðæt bɪˈfɔːr ˈmuːvɪŋ ɒn/",
+  "ru": "давайте проверим прежде чем двигаться дальше"
+ },
+ {
+  "en": "could you share an update by friday?",
+  "ipa": "/kʊd juː ʃɛər ən ˈʌpdeɪt baɪ ˈfraɪdeɪ/",
+  "ru": "дадите апдейт к пятнице?"
+ },
+ {
+  "en": "out of the loop",
+  "ipa": "/aʊt əv ðə luːp/",
+  "ru": "не в курсе"
+ },
+ {
+  "en": "keep track of",
+  "ipa": "/ˌkiːp ˈtræk əv/",
+  "ru": "отслеживать, следить за"
+ },
+ {
+  "en": "price point",
+  "ipa": "/praɪs pɔɪnt/",
+  "ru": "ценовой уровень"
+ },
+ {
+  "en": "fire drill",
+  "ipa": "/faɪər drɪl/",
+  "ru": "тренировка реакции на инцидент"
+ },
+ {
+  "en": "i'll kick things off",
+  "ipa": "/aɪl kɪk θɪŋz ɔf/",
+  "ru": "начну с этого"
+ },
+ {
+  "en": "coupling",
+  "ipa": "/ˈkʌplɪŋ/",
+  "ru": "связанность компонентов"
+ },
+ {
+  "en": "raise a flag",
+  "ipa": "/reɪz ə flæɡ/",
+  "ru": "поднять вопрос"
+ },
+ {
+  "en": "that's a good starting point",
+  "ipa": "/ðæts ə ɡʊd ˈstɑːrtɪŋ pɔɪnt/",
+  "ru": "хорошая отправная точка"
+ },
+ {
+  "en": "i'll take ownership of this",
+  "ipa": "/aɪl teɪk ˈoʊnərʃɪp ɒv ðɪs/",
+  "ru": "беру это на себя"
+ },
+ {
+  "en": "read-out",
+  "ipa": "/ˈriːd aʊt/",
+  "ru": "краткий отчёт по итогам"
+ },
+ {
+  "en": "keep up with",
+  "ipa": "/ˌkiːp ˈʌp wɪð/",
+  "ru": "успевать, быть в курсе"
+ },
+ {
+  "en": "proactive approach",
+  "ipa": "/proʊˈæktɪv əˈproʊtʃ/",
+  "ru": "проактивный подход"
+ },
+ {
+  "en": "dark launch",
+  "ipa": "/dɑːrk lɔːntʃ/",
+  "ru": "скрытый запуск функции для нагрузки"
+ },
+ {
+  "en": "let me give you a quick overview",
+  "ipa": "/lɛt mi ɡɪv ju ə kwɪk ˈoʊvərˌvju/",
+  "ru": "дам быстрый обзор"
+ },
+ {
+  "en": "payload",
+  "ipa": "/ˈpeɪloʊd/",
+  "ru": "полезная нагрузка данных"
+ },
+ {
+  "en": "reduce latency",
+  "ipa": "/rɪˈduːs ˈleɪtənsi/",
+  "ru": "снизить задержку"
+ },
+ {
+  "en": "forgive me if i'm missing something",
+  "ipa": "/fərˈɡɪv mi ɪf aɪm ˈmɪsɪŋ ˈsʌmθɪŋ/",
+  "ru": "прошу прощения, если что-то упускаю"
+ },
+ {
+  "en": "let's align on next steps",
+  "ipa": "/lɛts əˈlaɪn ɒn nɛkst stɛps/",
+  "ru": "согласуем дальнейшие шаги"
+ },
+ {
+  "en": "debrief",
+  "ipa": "/diːˈbriːf/",
+  "ru": "разбор полётов"
+ },
+ {
+  "en": "catch up",
+  "ipa": "/ˌkætʃ ˈʌp/",
+  "ru": "наверстать, синхронизироваться"
+ },
+ {
+  "en": "pull the plug",
+  "ipa": "/pʊl ðə plʌɡ/",
+  "ru": "закрыть проект"
+ },
+ {
+  "en": "percentage rollout",
+  "ipa": "/pərˈsɛntɪdʒ ˈroʊlaʊt/",
+  "ru": "постепенный выкат по проценту"
+ },
+ {
+  "en": "just a quick update",
+  "ipa": "/dʒʌst ə kwɪk ˈʌpdeɪt/",
+  "ru": "быстрое обновление"
+ },
+ {
+  "en": "endpoint",
+  "ipa": "/ˈendpɔɪnt/",
+  "ru": "конечная точка API"
+ },
+ {
+  "en": "refine user stories",
+  "ipa": "/rɪˈfaɪn ˈjuːzər ˈstɔriz/",
+  "ru": "уточнить пользовательские истории"
+ },
+ {
+  "en": "i'm not 100% on board with that",
+  "ipa": "/aɪm nɒt wʌn ˈhʌndrəd pərˈsɛnt ɒn bɔːrd wɪð ðæt/",
+  "ru": "я не полностью с этим согласен"
+ },
+ {
+  "en": "see the thread below for context",
+  "ipa": "/siː ðə θrɛd bɪˈloʊ fər ˈkɒntɛkst/",
+  "ru": "контекст смотрите в переписке ниже"
+ },
+ {
+  "en": "sync up",
+  "ipa": "/sɪŋk ʌp/",
+  "ru": "согласовать / переговорить"
+ },
+ {
+  "en": "push the envelope",
+  "ipa": "/pʊʃ ðə ˈenvəloʊp/",
+  "ru": "расширять возможности"
+ },
+ {
+  "en": "kill switch",
+  "ipa": "/kɪl swɪtʃ/",
+  "ru": "аварийное отключение функции"
+ },
+ {
+  "en": "to quickly summarize",
+  "ipa": "/tə ˈkwɪkli ˈsʌməˌraɪz/",
+  "ru": "кратко подведу итог"
+ },
+ {
+  "en": "release a patch",
+  "ipa": "/rɪˈliːs ə pætʃ/",
+  "ru": "выпустить патч"
+ },
+ {
+  "en": "that makes a lot of sense to me",
+  "ipa": "/ðæt meɪks ə lɒt əv sɛns tə mi/",
+  "ru": "это звучит очень разумно"
+ },
+ {
+  "en": "i'll keep this brief",
+  "ipa": "/aɪl kiːp ðɪs briːf/",
+  "ru": "буду краток"
+ },
+ {
+  "en": "on my radar",
+  "ipa": "/ɑːn maɪ ˈreɪdɑːr/",
+  "ru": "у меня на контроле"
+ },
+ {
+  "en": "align on",
+  "ipa": "/əˈlaɪn ˌɔːn/",
+  "ru": "договориться, выровняться"
+ },
+ {
+  "en": "config drift",
+  "ipa": "/ˈkɒnfɪɡ drɪft/",
+  "ru": "расхождение конфигураций сред"
+ },
+ {
+  "en": "long story short",
+  "ipa": "/lɔŋ ˈstɔri ʃɔrt/",
+  "ru": "короче говоря"
+ },
+ {
+  "en": "handshake",
+  "ipa": "/ˈhændʃeɪk/",
+  "ru": "рукопожатие, согласование"
+ },
+ {
+  "en": "report a bug",
+  "ipa": "/rɪˈpɔrt ə bʌɡ/",
+  "ru": "сообщить о баге"
+ },
+ {
+  "en": "could we put some numbers behind that",
+  "ipa": "/kʊd wi pʊt sʌm ˈnʌmbərz bɪˈhaɪnd ðæt/",
+  "ru": "подкрепим это цифрами"
+ },
+ {
+  "en": "table that",
+  "ipa": "/ˈteɪbl̩ ðæt/",
+  "ru": "отложить вопрос"
+ },
+ {
+  "en": "agree on",
+  "ipa": "/əˈɡriː ˌɔːn/",
+  "ru": "прийти к соглашению"
+ },
+ {
+  "en": "raise the bar",
+  "ipa": "/reɪz ðə bɑːr/",
+  "ru": "повысить стандарты"
+ },
+ {
+  "en": "environment parity",
+  "ipa": "/ɪnˈvaɪrənmənt ˈpærɪti/",
+  "ru": "одинаковость dev и prod окружений"
+ },
+ {
+  "en": "the bottom line is",
+  "ipa": "/ðə ˈbɑtəm laɪn ɪz/",
+  "ru": "суть в том что"
+ },
+ {
+  "en": "authentication",
+  "ipa": "/ɔːˌθentɪˈkeɪʃən/",
+  "ru": "аутентификация"
+ },
+ {
+  "en": "request a change",
+  "ipa": "/rɪˈkwɛst ə tʃeɪndʒ/",
+  "ru": "запросить изменение"
+ },
+ {
+  "en": "let's separate the two issues",
+  "ipa": "/lɛts ˈsɛpəreɪt ðə tuː ˈɪʃuːz/",
+  "ru": "разделим эти два вопроса"
+ },
+ {
+  "en": "this is blocking me",
+  "ipa": "/ðɪs ɪz ˈblɒkɪŋ miː/",
+  "ru": "это блокирует мою работу"
+ },
+ {
+  "en": "open the floor",
+  "ipa": "/ˈoʊpən ðə flɔːr/",
+  "ru": "дать слово всем"
+ },
+ {
+  "en": "sign up",
+  "ipa": "/ˌsaɪn ˈʌp/",
+  "ru": "зарегистрироваться, записаться"
+ },
+ {
+  "en": "ramp up",
+  "ipa": "/ræmp ʌp/",
+  "ru": "наращивать темп"
+ },
+ {
+  "en": "infra as code",
+  "ipa": "/ˈɪnfrə æz koʊd/",
+  "ru": "инфраструктура описанная кодом"
+ },
+ {
+  "en": "just to clarify",
+  "ipa": "/dʒʌst tə ˈklærɪˌfaɪ/",
+  "ru": "хочу уточнить"
+ },
+ {
+  "en": "authorization",
+  "ipa": "/ˌɔːθərɪˈzeɪʃən/",
+  "ru": "авторизация"
+ },
+ {
+  "en": "resolve a conflict",
+  "ipa": "/rɪˈzɑlv ə ˈkɑnflɪkt/",
+  "ru": "урегулировать конфликт"
+ },
+ {
+  "en": "to clarify my earlier point",
+  "ipa": "/tə ˈklærɪfaɪ maɪ ˈɜːrliər pɔɪnt/",
+  "ru": "уточню свою предыдущую мысль"
+ },
+ {
+  "en": "i need this by eod",
+  "ipa": "/aɪ niːd ðɪs baɪ iː oʊ diː/",
+  "ru": "нужно до конца рабочего дня"
+ },
+ {
+  "en": "any objections",
+  "ipa": "/ˈɛni əbˈdʒɛkʃənz/",
+  "ru": "есть возражения?"
+ },
+ {
+  "en": "sign on",
+  "ipa": "/ˌsaɪn ˈɔːn/",
+  "ru": "одобрить, подписаться под"
+ },
+ {
+  "en": "red flag",
+  "ipa": "/red flæɡ/",
+  "ru": "тревожный сигнал"
+ },
+ {
+  "en": "immutable infra",
+  "ipa": "/ɪˈmjuːtəbəl ˈɪnfrə/",
+  "ru": "инфраструктура без изменений на месте"
+ },
+ {
+  "en": "if i'm understanding correctly",
+  "ipa": "/ɪf aɪm ˌʌndərˈstændɪŋ kəˈrɛktli/",
+  "ru": "если правильно понимаю"
+ },
+ {
+  "en": "debounce",
+  "ipa": "/diːˈbaʊns/",
+  "ru": "устранять дребезг событий"
+ },
+ {
+  "en": "review a PR",
+  "ipa": "/rɪˈvju ə piː ɑr/",
+  "ru": "проверить пулл-реквест"
+ },
+ {
+  "en": "i think that's a separate conversation",
+  "ipa": "/aɪ θɪŋk ðæts ə ˈsɛprɪt ˌkɒnvərˈseɪʃən/",
+  "ru": "думаю, это отдельная тема"
+ },
+ {
+  "en": "happy to take this offline",
+  "ipa": "/ˈhæpi tə teɪk ðɪs ˈɒflaɪn/",
+  "ru": "готов обсудить отдельно"
+ },
+ {
+  "en": "we good?",
+  "ipa": "/wiː ɡʊd/",
+  "ru": "все согласны / всё ок?"
+ },
+ {
+  "en": "right-size",
+  "ipa": "/raɪt saɪz/",
+  "ru": "оптимизировать численность"
+ },
+ {
+  "en": "drift detection",
+  "ipa": "/drɪft dɪˈtɛkʃən/",
+  "ru": "обнаружение расхождений инфраструктуры"
+ },
+ {
+  "en": "let me make sure i follow",
+  "ipa": "/lɛt mi meɪk ʃʊr aɪ ˈfɑloʊ/",
+  "ru": "убедюсь что понял"
+ },
+ {
+  "en": "run a postmortem",
+  "ipa": "/rʌn ə ˈpoʊstˌmɔrtəm/",
+  "ru": "провести разбор инцидента"
+ },
+ {
+  "en": "i'm broadly supportive of this",
+  "ipa": "/aɪm ˈbrɔːdli səˈpɔːrtɪv əv ðɪs/",
+  "ru": "в целом поддерживаю это"
+ },
+ {
+  "en": "marking this as resolved",
+  "ipa": "/ˈmɑːrkɪŋ ðɪs æz rɪˈzɒlvd/",
+  "ru": "отмечаю как решённое"
+ },
+ {
+  "en": "thumbs up",
+  "ipa": "/θʌmz ʌp/",
+  "ru": "одобрение / согласие"
+ },
+ {
+  "en": "check off",
+  "ipa": "/ˌtʃɛk ˈɔːf/",
+  "ru": "отмечать выполненное"
+ },
+ {
+  "en": "risk appetite",
+  "ipa": "/rɪsk ˈæpɪtaɪt/",
+  "ru": "готовность к риску"
+ },
+ {
+  "en": "plan and apply",
+  "ipa": "/plæn ænd əˈplaɪ/",
+  "ru": "preview и применение изменений Terraform"
+ },
+ {
+  "en": "are we on the same page",
+  "ipa": "/ɑr wi ɑn ðə seɪm peɪdʒ/",
+  "ru": "мы понимаем одинаково"
+ },
+ {
+  "en": "groom",
+  "ipa": "/ɡruːm/",
+  "ru": "прорабатывать бэклог"
+ },
+ {
+  "en": "run a spike",
+  "ipa": "/rʌn ə spaɪk/",
+  "ru": "провести исследовательскую задачу"
+ },
+ {
+  "en": "what are the implications of that",
+  "ipa": "/wʌt ɑːr ðə ˌɪmplɪˈkeɪʃənz əv ðæt/",
+  "ru": "каковы последствия этого"
+ },
+ {
+  "en": "quick question:",
+  "ipa": "/kwɪk ˈkwɛstʃən/",
+  "ru": "быстрый вопрос:"
+ },
+ {
+  "en": "green light",
+  "ipa": "/ɡriːn laɪt/",
+  "ru": "разрешение продолжать"
+ },
+ {
+  "en": "tick off",
+  "ipa": "/ˌtɪk ˈɔːf/",
+  "ru": "вычеркнуть из списка"
+ },
+ {
+  "en": "road map",
+  "ipa": "/roʊd mæp/",
+  "ru": "план развития"
+ },
+ {
+  "en": "state lock",
+  "ipa": "/steɪt lɒk/",
+  "ru": "блокировка состояния Terraform"
+ },
+ {
+  "en": "just checking in",
+  "ipa": "/dʒʌst ˈtʃɛkɪŋ ɪn/",
+  "ru": "просто уточняю"
+ },
+ {
+  "en": "velocity",
+  "ipa": "/vəˈlɒsɪti/",
+  "ru": "скорость команды"
+ },
+ {
+  "en": "schedule a demo",
+  "ipa": "/ˈskɛdʒuːl ə ˈdɛmoʊ/",
+  "ru": "запланировать демо"
+ },
+ {
+  "en": "are you suggesting that",
+  "ipa": "/ɑːr ju səˈdʒɛstɪŋ ðæt/",
+  "ru": "вы предлагаете / имеете в виду"
+ },
+ {
+  "en": "fyi — no reply needed",
+  "ipa": "/ɛf waɪ aɪ noʊ rɪˈplaɪ ˈniːdɪd/",
+  "ru": "к сведению — ответ не нужен"
+ },
+ {
+  "en": "close out",
+  "ipa": "/ˌkloʊz ˈaʊt/",
+  "ru": "закрыть, завершить"
+ },
+ {
+  "en": "pod eviction",
+  "ipa": "/pɒd ɪˈvɪkʃən/",
+  "ru": "принудительное удаление пода"
+ },
+ {
+  "en": "feel free to chime in",
+  "ipa": "/fil fri tə tʃaɪm ɪn/",
+  "ru": "не стесняйтесь вступать"
+ },
+ {
+  "en": "capacity",
+  "ipa": "/kəˈpæsɪti/",
+  "ru": "производительность, объём"
+ },
+ {
+  "en": "scope a feature",
+  "ipa": "/skoʊp ə ˈfiːtʃər/",
+  "ru": "определить объём функции"
+ },
+ {
+  "en": "i want to make a distinction here",
+  "ipa": "/aɪ wɒnt tə meɪk ə dɪˈstɪŋkʃən hɪr/",
+  "ru": "хочу провести различие"
+ },
+ {
+  "en": "can we push this to next week?",
+  "ipa": "/kæn wiː pʊʃ ðɪs tə nɛkst wiːk/",
+  "ru": "можем перенести на следующую неделю?"
+ },
+ {
+  "en": "yellow flag",
+  "ipa": "/ˈjɛloʊ flæɡ/",
+  "ru": "предупреждение / риск"
+ },
+ {
+  "en": "close off",
+  "ipa": "/ˌkloʊz ˈɔːf/",
+  "ru": "закрыть доступ, прекратить"
+ },
+ {
+  "en": "scalable solution",
+  "ipa": "/ˈskeɪləbəl səˈluːʃən/",
+  "ru": "масштабируемое решение"
+ },
+ {
+  "en": "node pressure",
+  "ipa": "/noʊd ˈprɛʃər/",
+  "ru": "нехватка ресурсов на узле кластера"
+ },
+ {
+  "en": "anyone want to weigh in",
+  "ipa": "/ˈɛniwʌn wɑnt tə weɪ ɪn/",
+  "ru": "кто хочет высказаться"
+ },
+ {
+  "en": "set a priority",
+  "ipa": "/sɛt ə praɪˈɔrɪti/",
+  "ru": "установить приоритет"
+ },
+ {
+  "en": "let me come at this from a different angle",
+  "ipa": "/lɛt mi kʌm æt ðɪs frəm ə ˈdɪfrənt ˈæŋɡəl/",
+  "ru": "подойду к этому иначе"
+ },
+ {
+  "en": "please prioritize this",
+  "ipa": "/pliːz praɪˈɒrɪtaɪz ðɪs/",
+  "ru": "прошу приоритизировать это"
+ },
+ {
+  "en": "open up",
+  "ipa": "/ˌoʊpən ˈʌp/",
+  "ru": "открыть возможности"
+ },
+ {
+  "en": "sea change",
+  "ipa": "/siː tʃeɪndʒ/",
+  "ru": "кардинальные перемены"
+ },
+ {
+  "en": "resource quota",
+  "ipa": "/ˈriːsɔːrs ˈkwoʊtə/",
+  "ru": "лимиты ресурсов в namespace"
+ },
+ {
+  "en": "does that land okay",
+  "ipa": "/dʌz ðæt lænd ˈoʊkeɪ/",
+  "ru": "всё понятно"
+ },
+ {
+  "en": "set a roadmap",
+  "ipa": "/sɛt ə ˈroʊdmæp/",
+  "ru": "составить дорожную карту"
+ },
+ {
+  "en": "i'd stop short of saying that",
+  "ipa": "/aɪd stɒp ʃɔːrt əv ˈseɪɪŋ ðæt/",
+  "ru": "я бы не заходил так далеко"
+ },
+ {
+  "en": "wanted to surface this early",
+  "ipa": "/ˈwɒntɪd tə ˈsɜːrfɪs ðɪs ˈɜːrli/",
+  "ru": "хотел поднять это заранее"
+ },
+ {
+  "en": "sanity check",
+  "ipa": "/ˈsænɪti tʃɛk/",
+  "ru": "быстро убедиться в правильности"
+ },
+ {
+  "en": "tap into",
+  "ipa": "/ˌtæp ˈɪntʊ/",
+  "ru": "задействовать, использовать"
+ },
+ {
+  "en": "shift the paradigm",
+  "ipa": "/ʃɪft ðə ˈpærədaɪm/",
+  "ru": "сменить парадигму"
+ },
+ {
+  "en": "health check",
+  "ipa": "/hɛlθ tʃɛk/",
+  "ru": "проверка работоспособности сервиса"
+ },
+ {
+  "en": "is everyone still with me",
+  "ipa": "/ɪz ˈɛvriˌwʌn stɪl wɪð mi/",
+  "ru": "все ещё слушают меня"
+ },
+ {
+  "en": "friction",
+  "ipa": "/ˈfrɪkʃən/",
+  "ru": "трение, сопротивление"
+ },
+ {
+  "en": "share a concern",
+  "ipa": "/ʃɛr ə kənˈsɜrn/",
+  "ru": "высказать опасение"
+ },
+ {
+  "en": "can you help me understand the rationale",
+  "ipa": "/kæn ju hɛlp mi ˌʌndərˈstænd ðə ˈræʃəˌnæl/",
+  "ru": "помогите понять логику"
+ },
+ {
+  "en": "pulse check",
+  "ipa": "/pʌls tʃɛk/",
+  "ru": "замерить настрой команды"
+ },
+ {
+  "en": "build on",
+  "ipa": "/ˌbɪld ˈɔːn/",
+  "ru": "развивать, опираться на"
+ },
+ {
+  "en": "shoot for the moon",
+  "ipa": "/ʃuːt fər ðə muːn/",
+  "ru": "ставить высокие цели"
+ },
+ {
+  "en": "liveness probe",
+  "ipa": "/ˈlaɪvnəs proʊb/",
+  "ru": "проба живучести контейнера"
+ },
+ {
+  "en": "let me check the chat real quick",
+  "ipa": "/lɛt mi tʃɛk ðə tʃæt riəl kwɪk/",
+  "ru": "проверю чат быстро"
+ },
+ {
+  "en": "blocker",
+  "ipa": "/ˈblɒkər/",
+  "ru": "блокирующая проблема"
+ },
+ {
+  "en": "ship a product",
+  "ipa": "/ʃɪp ə ˈprɑdʌkt/",
+  "ru": "выпустить продукт"
+ },
+ {
+  "en": "i stand corrected",
+  "ipa": "/aɪ stænd kəˈrɛktɪd/",
+  "ru": "признаю свою ошибку"
+ },
+ {
+  "en": "happy to connect this week",
+  "ipa": "/ˈhæpi tə kəˈnɛkt ðɪs wiːk/",
+  "ru": "готов встретиться на этой неделе"
+ },
+ {
+  "en": "temperature check",
+  "ipa": "/ˈtɛmpərɪtʃər tʃɛk/",
+  "ru": "оценить общее настроение"
+ },
+ {
+  "en": "build up",
+  "ipa": "/ˌbɪld ˈʌp/",
+  "ru": "наращивать, создавать"
+ },
+ {
+  "en": "silo mentality",
+  "ipa": "/ˈsaɪloʊ menˈtælɪti/",
+  "ru": "изолированное мышление"
+ },
+ {
+  "en": "readiness probe",
+  "ipa": "/ˈrɛdinəs proʊb/",
+  "ru": "проба готовности принимать трафик"
+ },
+ {
+  "en": "i see a question in the chat",
+  "ipa": "/aɪ si ə ˈkwɛstʃən ɪn ðə tʃæt/",
+  "ru": "вижу вопрос в чате"
+ },
+ {
+  "en": "flag",
+  "ipa": "/flæɡ/",
+  "ru": "помечать, флаг"
+ },
+ {
+  "en": "sign off on",
+  "ipa": "/saɪn ɔf ɑn/",
+  "ru": "дать добро на"
+ },
+ {
+  "en": "that's a fair challenge",
+  "ipa": "/ðæts ə fɛr ˈtʃælɪndʒ/",
+  "ru": "это справедливое возражение"
+ },
+ {
+  "en": "let me know if this works",
+  "ipa": "/lɛt miː noʊ ɪf ðɪs wɜːrks/",
+  "ru": "дайте знать, если подходит"
+ },
+ {
+  "en": "call it out",
+  "ipa": "/kɔːl ɪt aʊt/",
+  "ru": "назвать проблему прямо"
+ },
+ {
+  "en": "fall behind",
+  "ipa": "/ˌfɔːl bɪˈhaɪnd/",
+  "ru": "отставать от графика"
+ },
+ {
+  "en": "silver bullet",
+  "ipa": "/ˈsɪlvər ˈbʊlɪt/",
+  "ru": "универсальное решение"
+ },
+ {
+  "en": "sidecar pattern",
+  "ipa": "/ˈsaɪdkɑːr ˈpætərn/",
+  "ru": "вспомогательный контейнер рядом с основным"
+ },
+ {
+  "en": "i'll drop a link in the chat",
+  "ipa": "/aɪl drɑp ə lɪŋk ɪn ðə tʃæt/",
+  "ru": "кину ссылку в чат"
+ },
+ {
+  "en": "surface",
+  "ipa": "/ˈsɜːrfɪs/",
+  "ru": "выносить на обсуждение"
+ },
+ {
+  "en": "simplify a process",
+  "ipa": "/ˈsɪmplɪfaɪ ə ˈprɑsɛs/",
+  "ru": "упростить процесс"
+ },
+ {
+  "en": "i see where you're coming from",
+  "ipa": "/aɪ siː wɛr jʊr ˈkʌmɪŋ frəm/",
+  "ru": "понимаю вашу позицию"
+ },
+ {
+  "en": "kindly revert on this",
+  "ipa": "/ˈkaɪndli rɪˈvɜːrt ɒn ðɪs/",
+  "ru": "прошу ответить на это"
+ },
+ {
+  "en": "fall through",
+  "ipa": "/ˌfɔːl ˈθruː/",
+  "ru": "сорваться, не состояться"
+ },
+ {
+  "en": "six sigma",
+  "ipa": "/sɪks ˈsɪɡmə/",
+  "ru": "методология качества"
+ },
+ {
+  "en": "service mesh",
+  "ipa": "/ˈsɜːrvɪs mɛʃ/",
+  "ru": "сеть управления трафиком между сервисами"
+ },
+ {
+  "en": "i'll send that over after the call",
+  "ipa": "/aɪl sɛnd ðæt ˈoʊvər ˈæftər ðə kɔl/",
+  "ru": "отправлю после звонка"
+ },
+ {
+  "en": "solve a problem",
+  "ipa": "/sɑlv ə ˈprɑbləm/",
+  "ru": "решить проблему"
+ },
+ {
+  "en": "i think we need to define our terms",
+  "ipa": "/aɪ θɪŋk wi niːd tə dɪˈfaɪn aʊər tɜːrmz/",
+  "ru": "нам нужно договориться о понятиях"
+ },
+ {
+  "en": "i'll be out of office starting",
+  "ipa": "/aɪl biː aʊt ɒv ˈɒfɪs ˈstɑːrtɪŋ/",
+  "ru": "я буду не в офисе с"
+ },
+ {
+  "en": "FYI",
+  "ipa": "/ˌɛf waɪ ˈaɪ/",
+  "ru": "к вашему сведению"
+ },
+ {
+  "en": "fall back on",
+  "ipa": "/ˌfɔːl ˈbæk ɔːn/",
+  "ru": "прибегнуть к запасному варианту"
+ },
+ {
+  "en": "soft launch",
+  "ipa": "/sɒft lɔːntʃ/",
+  "ru": "мягкий запуск"
+ },
+ {
+  "en": "mTLS",
+  "ipa": "/ɛm tiː ɛl ɛs/",
+  "ru": "взаимная TLS аутентификация"
+ },
+ {
+  "en": "let's sync up offline",
+  "ipa": "/lɛts sɪŋk ʌp ˈɔfˌlaɪn/",
+  "ru": "обсудим вне звонка"
+ },
+ {
+  "en": "clarify",
+  "ipa": "/ˈklærɪfaɪ/",
+  "ru": "уточнять, разъяснять"
+ },
+ {
+  "en": "spin up a service",
+  "ipa": "/spɪn ʌp ə ˈsɜrvɪs/",
+  "ru": "запустить сервис"
+ },
+ {
+  "en": "can we hold that thought for now",
+  "ipa": "/kæn wi hoʊld ðæt θɔːt fər naʊ/",
+  "ru": "можем вернуться к этому позже"
+ },
+ {
+  "en": "who's the right person to talk to about this?",
+  "ipa": "/huːz ðə raɪt ˈpɜːrsən tə tɔːk tə əˈbaʊt ðɪs/",
+  "ru": "кто отвечает за это?"
+ },
+ {
+  "en": "ASAP",
+  "ipa": "/ˌeɪ ɛs eɪ ˈpiː/",
+  "ru": "как можно скорее"
+ },
+ {
+  "en": "run through",
+  "ipa": "/ˌrʌn ˈθruː/",
+  "ru": "пробежаться, пройтись"
+ },
+ {
+  "en": "spin up",
+  "ipa": "/spɪn ʌp/",
+  "ru": "запустить быстро"
+ },
+ {
+  "en": "zero-trust",
+  "ipa": "/ˈzɪroʊ trʌst/",
+  "ru": "архитектура без доверия по умолчанию"
+ },
+ {
+  "en": "can we schedule a follow-up",
+  "ipa": "/kæn wi ˈskɛdʒuəl ə ˈfɑloʊ ʌp/",
+  "ru": "запланируем следующий звонок"
+ },
+ {
+  "en": "specify",
+  "ipa": "/ˈspesɪfaɪ/",
+  "ru": "конкретизировать"
+ },
+ {
+  "en": "split a ticket",
+  "ipa": "/splɪt ə ˈtɪkɪt/",
+  "ru": "разбить тикет"
+ },
+ {
+  "en": "my concern is that",
+  "ipa": "/maɪ kənˈsɜːrn ɪz ðæt/",
+  "ru": "мое опасение в том, что"
+ },
+ {
+  "en": "copying in my colleague",
+  "ipa": "/ˈkɒpiɪŋ ɪn maɪ ˈkɒliːɡ/",
+  "ru": "включаю коллегу в копию"
+ },
+ {
+  "en": "offline discussion",
+  "ipa": "/ˈɔːflaɪn dɪˈskʌʃən/",
+  "ru": "обсудить вне встречи"
+ },
+ {
+  "en": "run by",
+  "ipa": "/ˌrʌn ˈbaɪ/",
+  "ru": "согласовать, обсудить с кем-то"
+ },
+ {
+  "en": "stakeholder alignment",
+  "ipa": "/ˈsteɪkhoʊldər əˈlaɪnmənt/",
+  "ru": "согласование с участниками"
+ },
+ {
+  "en": "supply chain attack",
+  "ipa": "/səˈplaɪ tʃeɪn əˈtæk/",
+  "ru": "атака через зависимости"
+ },
+ {
+  "en": "i'll send out a calendar invite",
+  "ipa": "/aɪl sɛnd aʊt ə ˈkæləndər ˈɪnvaɪt/",
+  "ru": "создам приглашение в календарь"
+ },
+ {
+  "en": "estimate",
+  "ipa": "/ˈestɪmɪt/",
+  "ru": "оценивать трудозатраты"
+ },
+ {
+  "en": "to put a finer point on it",
+  "ipa": "/tə pʊt ə ˈfaɪnər pɔɪnt ɒn ɪt/",
+  "ru": "если говорить точнее"
+ },
+ {
+  "en": "standing agenda item:",
+  "ipa": "/ˈstændɪŋ əˈdʒɛndə ˈaɪtəm/",
+  "ru": "постоянный пункт повестки:"
+ },
+ {
+  "en": "round-robin",
+  "ipa": "/ˈraʊnd ˈrɑːbɪn/",
+  "ru": "отчёт по кругу"
+ },
+ {
+  "en": "run out of",
+  "ipa": "/ˌrʌn ˈaʊt əv/",
+  "ru": "закончиться, иссякнуть"
+ },
+ {
+  "en": "status quo",
+  "ipa": "/ˈsteɪtəs kwoʊ/",
+  "ru": "нынешнее положение"
+ },
+ {
+  "en": "dependency pinning",
+  "ipa": "/dɪˈpɛndənsi ˈpɪnɪŋ/",
+  "ru": "фиксация версий зависимостей"
+ },
+ {
+  "en": "nice to see everyone",
+  "ipa": "/naɪs tə si ˈɛvriˌwʌn/",
+  "ru": "рад видеть всех"
+ },
+ {
+  "en": "annotate",
+  "ipa": "/ˈænəteɪt/",
+  "ru": "аннотировать, комментировать"
+ },
+ {
+  "en": "streamline a workflow",
+  "ipa": "/ˈstriːmlaɪn ə ˈwɜrkfloʊ/",
+  "ru": "оптимизировать рабочий процесс"
+ },
+ {
+  "en": "i think we all agree that",
+  "ipa": "/aɪ θɪŋk wi ɔːl əˈɡriː ðæt/",
+  "ru": "думаю, мы все согласны, что"
+ },
+ {
+  "en": "documenting this here for reference",
+  "ipa": "/ˈdɒkjʊmɛntɪŋ ðɪs hɪər fər ˈrɛfərəns/",
+  "ru": "фиксирую здесь для справки"
+ },
+ {
+  "en": "run over",
+  "ipa": "/ˌrʌn ˈoʊvər/",
+  "ru": "превысить время/объём"
+ },
+ {
+  "en": "step up to the plate",
+  "ipa": "/step ʌp tuː ðə pleɪt/",
+  "ru": "взять ответственность"
+ },
+ {
+  "en": "CVE scan",
+  "ipa": "/siː viː iː skæn/",
+  "ru": "поиск известных уязвимостей"
+ },
+ {
+  "en": "glad you could make it",
+  "ipa": "/ɡlæd ju kʊd meɪk ɪt/",
+  "ru": "рад что смогли присоединиться"
+ },
+ {
+  "en": "approve",
+  "ipa": "/əˈpruːv/",
+  "ru": "утверждать, аппрувить"
+ },
+ {
+  "en": "submit a report",
+  "ipa": "/səbˈmɪt ə rɪˈpɔrt/",
+  "ru": "подать отчёт"
+ },
+ {
+  "en": "let me push back gently on that",
+  "ipa": "/lɛt mi pʊʃ bæk ˈdʒɛntli ɒn ðæt/",
+  "ru": "осторожно возражу по этому поводу"
+ },
+ {
+  "en": "as agreed",
+  "ipa": "/æz əˈɡriːd/",
+  "ru": "как договорились"
+ },
+ {
+  "en": "go over",
+  "ipa": "/ˌɡoʊ ˈoʊvər/",
+  "ru": "просмотреть, обсудить"
+ },
+ {
+  "en": "strategic fit",
+  "ipa": "/strəˈtiːdʒɪk fɪt/",
+  "ru": "стратегическое соответствие"
+ },
+ {
+  "en": "secret rotation",
+  "ipa": "/ˈsiːkrɪt roʊˈteɪʃən/",
+  "ru": "плановая смена секретов/ключей"
+ },
+ {
+  "en": "how's everyone doing today",
+  "ipa": "/haʊz ˈɛvriˌwʌn ˈduɪŋ təˈdeɪ/",
+  "ru": "как вы сегодня"
+ },
+ {
+  "en": "revert",
+  "ipa": "/rɪˈvɜːrt/",
+  "ru": "откатить изменения"
+ },
+ {
+  "en": "surface a risk",
+  "ipa": "/ˈsɜrfɪs ə rɪsk/",
+  "ru": "обозначить риск"
+ },
+ {
+  "en": "not to go off on a tangent, but",
+  "ipa": "/nɒt tə ɡoʊ ɒf ɒn ə ˈtændʒənt bʌt/",
+  "ru": "не отвлекаясь от темы, но"
+ },
+ {
+  "en": "putting this on the radar",
+  "ipa": "/ˈpʊtɪŋ ðɪs ɒn ðə ˈreɪdɑːr/",
+  "ru": "выношу это на обсуждение"
+ },
+ {
+  "en": "take it away",
+  "ipa": "/teɪk ɪt əˈweɪ/",
+  "ru": "начинайте / ваш выход"
+ },
+ {
+  "en": "go through",
+  "ipa": "/ˌɡoʊ ˈθruː/",
+  "ru": "пройти процесс, разобрать"
+ },
+ {
+  "en": "least privilege",
+  "ipa": "/liːst ˈprɪvɪlɪdʒ/",
+  "ru": "минимальные необходимые права"
+ },
+ {
+  "en": "hope you're all having a good week",
+  "ipa": "/hoʊp jʊr ɔl ˈhævɪŋ ə ɡʊd wik/",
+  "ru": "надеюсь неделя хорошая"
+ },
+ {
+  "en": "squash",
+  "ipa": "/skwɒʃ/",
+  "ru": "объединять коммиты"
+ },
+ {
+  "en": "sync with the team",
+  "ipa": "/sɪŋk wɪð ðə tiːm/",
+  "ru": "синхронизироваться с командой"
+ },
+ {
+  "en": "that depends on how you look at it",
+  "ipa": "/ðæt dɪˈpɛndz ɒn haʊ ju lʊk æt ɪt/",
+  "ru": "зависит от того, как смотреть"
+ },
+ {
+  "en": "can you own this?",
+  "ipa": "/kæn juː oʊn ðɪs/",
+  "ru": "возьмёте это на себя?"
+ },
+ {
+  "en": "let's get started",
+  "ipa": "/lɛts ɡɛt ˈstɑːrtɪd/",
+  "ru": "начнём / поехали"
+ },
+ {
+  "en": "go ahead",
+  "ipa": "/ˌɡoʊ əˈhɛd/",
+  "ru": "продолжать, давать добро"
+ },
+ {
+  "en": "table stakes",
+  "ipa": "/ˈteɪbəl steɪks/",
+  "ru": "минимальный порог"
+ },
+ {
+  "en": "shift left",
+  "ipa": "/ʃɪft lɛft/",
+  "ru": "перенос проверок раньше в цикле"
+ },
+ {
+  "en": "before we dive in",
+  "ipa": "/bɪˈfɔr wi daɪv ɪn/",
+  "ru": "прежде чем начнём"
+ },
+ {
+  "en": "rebase",
+  "ipa": "/riːˈbeɪs/",
+  "ru": "перебазировать ветку"
+ },
+ {
+  "en": "tackle a challenge",
+  "ipa": "/ˈtækəl ə ˈtʃælɪndʒ/",
+  "ru": "справиться с вызовом"
+ },
+ {
+  "en": "can i check my understanding",
+  "ipa": "/kæn aɪ tʃɛk maɪ ˌʌndərˈstændɪŋ/",
+  "ru": "позвольте проверить своё понимание"
+ },
+ {
+  "en": "appreciate your help with this",
+  "ipa": "/əˈpriːʃieɪt jər hɛlp wɪð ðɪs/",
+  "ru": "ценю вашу помощь с этим"
+ },
+ {
+  "en": "agenda item",
+  "ipa": "/əˈdʒɛndə ˈaɪtəm/",
+  "ru": "пункт повестки"
+ },
+ {
+  "en": "go with",
+  "ipa": "/ˌɡoʊ ˈwɪð/",
+  "ru": "остановиться на варианте"
+ },
+ {
+  "en": "inner loop",
+  "ipa": "/ˈɪnər luːp/",
+  "ru": "локальный цикл разработки"
+ },
+ {
+  "en": "let's do a quick round of intros",
+  "ipa": "/lɛts du ə kwɪk raʊnd əv ˈɪntroʊz/",
+  "ru": "быстрое знакомство по кругу"
+ },
+ {
+  "en": "fork",
+  "ipa": "/fɔːrk/",
+  "ru": "форкать репозиторий"
+ },
+ {
+  "en": "take action items",
+  "ipa": "/teɪk ˈækʃən ˈaɪtəmz/",
+  "ru": "взять пункты действий"
+ },
+ {
+  "en": "the way i read the situation is",
+  "ipa": "/ðə weɪ aɪ riːd ðə ˌsɪtʃuˈeɪʃən ɪz/",
+  "ru": "я читаю ситуацию так"
+ },
+ {
+  "en": "i'll check and get back to you",
+  "ipa": "/aɪl tʃɛk ænd ɡɛt bæk tə juː/",
+  "ru": "уточню и вернусь к вам"
+ },
+ {
+  "en": "any blockers?",
+  "ipa": "/ˈɛni ˈblɑːkərz/",
+  "ru": "есть что мешает?"
+ },
+ {
+  "en": "go back on",
+  "ipa": "/ˌɡoʊ ˈbæk ɔːn/",
+  "ru": "нарушить договорённость"
+ },
+ {
+  "en": "talk track",
+  "ipa": "/tɔːk træk/",
+  "ru": "скрипт переговоров"
+ },
+ {
+  "en": "outer loop",
+  "ipa": "/ˈaʊtər luːp/",
+  "ru": "цикл CI/CD после пуша"
+ },
+ {
+  "en": "i think we have a new face here",
+  "ipa": "/aɪ θɪŋk wi hæv ə nu feɪs hɪr/",
+  "ru": "кажется, есть новый участник"
+ },
+ {
+  "en": "release",
+  "ipa": "/rɪˈliːs/",
+  "ru": "выпускать релиз"
+ },
+ {
+  "en": "track a dependency",
+  "ipa": "/træk ə dɪˈpɛndənsi/",
+  "ru": "отслеживать зависимость"
+ },
+ {
+  "en": "i think there's a nuance worth noting",
+  "ipa": "/aɪ θɪŋk ðɛrz ə ˈnjuːɑːns wɜːrθ ˈnoʊtɪŋ/",
+  "ru": "есть нюанс, достойный внимания"
+ },
+ {
+  "en": "great catch",
+  "ipa": "/ɡreɪt kætʃ/",
+  "ru": "хорошо замечено"
+ },
+ {
+  "en": "burn down",
+  "ipa": "/bɜːrn daʊn/",
+  "ru": "выполнять задачи из беклога"
+ },
+ {
+  "en": "tie up",
+  "ipa": "/ˌtaɪ ˈʌp/",
+  "ru": "завершить дела, связать"
+ },
+ {
+  "en": "the ask",
+  "ipa": "/ðə æsk/",
+  "ru": "запрос, просьба"
+ },
+ {
+  "en": "branch protection",
+  "ipa": "/bræntʃ prəˈtɛkʃən/",
+  "ru": "правила защиты ветки"
+ },
+ {
+  "en": "would you like to introduce yourself",
+  "ipa": "/wʊd ju laɪk tə ˌɪntrəˈdus jərˈsɛlf/",
+  "ru": "хотите представиться"
+ },
+ {
+  "en": "changelog",
+  "ipa": "/ˈtʃeɪndʒlɒɡ/",
+  "ru": "журнал изменений"
+ },
+ {
+  "en": "track progress",
+  "ipa": "/træk ˈprɑɡrɛs/",
+  "ru": "отслеживать прогресс"
+ },
+ {
+  "en": "let's not conflate the two",
+  "ipa": "/lɛts nɒt kənˈfleɪt ðə tuː/",
+  "ru": "не будем путать эти два понятия"
+ },
+ {
+  "en": "pinging you here",
+  "ipa": "/ˈpɪŋɪŋ juː hɪər/",
+  "ru": "пишу вам здесь"
+ },
+ {
+  "en": "wrap around",
+  "ipa": "/ˌræp əˈraʊnd/",
+  "ru": "охватывать, обобщать"
+ },
+ {
+  "en": "think big",
+  "ipa": "/θɪŋk bɪɡ/",
+  "ru": "мыслить масштабно"
+ },
+ {
+  "en": "required review",
+  "ipa": "/rɪˈkwaɪərd rɪˈvjuː/",
+  "ru": "обязательное ревью перед мержем"
+ },
+ {
+  "en": "let me mute myself real quick",
+  "ipa": "/lɛt mi mjut maɪˈsɛlf riəl kwɪk/",
+  "ru": "быстро отключу микрофон"
+ },
+ {
+  "en": "sunset",
+  "ipa": "/ˈsʌnset/",
+  "ru": "выводить из эксплуатации"
+ },
+ {
+  "en": "transfer knowledge",
+  "ipa": "/ˈtrænsfɜr ˈnɑlɪdʒ/",
+  "ru": "передать знания"
+ },
+ {
+  "en": "i can see both sides of this",
+  "ipa": "/aɪ kæn siː boʊθ saɪdz əv ðɪs/",
+  "ru": "я вижу обе стороны"
+ },
+ {
+  "en": "one more thing before we close",
+  "ipa": "/wʌn mɔːr θɪŋ bɪˈfɔːr wiː kloʊz/",
+  "ru": "ещё одно перед завершением"
+ },
+ {
+  "en": "sprint review",
+  "ipa": "/sprɪnt rɪˈvjuː/",
+  "ru": "обзор результатов спринта"
+ },
+ {
+  "en": "throw under the bus",
+  "ipa": "/θroʊ ˈʌndər ðə bʌs/",
+  "ru": "подставить коллегу"
+ },
+ {
+  "en": "squash merge",
+  "ipa": "/skwɒʃ mɜːrdʒ/",
+  "ru": "слияние в один коммит"
+ },
+ {
+  "en": "there's some background noise",
+  "ipa": "/ðɛrz sʌm ˈbækˌɡraʊnd nɔɪz/",
+  "ru": "слышен фоновый шум"
+ },
+ {
+  "en": "decommission",
+  "ipa": "/ˌdiːkəˈmɪʃən/",
+  "ru": "выводить из строя"
+ },
+ {
+  "en": "triage a bug",
+  "ipa": "/triˈɑʒ ə bʌɡ/",
+  "ru": "триажировать баг"
+ },
+ {
+  "en": "could you unpack that for me",
+  "ipa": "/kʊd ju ʌnˈpæk ðæt fər mi/",
+  "ru": "объясните это подробнее"
+ },
+ {
+  "en": "retro",
+  "ipa": "/ˈrɛtroʊ/",
+  "ru": "ретроспектива спринта"
+ },
+ {
+  "en": "double down",
+  "ipa": "/ˌdʌbəl ˈdaʊn/",
+  "ru": "усилить усилия, удвоить ставку"
+ },
+ {
+  "en": "tie the knot",
+  "ipa": "/taɪ ðə nɒt/",
+  "ru": "завершить сделку"
+ },
+ {
+  "en": "rebase and merge",
+  "ipa": "/ˌriːˈbeɪs ænd mɜːrdʒ/",
+  "ru": "перебазирование перед слиянием"
+ },
+ {
+  "en": "i'll turn off my camera for a sec",
+  "ipa": "/aɪl tɜrn ɔf maɪ ˈkæmərə fər ə sɛk/",
+  "ru": "выключу камеру на секунду"
+ },
+ {
+  "en": "containerize",
+  "ipa": "/kənˈteɪnəraɪz/",
+  "ru": "контейнеризировать"
+ },
+ {
+  "en": "unblock a teammate",
+  "ipa": "/ˌʌnˈblɑk ə ˈtiːmmeɪt/",
+  "ru": "разблокировать коллегу"
+ },
+ {
+  "en": "just to ground this in reality",
+  "ipa": "/dʒʌst tə ɡraʊnd ðɪs ɪn riˈælɪti/",
+  "ru": "вернёмся к реальности"
+ },
+ {
+  "en": "story points",
+  "ipa": "/ˈstɔːri pɔɪnts/",
+  "ru": "очки оценки задачи"
+ },
+ {
+  "en": "double check",
+  "ipa": "/ˌdʌbəl ˈtʃɛk/",
+  "ru": "перепроверить"
+ },
+ {
+  "en": "time to market",
+  "ipa": "/taɪm tuː ˈmɑːrkɪt/",
+  "ru": "срок выхода на рынок"
+ },
+ {
+  "en": "cherry pick",
+  "ipa": "/ˈtʃɛri pɪk/",
+  "ru": "перенос отдельного коммита"
+ },
+ {
+  "en": "i'm back, sorry about that",
+  "ipa": "/aɪm bæk ˈsɑri əˈbaʊt ðæt/",
+  "ru": "вернулся, простите"
+ },
+ {
+  "en": "namespace",
+  "ipa": "/ˈneɪmspeɪs/",
+  "ru": "пространство имён"
+ },
+ {
+  "en": "update a status",
+  "ipa": "/ʌpˈdeɪt ə ˈsteɪtəs/",
+  "ru": "обновить статус"
+ },
+ {
+  "en": "i'd be cautious about that conclusion",
+  "ipa": "/aɪd bi ˈkɔːʃəs əˈbaʊt ðæt kənˈkluːʒən/",
+  "ru": "я бы осторожнее с таким выводом"
+ },
+ {
+  "en": "spike",
+  "ipa": "/spaɪk/",
+  "ru": "исследовательская задача"
+ },
+ {
+  "en": "bump up",
+  "ipa": "/ˌbʌmp ˈʌp/",
+  "ru": "повысить, увеличить"
+ },
+ {
+  "en": "top line",
+  "ipa": "/tɒp laɪn/",
+  "ru": "выручка"
+ },
+ {
+  "en": "git bisect",
+  "ipa": "/ɡɪt ˈbaɪsɛkt/",
+  "ru": "бинарный поиск регрессии в истории"
+ },
+ {
+  "en": "can you scroll down a bit",
+  "ipa": "/kæn ju skroʊl daʊn ə bɪt/",
+  "ru": "прокрутите вниз немного"
+ },
+ {
+  "en": "deadlock",
+  "ipa": "/ˈdedlɒk/",
+  "ru": "взаимная блокировка"
+ },
+ {
+  "en": "validate assumptions",
+  "ipa": "/ˈvælɪdeɪt əˈsʌmpʃənz/",
+  "ru": "подтвердить допущения"
+ },
+ {
+  "en": "could we zoom out for a second",
+  "ipa": "/kʊd wi zuːm aʊt fər ə ˈsɛkənd/",
+  "ru": "можем взглянуть шире на секунду"
+ },
+ {
+  "en": "call to action",
+  "ipa": "/kɔːl tə ˈækʃən/",
+  "ru": "конкретный следующий шаг"
+ },
+ {
+  "en": "bump into",
+  "ipa": "/ˌbʌmp ˈɪntʊ/",
+  "ru": "случайно встретить"
+ },
+ {
+  "en": "traction",
+  "ipa": "/ˈtrækʃən/",
+  "ru": "темп роста"
+ },
+ {
+  "en": "blame",
+  "ipa": "/bleɪm/",
+  "ru": "история изменений строки кода"
+ },
+ {
+  "en": "could you zoom in on that",
+  "ipa": "/kʊd ju zum ɪn ɑn ðæt/",
+  "ru": "увеличьте это пожалуйста"
+ },
+ {
+  "en": "callback",
+  "ipa": "/ˈkɔːlbæk/",
+  "ru": "функция обратного вызова"
+ },
+ {
+  "en": "write acceptance criteria",
+  "ipa": "/raɪt əkˈsɛptəns kraɪˈtɪriə/",
+  "ru": "написать критерии приёмки"
+ },
+ {
+  "en": "next steps",
+  "ipa": "/nɛkst stɛps/",
+  "ru": "дальнейшие действия"
+ },
+ {
+  "en": "throw in",
+  "ipa": "/ˌθroʊ ˈɪn/",
+  "ru": "добавить, включить в пакет"
+ },
+ {
+  "en": "turn the ship around",
+  "ipa": "/tɜːrn ðə ʃɪp əˈraʊnd/",
+  "ru": "изменить курс"
+ },
+ {
+  "en": "stash",
+  "ipa": "/stæʃ/",
+  "ru": "временное сохранение незакоммиченных изменений"
+ },
+ {
+  "en": "sorry, you go ahead",
+  "ipa": "/ˈsɑri ju ɡoʊ əˈhɛd/",
+  "ru": "прошу вас, говорите"
+ },
+ {
+  "en": "hook",
+  "ipa": "/hʊk/",
+  "ru": "хук, точка расширения"
+ },
+ {
+  "en": "write a spec",
+  "ipa": "/raɪt ə spɛk/",
+  "ru": "написать спецификацию"
+ },
+ {
+  "en": "decision log",
+  "ipa": "/dɪˈsɪʒən lɔːɡ/",
+  "ru": "журнал принятых решений"
+ },
+ {
+  "en": "throw out",
+  "ipa": "/ˌθroʊ ˈaʊt/",
+  "ru": "отбросить идею"
+ },
+ {
+  "en": "under the hood",
+  "ipa": "/ˈʌndər ðə hʊd/",
+  "ru": "внутри системы"
+ },
+ {
+  "en": "worktree",
+  "ipa": "/ˈwɜːrkˌtriː/",
+  "ru": "несколько рабочих деревьев git"
+ },
+ {
+  "en": "i didn't catch the last part",
+  "ipa": "/aɪ ˈdɪdnt kætʃ ðə læst pɑrt/",
+  "ru": "не расслышал последнее"
+ },
+ {
+  "en": "middleware",
+  "ipa": "/ˈmɪdəlwer/",
+  "ru": "промежуточный обработчик"
+ },
+ {
+  "en": "accelerate delivery",
+  "ipa": "/əkˈsɛləreɪt dɪˈlɪvəri/",
+  "ru": "ускорить поставку"
+ },
+ {
+  "en": "consensus",
+  "ipa": "/kənˈsɛnsəs/",
+  "ru": "общее согласие"
+ },
+ {
+  "en": "flag up",
+  "ipa": "/ˌflæɡ ˈʌp/",
+  "ru": "отметить, обратить внимание"
+ },
+ {
+  "en": "unique selling point",
+  "ipa": "/juːˈniːk ˈselɪŋ pɔɪnt/",
+  "ru": "уникальное преимущество"
+ },
+ {
+  "en": "artifact registry",
+  "ipa": "/ˈɑːrtɪfækt ˈrɛdʒɪstri/",
+  "ru": "хранилище артефактов сборки"
+ },
+ {
+  "en": "one moment, please",
+  "ipa": "/wʌn ˈmoʊmənt pliz/",
+  "ru": "одну минуту"
+ },
+ {
+  "en": "wrapper",
+  "ipa": "/ˈræpər/",
+  "ru": "обёртка, адаптер"
+ },
+ {
+  "en": "achieve a target",
+  "ipa": "/əˈtʃiːv ə ˈtɑrɡɪt/",
+  "ru": "достичь цели"
+ },
+ {
+  "en": "two cents",
+  "ipa": "/tuː sɛnts/",
+  "ru": "своё мнение / коротко"
+ },
+ {
+  "en": "call out",
+  "ipa": "/ˌkɔːl ˈaʊt/",
+  "ru": "указать на проблему"
+ },
+ {
+  "en": "unpack that",
+  "ipa": "/ʌnˈpæk ðæt/",
+  "ru": "разобрать подробнее"
+ },
+ {
+  "en": "image digest",
+  "ipa": "/ˈɪmɪdʒ ˈdaɪdʒɛst/",
+  "ru": "хэш образа контейнера"
+ },
+ {
+  "en": "we're almost out of time",
+  "ipa": "/wɪr ˈɔlmoʊst aʊt əv taɪm/",
+  "ru": "время почти вышло"
+ },
+ {
+  "en": "facade",
+  "ipa": "/fəˈsɑːd/",
+  "ru": "фасад (паттерн)"
+ },
+ {
+  "en": "address a bottleneck",
+  "ipa": "/əˈdrɛs ə ˈbɑtlnɛk/",
+  "ru": "устранить узкое место"
+ },
+ {
+  "en": "take a step back",
+  "ipa": "/teɪk ə stɛp bæk/",
+  "ru": "посмотреть шире"
+ },
+ {
+  "en": "call off",
+  "ipa": "/ˌkɔːl ˈɔːf/",
+  "ru": "отменить встречу/задачу"
+ },
+ {
+  "en": "value proposition",
+  "ipa": "/ˈvæljuː ˌprɒpəˈzɪʃən/",
+  "ru": "ценностное предложение"
+ },
+ {
+  "en": "multi-stage build",
+  "ipa": "/ˈmʌlti steɪdʒ bɪld/",
+  "ru": "многоэтапная сборка Docker-образа"
+ },
+ {
+  "en": "let's save that for next time",
+  "ipa": "/lɛts seɪv ðæt fər nɛkst taɪm/",
+  "ru": "оставим это на следующий раз"
+ },
+ {
+  "en": "injection",
+  "ipa": "/ɪnˈdʒekʃən/",
+  "ru": "внедрение зависимостей"
+ },
+ {
+  "en": "align on goals",
+  "ipa": "/əˈlaɪn ɑn ɡoʊlz/",
+  "ru": "согласовать цели"
+ },
+ {
+  "en": "revisit",
+  "ipa": "/riːˈvɪzɪt/",
+  "ru": "вернуться к вопросу"
+ },
+ {
+  "en": "call for",
+  "ipa": "/ˌkɔːl ˈfɔːr/",
+  "ru": "требовать, призывать"
+ },
+ {
+  "en": "walk back",
+  "ipa": "/wɔːk bæk/",
+  "ru": "отказаться от слов"
+ },
+ {
+  "en": "layer caching",
+  "ipa": "/ˈleɪər ˈkæʃɪŋ/",
+  "ru": "кэширование слоёв Docker"
+ },
+ {
+  "en": "i'll ping you after",
+  "ipa": "/aɪl pɪŋ ju ˈæftər/",
+  "ru": "напишу тебе после"
+ },
+ {
+  "en": "override",
+  "ipa": "/ˌoʊvərˈraɪd/",
+  "ru": "переопределять"
+ },
+ {
+  "en": "analyze a failure",
+  "ipa": "/ˈænəlaɪz ə ˈfeɪljər/",
+  "ru": "проанализировать сбой"
+ },
+ {
+  "en": "keep it brief",
+  "ipa": "/kiːp ɪt briːf/",
+  "ru": "говорить кратко"
+ },
+ {
+  "en": "back up",
+  "ipa": "/ˌbæk ˈʌp/",
+  "ru": "поддержать, сделать резервную копию"
+ },
+ {
+  "en": "war room",
+  "ipa": "/wɔːr ruːm/",
+  "ru": "штаб антикризисный"
+ },
+ {
+  "en": "base image",
+  "ipa": "/beɪs ˈɪmɪdʒ/",
+  "ru": "базовый образ контейнера"
+ },
+ {
+  "en": "thanks, this was really helpful",
+  "ipa": "/θæŋks ðɪs wəz ˈrɪəli ˈhɛlpfəl/",
+  "ru": "спасибо, было очень полезно"
+ },
+ {
+  "en": "inherit",
+  "ipa": "/ɪnˈherɪt/",
+  "ru": "наследовать"
+ },
+ {
+  "en": "balance workload",
+  "ipa": "/ˈbæləns ˈwɜrkloʊd/",
+  "ru": "распределить нагрузку"
+ },
+ {
+  "en": "chime in",
+  "ipa": "/tʃaɪm ɪn/",
+  "ru": "вставить слово / добавить"
+ },
+ {
+  "en": "back down",
+  "ipa": "/ˌbæk ˈdaʊn/",
+  "ru": "отступить, сдать позиции"
+ },
+ {
+  "en": "waterfall approach",
+  "ipa": "/ˈwɔːtərfɔːl əˈproʊtʃ/",
+  "ru": "последовательный метод"
+ },
+ {
+  "en": "distroless",
+  "ipa": "/ˈdɪstroʊlɪs/",
+  "ru": "минимальный образ без ОС-инструментов"
+ },
+ {
+  "en": "polymorphism",
+  "ipa": "/ˌpɒlɪˈmɔːrfɪzəm/",
+  "ru": "полиморфизм"
+ },
+ {
+  "en": "benchmark performance",
+  "ipa": "/ˈbɛntʃmɑrk pərˈfɔrməns/",
+  "ru": "измерить производительность"
+ },
+ {
+  "en": "weigh in",
+  "ipa": "/weɪ ɪn/",
+  "ru": "высказать своё мнение"
+ },
+ {
+  "en": "back out",
+  "ipa": "/ˌbæk ˈaʊt/",
+  "ru": "отказаться от обязательств"
+ },
+ {
+  "en": "whiteboard session",
+  "ipa": "/ˈwaɪtbɔːrd ˈseʃən/",
+  "ru": "совместный мозговой штурм"
+ },
+ {
+  "en": "scratch image",
+  "ipa": "/skrætʃ ˈɪmɪdʒ/",
+  "ru": "пустой базовый образ"
+ },
+ {
+  "en": "heuristic",
+  "ipa": "/hjʊˈrɪstɪk/",
+  "ru": "эвристика, приближённое правило"
+ },
+ {
+  "en": "break down a task",
+  "ipa": "/breɪk daʊn ə tæsk/",
+  "ru": "декомпозировать задачу"
+ },
+ {
+  "en": "phase in",
+  "ipa": "/ˌfeɪz ˈɪn/",
+  "ru": "вводить поэтапно"
+ },
+ {
+  "en": "working backward",
+  "ipa": "/ˈwɜːrkɪŋ ˈbækwərd/",
+  "ru": "идти от цели"
+ },
+ {
+  "en": "init container",
+  "ipa": "/ɪˈnɪt kənˈteɪnər/",
+  "ru": "инициализирующий контейнер в поде"
+ },
+ {
+  "en": "metric",
+  "ipa": "/ˈmetrɪk/",
+  "ru": "метрика, показатель"
+ },
+ {
+  "en": "capture action items",
+  "ipa": "/ˈkæptʃər ˈækʃən ˈaɪtəmz/",
+  "ru": "зафиксировать пункты действий"
+ },
+ {
+  "en": "phase out",
+  "ipa": "/ˌfeɪz ˈaʊt/",
+  "ru": "постепенно выводить из использования"
+ },
+ {
+  "en": "worst case scenario",
+  "ipa": "/wɜːrst keɪs sɪˈnɑːrioʊ/",
+  "ru": "наихудший вариант"
+ },
+ {
+  "en": "horizontal scaling",
+  "ipa": "/ˌhɒrɪˈzɒntəl ˈskeɪlɪŋ/",
+  "ru": "масштабирование добавлением инстансов"
+ },
+ {
+  "en": "telemetry",
+  "ipa": "/tɪˈlemətrɪ/",
+  "ru": "телеметрия"
+ },
+ {
+  "en": "coordinate efforts",
+  "ipa": "/koʊˈɔrdɪneɪt ˈɛfərts/",
+  "ru": "скоординировать усилия"
+ },
+ {
+  "en": "roll back",
+  "ipa": "/ˌroʊl ˈbæk/",
+  "ru": "откатывать изменения"
+ },
+ {
+  "en": "zero-sum game",
+  "ipa": "/ˈzɪroʊ sʌm ɡeɪm/",
+  "ru": "игра с нулевой суммой"
+ },
+ {
+  "en": "vertical scaling",
+  "ipa": "/ˈvɜːrtɪkəl ˈskeɪlɪŋ/",
+  "ru": "масштабирование наращиванием ресурсов"
+ },
+ {
+  "en": "profiling",
+  "ipa": "/ˈproʊfaɪlɪŋ/",
+  "ru": "профилирование"
+ },
+ {
+  "en": "scale down",
+  "ipa": "/ˌskeɪl ˈdaʊn/",
+  "ru": "сокращать масштаб"
+ },
+ {
+  "en": "action item",
+  "ipa": "/ˈækʃən ˈaɪtəm/",
+  "ru": "задача для выполнения"
+ },
+ {
+  "en": "autoscaling",
+  "ipa": "/ˈɔːtoʊˌskeɪlɪŋ/",
+  "ru": "автоматическое масштабирование"
+ },
+ {
+  "en": "instrumentation",
+  "ipa": "/ˌɪnstrəmenˈteɪʃən/",
+  "ru": "инструментирование кода"
+ },
+ {
+  "en": "define success criteria",
+  "ipa": "/dɪˈfaɪn səkˈsɛs kraɪˈtɪriə/",
+  "ru": "определить критерии успеха"
+ },
+ {
+  "en": "narrow down",
+  "ipa": "/ˌnæroʊ ˈdaʊn/",
+  "ru": "сузить выбор, конкретизировать"
+ },
+ {
+  "en": "add value",
+  "ipa": "/æd ˈvæljuː/",
+  "ru": "создавать пользу"
+ },
+ {
+  "en": "scale to zero",
+  "ipa": "/skeɪl tuː ˈzɪroʊ/",
+  "ru": "уменьшение до нуля инстансов"
+ },
+ {
+  "en": "assertion",
+  "ipa": "/əˈsɜːrʃən/",
+  "ru": "утверждение в тесте"
+ },
+ {
+  "en": "enforce a policy",
+  "ipa": "/ɪnˈfɔrs ə ˈpɑlɪsi/",
+  "ru": "применять политику"
+ },
+ {
+  "en": "at the end of the day",
+  "ipa": "/æt ðə end əv ðə deɪ/",
+  "ru": "в конечном счёте"
+ },
+ {
+  "en": "bursty traffic",
+  "ipa": "/ˈbɜːrsti ˈtræfɪk/",
+  "ru": "пиковый нерегулярный трафик"
+ },
+ {
+  "en": "fixture",
+  "ipa": "/ˈfɪkstʃər/",
+  "ru": "тестовые данные, фикстура"
+ },
+ {
+  "en": "estimate effort",
+  "ipa": "/ˈɛstɪmɪt ˈɛfərt/",
+  "ru": "оценить трудозатраты"
+ },
+ {
+  "en": "map out",
+  "ipa": "/ˌmæp ˈaʊt/",
+  "ru": "наметить, спланировать"
+ },
+ {
+  "en": "bean counter",
+  "ipa": "/biːn ˈkaʊntər/",
+  "ru": "дотошный финансист"
+ },
+ {
+  "en": "hotspot",
+  "ipa": "/ˈhɒtspɒt/",
+  "ru": "узкое место под высокой нагрузкой"
+ },
+ {
+  "en": "coverage",
+  "ipa": "/ˈkʌvərɪdʒ/",
+  "ru": "покрытие тестами"
+ },
+ {
+  "en": "execute a plan",
+  "ipa": "/ˈɛksɪkjuːt ə plæn/",
+  "ru": "реализовать план"
+ },
+ {
+  "en": "roll out to",
+  "ipa": "/ˌroʊl ˈaʊt tʊ/",
+  "ru": "развернуть для аудитории"
+ },
+ {
+  "en": "best practice",
+  "ipa": "/best ˈpræktɪs/",
+  "ru": "лучшая практика"
+ },
+ {
+  "en": "N+1 query",
+  "ipa": "/ɛn plʌs wʌn ˈkwɪri/",
+  "ru": "проблема лишних запросов к БД"
+ },
+ {
+  "en": "flaky",
+  "ipa": "/ˈfleɪki/",
+  "ru": "нестабильный (тест)"
+ },
+ {
+  "en": "expand a team",
+  "ipa": "/ɪkˈspænd ə tiːm/",
+  "ru": "расширить команду"
+ },
+ {
+  "en": "delegate to",
+  "ipa": "/ˈdɛlɪɡeɪt tʊ/",
+  "ru": "делегировать кому-то"
+ },
+ {
+  "en": "bite the bullet",
+  "ipa": "/baɪt ðə ˈbʊlɪt/",
+  "ru": "решиться на трудное"
+ },
+ {
+  "en": "query plan",
+  "ipa": "/ˈkwɪri plæn/",
+  "ru": "план выполнения запроса в БД"
+ },
+ {
+  "en": "idiomatic",
+  "ipa": "/ˌɪdiəˈmætɪk/",
+  "ru": "идиоматический"
+ },
+ {
+  "en": "gather feedback",
+  "ipa": "/ˈɡæðər ˈfiːdbæk/",
+  "ru": "собрать обратную связь"
+ },
+ {
+  "en": "escalate to",
+  "ipa": "/ˈɛskəleɪt tʊ/",
+  "ru": "эскалировать к руководству"
+ },
+ {
+  "en": "bottom line",
+  "ipa": "/ˈbɒtəm laɪn/",
+  "ru": "итоговый результат"
+ },
+ {
+  "en": "index scan",
+  "ipa": "/ˈɪndɛks skæn/",
+  "ru": "поиск по индексу таблицы"
+ },
+ {
+  "en": "ergonomic",
+  "ipa": "/ˌɜːrɡəˈnɒmɪk/",
+  "ru": "удобный, эргономичный"
+ },
+ {
+  "en": "hit a target",
+  "ipa": "/hɪt ə ˈtɑrɡɪt/",
+  "ru": "выполнить цель"
+ },
+ {
+  "en": "prioritize over",
+  "ipa": "/praɪˈɔːrɪtaɪz ˌoʊvər/",
+  "ru": "ставить в приоритет"
+ },
+ {
+  "en": "bring to the table",
+  "ipa": "/brɪŋ tuː ðə ˈteɪbəl/",
+  "ru": "предложить что-то ценное"
+ },
+ {
+  "en": "full table scan",
+  "ipa": "/fʊl ˈteɪbəl skæn/",
+  "ru": "полный перебор таблицы без индекса"
+ },
+ {
+  "en": "straightforward",
+  "ipa": "/ˌstreɪtˈfɔːrwərd/",
+  "ru": "простой, прямолинейный"
+ },
+ {
+  "en": "hold a retrospective",
+  "ipa": "/hoʊld ə ˌrɛtrəˈspɛktɪv/",
+  "ru": "провести ретроспективу"
+ },
+ {
+  "en": "track down",
+  "ipa": "/ˌtræk ˈdaʊn/",
+  "ru": "разыскать, отследить"
+ },
+ {
+  "en": "connection pooling",
+  "ipa": "/kəˈnɛkʃən ˈpuːlɪŋ/",
+  "ru": "пул соединений к базе данных"
+ },
+ {
+  "en": "footprint",
+  "ipa": "/ˈfʊtprɪnt/",
+  "ru": "занимаемые ресурсы"
+ },
+ {
+  "en": "improve code quality",
+  "ipa": "/ɪmˈpruv koʊd ˈkwɑlɪti/",
+  "ru": "улучшить качество кода"
+ },
+ {
+  "en": "knock out",
+  "ipa": "/ˌnɑːk ˈaʊt/",
+  "ru": "быстро сделать, выбить из строя"
+ },
+ {
+  "en": "schema migration",
+  "ipa": "/ˈskiːmə maɪˈɡreɪʃən/",
+  "ru": "изменение структуры базы данных"
+ },
+ {
+  "en": "upstream",
+  "ipa": "/ˈʌpstriːm/",
+  "ru": "выше по потоку, источник"
+ },
+ {
+  "en": "increase velocity",
+  "ipa": "/ɪnˈkriːs vɪˈlɑsɪti/",
+  "ru": "увеличить скорость команды"
+ },
+ {
+  "en": "knock off",
+  "ipa": "/ˌnɑːk ˈɔːf/",
+  "ru": "заканчивать работу, вычеркнуть"
+ },
+ {
+  "en": "cascade down",
+  "ipa": "/kæˈseɪd daʊn/",
+  "ru": "спускать по уровням"
+ },
+ {
+  "en": "zero-downtime migration",
+  "ipa": "/ˈzɪroʊ ˈdaʊntaɪm maɪˈɡreɪʃən/",
+  "ru": "миграция без остановки сервиса"
+ },
+ {
+  "en": "downstream",
+  "ipa": "/ˈdaʊnstriːm/",
+  "ru": "ниже по потоку, потребитель"
+ },
+ {
+  "en": "maintain a system",
+  "ipa": "/meɪnˈteɪn ə ˈsɪstəm/",
+  "ru": "поддерживать систему"
+ },
+ {
+  "en": "block out",
+  "ipa": "/ˌblɑːk ˈaʊt/",
+  "ru": "заблокировать время в календаре"
+ },
+ {
+  "en": "change management",
+  "ipa": "/tʃeɪndʒ ˈmænɪdʒmənt/",
+  "ru": "управление изменениями"
+ },
+ {
+  "en": "backfill",
+  "ipa": "/ˈbækfɪl/",
+  "ru": "заполнение исторических данных"
+ },
+ {
+  "en": "hardcode",
+  "ipa": "/ˈhɑːrdkoʊd/",
+  "ru": "хардкодить значения"
+ },
+ {
+  "en": "manage a backlog",
+  "ipa": "/ˈmænɪdʒ ə ˈbæklɔɡ/",
+  "ru": "управлять бэклогом"
+ },
+ {
+  "en": "block off",
+  "ipa": "/ˌblɑːk ˈɔːf/",
+  "ru": "зарезервировать, закрыть"
+ },
+ {
+  "en": "crunch the numbers",
+  "ipa": "/krʌntʃ ðə ˈnʌmbərz/",
+  "ru": "тщательно считать цифры"
+ },
+ {
+  "en": "data lineage",
+  "ipa": "/ˈdeɪtə ˈlɪniɪdʒ/",
+  "ru": "история происхождения данных"
+ },
+ {
+  "en": "parameterize",
+  "ipa": "/pəˈræmɪtəraɪz/",
+  "ru": "параметризировать"
+ },
+ {
+  "en": "meet a commitment",
+  "ipa": "/miːt ə kəˈmɪtmənt/",
+  "ru": "выполнить обязательство"
+ },
+ {
+  "en": "carve out",
+  "ipa": "/ˌkɑːrv ˈaʊt/",
+  "ru": "выделить время/ресурс"
+ },
+ {
+  "en": "face time",
+  "ipa": "/feɪs taɪm/",
+  "ru": "личная встреча"
+ },
+ {
+  "en": "eventual schema",
+  "ipa": "/ɪˈvɛntʃuəl ˈskiːmə/",
+  "ru": "схема без жёстких ограничений"
+ },
+ {
+  "en": "normalize",
+  "ipa": "/ˈnɔːrməlaɪz/",
+  "ru": "нормализовывать"
+ },
+ {
+  "en": "own the outcome",
+  "ipa": "/oʊn ðə ˈaʊtkʌm/",
+  "ru": "отвечать за результат"
+ },
+ {
+  "en": "spec out",
+  "ipa": "/ˌspɛk ˈaʊt/",
+  "ru": "составить спецификацию"
+ },
+ {
+  "en": "fall through the cracks",
+  "ipa": "/fɔːl θruː ðə kræks/",
+  "ru": "упустить из виду"
+ },
+ {
+  "en": "soft delete",
+  "ipa": "/sɒft dɪˈliːt/",
+  "ru": "логическое удаление без физического"
+ },
+ {
+  "en": "denormalize",
+  "ipa": "/diːˈnɔːrməlaɪz/",
+  "ru": "денормализовывать"
+ },
+ {
+  "en": "push a commit",
+  "ipa": "/pʊʃ ə kəˈmɪt/",
+  "ru": "отправить коммит"
+ },
+ {
+  "en": "scope out",
+  "ipa": "/ˌskoʊp ˈaʊt/",
+  "ru": "оценить объём, разведать"
+ },
+ {
+  "en": "tombstone",
+  "ipa": "/ˈtuːmˌstoʊn/",
+  "ru": "маркер удалённой записи"
+ },
+ {
+  "en": "aggregate",
+  "ipa": "/ˈæɡrɪɡɪt/",
+  "ru": "агрегат, агрегировать"
+ },
+ {
+  "en": "reduce technical debt",
+  "ipa": "/rɪˈduːs ˈtɛknɪkəl dɛt/",
+  "ru": "снизить технический долг"
+ },
+ {
+  "en": "parse out",
+  "ipa": "/ˌpɑːrs ˈaʊt/",
+  "ru": "разобрать, вычленить"
+ },
+ {
+  "en": "upsert",
+  "ipa": "/ˈʌpsɜːrt/",
+  "ru": "вставка или обновление записи"
+ },
+ {
+  "en": "paginate",
+  "ipa": "/ˈpædʒɪneɪt/",
+  "ru": "разбивать на страницы"
+ },
+ {
+  "en": "refactor code",
+  "ipa": "/ˌriːˈfæktər koʊd/",
+  "ru": "рефакторить код"
+ },
+ {
+  "en": "factor in",
+  "ipa": "/ˌfæktər ˈɪn/",
+  "ru": "учесть в расчётах"
+ },
+ {
+  "en": "optimistic UI",
+  "ipa": "/ˌɒptɪˈmɪstɪk juː aɪ/",
+  "ru": "UI обновляется до подтверждения сервера"
+ },
+ {
+  "en": "hydrate",
+  "ipa": "/ˈhaɪdreɪt/",
+  "ru": "гидратировать компонент"
+ },
+ {
+  "en": "roll back a change",
+  "ipa": "/roʊl bæk ə tʃeɪndʒ/",
+  "ru": "откатить изменение"
+ },
+ {
+  "en": "account for",
+  "ipa": "/əˈkaʊnt ˌfɔːr/",
+  "ru": "учитывать, объяснять"
+ },
+ {
+  "en": "greenfield project",
+  "ipa": "/ˈɡriːnfiːld ˈprɒdʒekt/",
+  "ru": "проект с нуля"
+ },
+ {
+  "en": "hydration",
+  "ipa": "/haɪˈdreɪʃən/",
+  "ru": "привязка React к серверному HTML"
+ },
+ {
+  "en": "render",
+  "ipa": "/ˈrendər/",
+  "ru": "рендерить, отрисовывать"
+ },
+ {
+  "en": "run a build",
+  "ipa": "/rʌn ə bɪld/",
+  "ru": "запустить сборку"
+ },
+ {
+  "en": "opt in",
+  "ipa": "/ˌɑːpt ˈɪn/",
+  "ru": "подключиться, согласиться участвовать"
+ },
+ {
+  "en": "hero metric",
+  "ipa": "/ˈhɪroʊ ˈmetrɪk/",
+  "ru": "главная метрика"
+ },
+ {
+  "en": "tree shaking",
+  "ipa": "/triː ˈʃeɪkɪŋ/",
+  "ru": "удаление неиспользуемого кода при сборке"
+ },
+ {
+  "en": "chunk",
+  "ipa": "/tʃʌŋk/",
+  "ru": "порция данных, чанк"
+ },
+ {
+  "en": "scale a service",
+  "ipa": "/skeɪl ə ˈsɜrvɪs/",
+  "ru": "масштабировать сервис"
+ },
+ {
+  "en": "opt out",
+  "ipa": "/ˌɑːpt ˈaʊt/",
+  "ru": "отказаться, отписаться"
+ },
+ {
+  "en": "high-level overview",
+  "ipa": "/haɪ ˈlevəl ˌoʊvərˈvjuː/",
+  "ru": "общий обзор"
+ },
+ {
+  "en": "code splitting",
+  "ipa": "/koʊd ˈsplɪtɪŋ/",
+  "ru": "разбивка бандла на чанки"
+ },
+ {
+  "en": "batch",
+  "ipa": "/bætʃ/",
+  "ru": "пакет, группировать"
+ },
+ {
+  "en": "set milestones",
+  "ipa": "/sɛt ˈmaɪlstoʊnz/",
+  "ru": "установить контрольные точки"
+ },
+ {
+  "en": "drop off",
+  "ipa": "/ˌdrɑːp ˈɔːf/",
+  "ru": "спадать, передать"
+ },
+ {
+  "en": "horse trading",
+  "ipa": "/hɔːrs ˈtreɪdɪŋ/",
+  "ru": "переговорный торг"
+ },
+ {
+  "en": "lazy loading",
+  "ipa": "/ˈleɪzi ˈloʊdɪŋ/",
+  "ru": "отложенная загрузка ресурсов"
+ },
+ {
+  "en": "queue",
+  "ipa": "/kjuː/",
+  "ru": "очередь"
+ },
+ {
+  "en": "share context",
+  "ipa": "/ʃɛr ˈkɑntɛkst/",
+  "ru": "поделиться контекстом"
+ },
+ {
+  "en": "drop in",
+  "ipa": "/ˌdrɑːp ˈɪn/",
+  "ru": "зайти ненадолго"
+ },
+ {
+  "en": "keep it in the loop",
+  "ipa": "/kiːp ɪt ɪn ðə luːp/",
+  "ru": "держать в курсе"
+ },
+ {
+  "en": "prefetching",
+  "ipa": "/priːˈfɛtʃɪŋ/",
+  "ru": "предзагрузка ресурсов заранее"
+ },
+ {
+  "en": "retry",
+  "ipa": "/riːˈtraɪ/",
+  "ru": "повторная попытка"
+ },
+ {
+  "en": "take initiative",
+  "ipa": "/teɪk ɪˈnɪʃɪətɪv/",
+  "ru": "проявить инициативу"
+ },
+ {
+  "en": "drop out",
+  "ipa": "/ˌdrɑːp ˈaʊt/",
+  "ru": "выбыть, отказаться"
+ },
+ {
+  "en": "key takeaway",
+  "ipa": "/kiː ˈteɪkəweɪ/",
+  "ru": "главный вывод"
+ },
+ {
+  "en": "SSR",
+  "ipa": "/ˌɛs ɛs ˈɑːr/",
+  "ru": "серверный рендеринг страницы"
+ },
+ {
+  "en": "timeout",
+  "ipa": "/ˈtaɪmaʊt/",
+  "ru": "таймаут, превышение времени"
+ },
+ {
+  "en": "write a test",
+  "ipa": "/raɪt ə tɛst/",
+  "ru": "написать тест"
+ },
+ {
+  "en": "lean on",
+  "ipa": "/ˌliːn ˈɔːn/",
+  "ru": "опираться на поддержку"
+ },
+ {
+  "en": "knowledge transfer",
+  "ipa": "/ˈnɒlɪdʒ ˈtrænsfɜːr/",
+  "ru": "передача знаний"
+ },
+ {
+  "en": "ISR",
+  "ipa": "/ˌaɪ ɛs ˈɑːr/",
+  "ru": "инкрементальная регенерация страниц"
+ },
+ {
+  "en": "shard",
+  "ipa": "/ʃɑːrd/",
+  "ru": "шард, раздел данных"
+ },
+ {
+  "en": "count on",
+  "ipa": "/ˌkaʊnt ˈɔːn/",
+  "ru": "рассчитывать, полагаться"
+ },
+ {
+  "en": "launch and iterate",
+  "ipa": "/lɔːntʃ ænd ˈɪtəreɪt/",
+  "ru": "запустить и улучшать"
+ },
+ {
+  "en": "stale-while-revalidate",
+  "ipa": "/steɪl waɪl ˌriːˈvælɪdeɪt/",
+  "ru": "отдать кэш и обновить фоном"
+ },
+ {
+  "en": "replica",
+  "ipa": "/ˈreplɪkə/",
+  "ru": "реплика, копия"
+ },
+ {
+  "en": "rely on",
+  "ipa": "/rɪˈlaɪ ˌɔːn/",
+  "ru": "полагаться, зависеть от"
+ },
+ {
+  "en": "lead time",
+  "ipa": "/liːd taɪm/",
+  "ru": "время исполнения"
+ },
+ {
+  "en": "content negotiation",
+  "ipa": "/ˈkɒntɛnt nɪˌɡoʊʃiˈeɪʃən/",
+  "ru": "выбор формата ответа по заголовкам"
+ },
+ {
+  "en": "failover",
+  "ipa": "/ˈfeɪloʊvər/",
+  "ru": "переключение при сбое"
+ },
+ {
+  "en": "check back",
+  "ipa": "/ˌtʃɛk ˈbæk/",
+  "ru": "перезвонить, вернуться позже"
+ },
+ {
+  "en": "lift the hood",
+  "ipa": "/lɪft ðə hʊd/",
+  "ru": "посмотреть внутри"
+ },
+ {
+  "en": "payload size",
+  "ipa": "/ˈpeɪloʊd saɪz/",
+  "ru": "размер тела запроса или ответа"
+ },
+ {
+  "en": "canary",
+  "ipa": "/ˈkenəri/",
+  "ru": "канарейка (деплой)"
+ },
+ {
+  "en": "circle around",
+  "ipa": "/ˌsɜːrkəl əˈraʊnd/",
+  "ru": "снова обратиться, обойти"
+ },
+ {
+  "en": "low-level detail",
+  "ipa": "/loʊ ˈlevəl ˈdiːteɪl/",
+  "ru": "мелкие детали"
+ },
+ {
+  "en": "wire format",
+  "ipa": "/waɪər ˈfɔːrmæt/",
+  "ru": "формат данных при передаче по сети"
+ },
+ {
+  "en": "toggle",
+  "ipa": "/ˈtɒɡəl/",
+  "ru": "переключатель, тоггл"
+ },
+ {
+  "en": "chunk out",
+  "ipa": "/ˌtʃʌŋk ˈaʊt/",
+  "ru": "разбить на части"
+ },
+ {
+  "en": "make the case",
+  "ipa": "/meɪk ðə keɪs/",
+  "ru": "аргументировать позицию"
+ },
+ {
+  "en": "protobuf",
+  "ipa": "/ˈproʊtoʊbʌf/",
+  "ru": "бинарный формат сериализации Google"
+ },
+ {
+  "en": "threshold",
+  "ipa": "/ˈθreʃhoʊld/",
+  "ru": "порог, предел"
+ },
+ {
+  "en": "chunk up",
+  "ipa": "/ˌtʃʌŋk ˈʌp/",
+  "ru": "агрегировать, укрупнить"
+ },
+ {
+  "en": "manage expectations",
+  "ipa": "/ˈmænɪdʒ ˌekspekˈteɪʃənz/",
+  "ru": "управлять ожиданиями"
+ },
+ {
+  "en": "backward compat",
+  "ipa": "/ˈbækwərd ˈkɒmpæt/",
+  "ru": "обратная совместимость"
+ },
+ {
+  "en": "branch out",
+  "ipa": "/ˌbræntʃ ˈaʊt/",
+  "ru": "расширяться, диверсифицировать"
+ },
+ {
+  "en": "market penetration",
+  "ipa": "/ˈmɑːrkɪt ˌpenɪˈtreɪʃən/",
+  "ru": "проникновение на рынок"
+ },
+ {
+  "en": "breaking change",
+  "ipa": "/ˈbreɪkɪŋ tʃeɪndʒ/",
+  "ru": "изменение ломающее обратную совместимость"
+ },
+ {
+  "en": "anomaly",
+  "ipa": "/əˈnɒməli/",
+  "ru": "аномалия, отклонение"
+ },
+ {
+  "en": "zero in on",
+  "ipa": "/ˌzɪroʊ ˈɪn ɔːn/",
+  "ru": "сосредоточиться на цели"
+ },
+ {
+  "en": "nail it down",
+  "ipa": "/neɪl ɪt daʊn/",
+  "ru": "чётко зафиксировать"
+ },
+ {
+  "en": "API versioning",
+  "ipa": "/eɪ piː aɪ ˈvɜːrʒənɪŋ/",
+  "ru": "управление версиями API"
+ },
+ {
+  "en": "incident",
+  "ipa": "/ˈɪnsɪdənt/",
+  "ru": "инцидент, сбой"
+ },
+ {
+  "en": "home in on",
+  "ipa": "/ˌhoʊm ˈɪn ɔːn/",
+  "ru": "нацелиться, сфокусироваться"
+ },
+ {
+  "en": "needle mover",
+  "ipa": "/ˈniːdəl ˈmuːvər/",
+  "ru": "влиятельный фактор"
+ },
+ {
+  "en": "deprecation warning",
+  "ipa": "/ˌdɛprɪˈkeɪʃən ˈwɔːrnɪŋ/",
+  "ru": "предупреждение об устаревании"
+ },
+ {
+  "en": "net net",
+  "ipa": "/net net/",
+  "ru": "в итоге, главное"
+ },
+ {
+  "en": "sunset policy",
+  "ipa": "/ˈsʌnsɛt ˈpɒlɪsi/",
+  "ru": "план прекращения поддержки версии"
+ },
+ {
+  "en": "weigh up",
+  "ipa": "/ˌweɪ ˈʌp/",
+  "ru": "взвесить варианты"
+ },
+ {
+  "en": "feature matrix",
+  "ipa": "/ˈfiːtʃər ˈmeɪtrɪks/",
+  "ru": "таблица поддерживаемых функций"
+ },
+ {
+  "en": "roadmap",
+  "ipa": "/ˈroʊdmæp/",
+  "ru": "дорожная карта"
+ },
+ {
+  "en": "push through",
+  "ipa": "/ˌpʊʃ ˈθruː/",
+  "ru": "продавить, протолкнуть решение"
+ },
+ {
+  "en": "push back",
+  "ipa": "/pʊʃ bæk/",
+  "ru": "выразить несогласие"
+ },
+ {
+  "en": "scope creep",
+  "ipa": "/skoʊp kriːp/",
+  "ru": "незапланированное расширение задачи"
+ },
+ {
+  "en": "charter",
+  "ipa": "/ˈtʃɑːrtər/",
+  "ru": "устав, мандат проекта"
+ },
+ {
+  "en": "push forward",
+  "ipa": "/ˌpʊʃ ˈfɔːrwərd/",
+  "ru": "продвигать, ускорять"
+ },
+ {
+  "en": "grooming",
+  "ipa": "/ˈɡruːmɪŋ/",
+  "ru": "уточнение и оценка задач бэклога"
+ },
+ {
+  "en": "kickoff",
+  "ipa": "/ˈkɪkɒf/",
+  "ru": "стартовое совещание"
+ },
+ {
+  "en": "break through",
+  "ipa": "/ˌbreɪk ˈθruː/",
+  "ru": "преодолеть барьер, прорваться"
+ },
+ {
+  "en": "retrospective",
+  "ipa": "/ˌretrəˈspektɪv/",
+  "ru": "ретроспектива"
+ },
+ {
+  "en": "break out",
+  "ipa": "/ˌbreɪk ˈaʊt/",
+  "ru": "выделить отдельно, вырваться"
+ },
+ {
+  "en": "set expectations",
+  "ipa": "/set ˌekspekˈteɪʃənz/",
+  "ru": "задать ожидания"
+ },
+ {
+  "en": "story point",
+  "ipa": "/ˈstɔːri pɔɪnt/",
+  "ru": "относительная оценка сложности задачи"
+ },
+ {
+  "en": "standup",
+  "ipa": "/ˈstændʌp/",
+  "ru": "ежедневное совещание"
+ },
+ {
+  "en": "slot in",
+  "ipa": "/ˌslɑːt ˈɪn/",
+  "ru": "вставить, вписать в расписание"
+ },
+ {
+  "en": "spike story",
+  "ipa": "/spaɪk ˈstɔːri/",
+  "ru": "исследовательская задача в спринте"
+ },
+ {
+  "en": "fit in",
+  "ipa": "/ˌfɪt ˈɪn/",
+  "ru": "вписаться, найти время"
+ },
+ {
+  "en": "square the circle",
+  "ipa": "/skwer ðə ˈsɜːrkəl/",
+  "ru": "решить невозможное"
+ },
+ {
+  "en": "acceptance criteria",
+  "ipa": "/əkˈsɛptəns kraɪˈtɪərɪə/",
+  "ru": "критерии приёмки задачи"
+ },
+ {
+  "en": "stand out",
+  "ipa": "/ˌstænd ˈaʊt/",
+  "ru": "выделяться, отличаться"
+ },
+ {
+  "en": "stay in your lane",
+  "ipa": "/steɪ ɪn jɔːr leɪn/",
+  "ru": "не выходить за рамки"
+ },
+ {
+  "en": "definition of done",
+  "ipa": "/ˌdɛfɪˈnɪʃən əv dʌn/",
+  "ru": "критерии завершённости задачи"
+ },
+ {
+  "en": "stand by",
+  "ipa": "/ˌstænd ˈbaɪ/",
+  "ru": "поддерживать, ждать готовности"
+ },
+ {
+  "en": "take it to the next level",
+  "ipa": "/teɪk ɪt tuː ðə nekst ˈlevəl/",
+  "ru": "вывести на новый уровень"
+ },
+ {
+  "en": "WIP limit",
+  "ipa": "/wɪp ˈlɪmɪt/",
+  "ru": "ограничение незавершённых задач"
+ },
+ {
+  "en": "stand down",
+  "ipa": "/ˌstænd ˈdaʊn/",
+  "ru": "отступить, снять с задачи"
+ },
+ {
+  "en": "take ownership",
+  "ipa": "/teɪk ˈoʊnərʃɪp/",
+  "ru": "взять ответственность"
+ },
+ {
+  "en": "pull-based system",
+  "ipa": "/pʊl beɪst ˈsɪstəm/",
+  "ru": "система где потребитель тянет данные"
+ },
+ {
+  "en": "gear up",
+  "ipa": "/ˌɡɪr ˈʌp/",
+  "ru": "готовиться, настраиваться"
+ },
+ {
+  "en": "talk numbers",
+  "ipa": "/tɔːk ˈnʌmbərz/",
+  "ru": "обсуждать цифры"
+ },
+ {
+  "en": "push-based system",
+  "ipa": "/pʊʃ beɪst ˈsɪstəm/",
+  "ru": "система где источник толкает данные"
+ },
+ {
+  "en": "fire up",
+  "ipa": "/ˌfaɪər ˈʌp/",
+  "ru": "запустить, заряжать энергией"
+ },
+ {
+  "en": "the big picture",
+  "ipa": "/ðə bɪɡ ˈpɪktʃər/",
+  "ru": "общая картина"
+ },
+ {
+  "en": "event sourcing",
+  "ipa": "/ɪˈvɛnt ˈsɔːrsɪŋ/",
+  "ru": "хранение состояния как лога событий"
+ },
+ {
+  "en": "power through",
+  "ipa": "/ˌpaʊər ˈθruː/",
+  "ru": "продолжать несмотря на трудности"
+ },
+ {
+  "en": "thought leader",
+  "ipa": "/θɔːt ˈliːdər/",
+  "ru": "лидер мнений"
+ },
+ {
+  "en": "CQRS",
+  "ipa": "/ˌsiː kjuː ɑːr ɛs/",
+  "ru": "разделение чтения и записи"
+ },
+ {
+  "en": "press on",
+  "ipa": "/ˌprɛs ˈɔːn/",
+  "ru": "продолжать, не останавливаться"
+ },
+ {
+  "en": "tiger team",
+  "ipa": "/ˈtaɪɡər tiːm/",
+  "ru": "команда решения кризиса"
+ },
+ {
+  "en": "aggregate root",
+  "ipa": "/ˈæɡrɪɡɪt ruːt/",
+  "ru": "корневой объект агрегата в DDD"
+ },
+ {
+  "en": "press ahead",
+  "ipa": "/ˌprɛs əˈhɛd/",
+  "ru": "настойчиво продвигаться"
+ },
+ {
+  "en": "tinker at the margins",
+  "ipa": "/ˈtɪŋkər æt ðə ˈmɑːrdʒɪnz/",
+  "ru": "делать мелкие правки"
+ },
+ {
+  "en": "bounded context",
+  "ipa": "/ˈbaʊndɪd ˈkɒntɛkst/",
+  "ru": "граница модели предметной области"
+ },
+ {
+  "en": "switch over",
+  "ipa": "/ˌswɪtʃ ˈoʊvər/",
+  "ru": "переключиться, перейти на"
+ },
+ {
+  "en": "touch point",
+  "ipa": "/tʌtʃ pɔɪnt/",
+  "ru": "точка контакта"
+ },
+ {
+  "en": "hexagonal arch",
+  "ipa": "/hɛkˈsæɡənəl ɑːrtʃ/",
+  "ru": "гексагональная архитектура"
+ },
+ {
+  "en": "switch off",
+  "ipa": "/ˌswɪtʃ ˈɔːf/",
+  "ru": "выключить, отключить"
+ },
+ {
+  "en": "adapter layer",
+  "ipa": "/əˈdæptər ˈleɪər/",
+  "ru": "слой адаптеров для внешних интерфейсов"
+ },
+ {
+  "en": "transition to",
+  "ipa": "/trænˈzɪʃən tʊ/",
+  "ru": "переходить на новый процесс"
+ },
+ {
+  "en": "turn the dial",
+  "ipa": "/tɜːrn ðə daɪəl/",
+  "ru": "настроить параметр"
+ },
+ {
+  "en": "port and adapter",
+  "ipa": "/pɔːrt ænd əˈdæptər/",
+  "ru": "порт и адаптер в чистой архитектуре"
+ },
+ {
+  "en": "migrate to",
+  "ipa": "/ˈmaɪɡreɪt tʊ/",
+  "ru": "мигрировать на новое"
+ },
+ {
+  "en": "under the radar",
+  "ipa": "/ˈʌndər ðə ˈreɪdɑːr/",
+  "ru": "незаметно"
+ },
+ {
+  "en": "clean arch",
+  "ipa": "/kliːn ɑːrtʃ/",
+  "ru": "чистая архитектура по Uncle Bob"
+ },
+ {
+  "en": "integrate with",
+  "ipa": "/ˈɪntɪɡreɪt wɪð/",
+  "ru": "интегрировать с системой"
+ },
+ {
+  "en": "unlock value",
+  "ipa": "/ʌnˈlɒk ˈvæljuː/",
+  "ru": "раскрыть потенциал"
+ },
+ {
+  "en": "anti-corruption layer",
+  "ipa": "/ˈænti kəˈrʌpʃən ˈleɪər/",
+  "ru": "изолирующий слой между контекстами"
+ },
+ {
+  "en": "interface with",
+  "ipa": "/ˈɪntərfeɪs wɪð/",
+  "ru": "взаимодействовать с"
+ },
+ {
+  "en": "upsell",
+  "ipa": "/ˈʌpsel/",
+  "ru": "продать по-крупнее"
+ },
+ {
+  "en": "integration test",
+  "ipa": "/ˌɪntɪˈɡreɪʃən tɛst/",
+  "ru": "тест взаимодействия компонентов"
+ },
+ {
+  "en": "liaise with",
+  "ipa": "/liˈeɪz wɪð/",
+  "ru": "поддерживать связь с"
+ },
+ {
+  "en": "contract test",
+  "ipa": "/ˈkɒntrækt tɛst/",
+  "ru": "тест совместимости API поставщика/потребителя"
+ },
+ {
+  "en": "collaborate on",
+  "ipa": "/kəˈlæbəreɪt ˌɔːn/",
+  "ru": "сотрудничать над задачей"
+ },
+ {
+  "en": "property-based test",
+  "ipa": "/ˈprɒpərti beɪst tɛst/",
+  "ru": "тест на случайных входных данных"
+ },
+ {
+  "en": "coordinate with",
+  "ipa": "/koʊˈɔːrdɪneɪt wɪð/",
+  "ru": "координировать с"
+ },
+ {
+  "en": "mutation testing",
+  "ipa": "/mjuˈteɪʃən ˈtɛstɪŋ/",
+  "ru": "проверка качества тестов мутациями"
+ },
+ {
+  "en": "partner with",
+  "ipa": "/ˈpɑːrtnər wɪð/",
+  "ru": "стать партнёром"
+ },
+ {
+  "en": "test pyramid",
+  "ipa": "/tɛst ˈpɪrəmɪd/",
+  "ru": "иерархия: юнит → интеграция → E2E"
+ },
+ {
+  "en": "source from",
+  "ipa": "/ˌsɔːrs ˈfrɑːm/",
+  "ru": "получать, закупать у"
+ },
+ {
+  "en": "test double",
+  "ipa": "/tɛst ˈdʌbəl/",
+  "ru": "заглушка или мок в тестах"
+ },
+ {
+  "en": "draw on",
+  "ipa": "/ˌdrɔː ˈɔːn/",
+  "ru": "использовать, опираться на опыт"
+ },
+ {
+  "en": "draw up",
+  "ipa": "/ˌdrɔː ˈʌp/",
+  "ru": "составить документ, план"
+ },
+ {
+  "en": "spy",
+  "ipa": "/spaɪ/",
+  "ru": "обёртка для слежения за вызовами"
+ },
+ {
+  "en": "draft up",
+  "ipa": "/ˌdræft ˈʌp/",
+  "ru": "подготовить черновик"
+ },
+ {
+  "en": "golden file test",
+  "ipa": "/ˈɡoʊldən faɪl tɛst/",
+  "ru": "тест сравнением с эталонным файлом"
+ },
+ {
+  "en": "write up",
+  "ipa": "/ˌraɪt ˈʌp/",
+  "ru": "оформить письменно"
+ },
+ {
+  "en": "sum up",
+  "ipa": "/ˌsʌm ˈʌp/",
+  "ru": "подвести итог"
+ },
+ {
+  "en": "fuzz testing",
+  "ipa": "/fʌz ˈtɛstɪŋ/",
+  "ru": "тестирование случайными некорректными данными"
+ },
+ {
+  "en": "report back",
+  "ipa": "/rɪˈpɔːrt ˌbæk/",
+  "ru": "доложить о результатах"
+ },
+ {
+  "en": "dry run",
+  "ipa": "/draɪ rʌn/",
+  "ru": "пробный прогон без реальных изменений"
+ },
+ {
+  "en": "present to",
+  "ipa": "/prɪˈzɛnt tʊ/",
+  "ru": "представить аудитории"
+ },
+ {
+  "en": "no-op",
+  "ipa": "/ˈnoʊ ɒp/",
+  "ru": "операция ничего не делающая"
+ },
+ {
+  "en": "sign into",
+  "ipa": "/ˌsaɪn ˈɪntʊ/",
+  "ru": "войти в систему"
+ },
+ {
+  "en": "feature branch",
+  "ipa": "/ˈfiːtʃər bræntʃ/",
+  "ru": "ветка для отдельной функции"
+ },
+ {
+  "en": "log in",
+  "ipa": "/ˌlɔːɡ ˈɪn/",
+  "ru": "авторизоваться, войти"
+ },
+ {
+  "en": "long-lived branch",
+  "ipa": "/lɒŋ lɪvd bræntʃ/",
+  "ru": "долгоживущая ветка"
+ },
+ {
+  "en": "log out",
+  "ipa": "/ˌlɔːɡ ˈaʊt/",
+  "ru": "выйти из системы"
+ },
+ {
+  "en": "code ownership",
+  "ipa": "/koʊd ˈoʊnərʃɪp/",
+  "ru": "ответственность за участок кода"
+ },
+ {
+  "en": "plug in",
+  "ipa": "/ˌplʌɡ ˈɪn/",
+  "ru": "подключить, включить"
+ },
+ {
+  "en": "tech lead",
+  "ipa": "/tɛk liːd/",
+  "ru": "технический лидер команды"
+ },
+ {
+  "en": "roll in",
+  "ipa": "/ˌroʊl ˈɪn/",
+  "ru": "поступать постепенно"
+ },
+ {
+  "en": "staff engineer",
+  "ipa": "/stæf ˌɛndʒɪˈnɪər/",
+  "ru": "старший инженер уровня staff"
+ },
+ {
+  "en": "trickle in",
+  "ipa": "/ˌtrɪkəl ˈɪn/",
+  "ru": "поступать понемногу"
+ },
+ {
+  "en": "on-call handoff",
+  "ipa": "/ɒn kɔːl ˈhændɒf/",
+  "ru": "передача дежурства следующему"
+ },
+ {
+  "en": "ramp down",
+  "ipa": "/ˌræmp ˈdaʊn/",
+  "ru": "снижать нагрузку, сворачивать"
+ },
+ {
+  "en": "wind down",
+  "ipa": "/ˌwaɪnd ˈdaʊn/",
+  "ru": "сворачивать, завершать плавно"
+ },
+ {
+  "en": "escalation path",
+  "ipa": "/ˌɛskəˈleɪʃən pæθ/",
+  "ru": "цепочка эскалации при инциденте"
+ },
+ {
+  "en": "wind up",
+  "ipa": "/ˌwaɪnd ˈʌp/",
+  "ru": "завершить, в итоге оказаться"
+ },
+ {
+  "en": "severity level",
+  "ipa": "/sɪˈvɛrɪti ˈlɛvəl/",
+  "ru": "уровень критичности инцидента"
+ },
+ {
+  "en": "close in on",
+  "ipa": "/ˌkloʊz ˈɪn ɔːn/",
+  "ru": "приближаться к цели"
+ },
+ {
+  "en": "mitigation",
+  "ipa": "/ˌmɪtɪˈɡeɪʃən/",
+  "ru": "временное снижение последствий сбоя"
+ },
+ {
+  "en": "pivot to",
+  "ipa": "/ˈpɪvət tʊ/",
+  "ru": "переориентироваться на"
+ },
+ {
+  "en": "shift to",
+  "ipa": "/ˌʃɪft ˈtʊ/",
+  "ru": "переключиться на"
+ },
+ {
+  "en": "tactical debt",
+  "ipa": "/ˈtæktɪkəl dɛt/",
+  "ru": "намеренный технический долг"
+ },
+ {
+  "en": "adapt to",
+  "ipa": "/əˈdæpt tʊ/",
+  "ru": "адаптироваться к"
+ },
+ {
+  "en": "code rot",
+  "ipa": "/koʊd rɒt/",
+  "ru": "деградация кода со временем"
+ },
+ {
+  "en": "adjust to",
+  "ipa": "/əˈdʒʌst tʊ/",
+  "ru": "подстраиваться под"
+ },
+ {
+  "en": "big ball of mud",
+  "ipa": "/bɪɡ bɔːl əv mʌd/",
+  "ru": "запутанная архитектура без структуры"
+ },
+ {
+  "en": "cater to",
+  "ipa": "/ˈkeɪtər tʊ/",
+  "ru": "ориентироваться на потребности"
+ },
+ {
+  "en": "spaghetti code",
+  "ipa": "/spəˈɡɛti koʊd/",
+  "ru": "запутанный нечитаемый код"
+ },
+ {
+  "en": "respond to",
+  "ipa": "/rɪˈspɑːnd tʊ/",
+  "ru": "реагировать, отвечать на"
+ },
+ {
+  "en": "boy scout rule",
+  "ipa": "/bɔɪ skaʊt ruːl/",
+  "ru": "оставь код чище чем нашёл"
+ },
+ {
+  "en": "refer to",
+  "ipa": "/rɪˈfɜːr tʊ/",
+  "ru": "ссылаться, обращаться к"
+ },
+ {
+  "en": "refactor sprint",
+  "ipa": "/ˌriːˈfæktər sprɪnt/",
+  "ru": "спринт посвящённый рефакторингу"
+ },
+ {
+  "en": "revert to",
+  "ipa": "/rɪˈvɜːrt tʊ/",
+  "ru": "вернуться к предыдущему"
+ },
+ {
+  "en": "defer to",
+  "ipa": "/dɪˈfɜːr tʊ/",
+  "ru": "уступить мнению эксперта"
+ },
+ {
+  "en": "follow through",
+  "ipa": "/ˌfɑːloʊ ˈθruː/",
+  "ru": "доводить до конца"
+ },
+ {
+  "en": "see through",
+  "ipa": "/ˌsiː ˈθruː/",
+  "ru": "довести до конца несмотря на"
+ },
+ {
+  "en": "see to",
+  "ipa": "/ˌsiː ˈtʊ/",
+  "ru": "позаботиться, заняться"
+ },
+ {
+  "en": "attend to",
+  "ipa": "/əˈtɛnd tʊ/",
+  "ru": "заниматься, уделять внимание"
+ },
+ {
+  "en": "deal with",
+  "ipa": "/ˌdiːl ˈwɪð/",
+  "ru": "разбираться, урегулировать"
+ },
+ {
+  "en": "cope with",
+  "ipa": "/ˌkoʊp ˈwɪð/",
+  "ru": "справляться с трудностью"
+ },
+ {
+  "en": "grapple with",
+  "ipa": "/ˌɡræpəl ˈwɪð/",
+  "ru": "бороться с проблемой"
+ }
 ]
