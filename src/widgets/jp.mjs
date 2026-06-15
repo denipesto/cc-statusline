@@ -20,6 +20,7 @@ export default {
     const every = Math.max(1, ctx.config?.vocabEvery || 60) * 1000;
     const e = POOL[Math.floor(now / every) % POOL.length];
     const accent = c256((THEMES[ctx.config?.petTheme] || THEMES.warm).low);
-    return accent("🗾 " + e.jp) + " " + dim("(" + e.romaji + ")") + dim(" · " + e.ru);
+    const read = e.kiri || e.romaji;
+    return accent("🗾 " + e.jp) + " " + dim("(" + read + ")") + dim(" · " + e.ru);
   },
 };
