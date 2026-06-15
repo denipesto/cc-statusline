@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>cc-statusline — a useful status line for Claude Code</title>
+<title>claudegochi — a useful status line for Claude Code</title>
 <meta name="description" content="A useful status line for Claude Code: context remaining, and claudegochi — a tamagotchi whose mood reflects your session.">
 <style>
   :root{
@@ -165,12 +165,12 @@
 
   <header>
     <span class="tag">for Claude Code</span>
-    <h1><span class="mono">cc-statusline</span></h1>
+    <h1><span class="mono">claudegochi</span></h1>
     <p class="lead">A useful status line for Claude Code. See how much context you have left —
        and a cat that gets hungry as the context fills up.</p>
     <div class="cta">
       <a class="btn primary" href="#install">Install</a>
-      <a class="btn" href="https://github.com/denipesto/cc-statusline" target="_blank" rel="noopener">GitHub →</a>
+      <a class="btn" href="https://github.com/denipesto/claudegochi" target="_blank" rel="noopener">GitHub →</a>
     </div>
   </header>
 
@@ -202,7 +202,7 @@
       </div>
     </div>
     <p class="note">Requires Node.js, git and the Claude Code CLI. The script clones the repo into
-       <span class="mono">~/.cc-statusline</span>, writes the status line into <span class="mono">~/.claude/settings.json</span>
+       <span class="mono">~/.claudegochi</span>, writes the status line into <span class="mono">~/.claude/settings.json</span>
        (with a backup) and leaves the rest of your config untouched. Then restart Claude Code.</p>
   </section>
 
@@ -248,7 +248,7 @@
   </section>
 
   <footer>
-    <p><a href="https://github.com/denipesto/cc-statusline" target="_blank" rel="noopener">github.com/denipesto/cc-statusline</a> · MIT</p>
+    <p><a href="https://github.com/denipesto/claudegochi" target="_blank" rel="noopener">github.com/denipesto/claudegochi</a> · MIT</p>
     <p class="mono" style="color:var(--dim)">modular · config-driven · no ads</p>
   </footer>
 
@@ -257,10 +257,10 @@
 <script>
 /* ---------- install tabs ---------- */
 const CMDS=[
-  {prompt:'PS&gt;', cmd:'irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.ps1 | iex',
-   rm:'irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.ps1 | iex'},
-  {prompt:'$', cmd:'curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.sh | sh',
-   rm:'curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.sh | sh'},
+  {prompt:'PS&gt;', cmd:'irm https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/install.ps1 | iex',
+   rm:'irm https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/uninstall.ps1 | iex'},
+  {prompt:'$', cmd:'curl -fsSL https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/install.sh | sh',
+   rm:'curl -fsSL https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/uninstall.sh | sh'},
 ];
 let curCmd=0;
 const ipr=document.getElementById('iprompt'), itx=document.getElementById('icmdtext'),
@@ -404,7 +404,7 @@ function frame(){
   capEl.textContent='satiety = free context · hearts drain as it fills · /compact feeds the cat';
 }
 
-const cmd='irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.ps1 | iex';
+const cmd='irm https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/install.ps1 | iex';
 const cmdEl=document.getElementById('cmd'), curEl=document.getElementById('cur');
 let ci=0;
 (function type(){

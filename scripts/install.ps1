@@ -1,10 +1,10 @@
-# cc-statusline one-liner bootstrap (Windows / PowerShell).
-#   irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/install.ps1 | iex
-# Clones (or updates) the repo into ~/.cc-statusline and runs the installer.
+# claudegochi one-liner bootstrap (Windows / PowerShell).
+#   irm https://raw.githubusercontent.com/denipesto/claudegochi/main/install.ps1 | iex
+# Clones (or updates) the repo into ~/.claudegochi and runs the installer.
 
 $ErrorActionPreference = 'Stop'
-$repo = 'https://github.com/denipesto/cc-statusline.git'
-$dir  = Join-Path $HOME '.cc-statusline'
+$repo = 'https://github.com/denipesto/claudegochi.git'
+$dir  = Join-Path $HOME '.claudegochi'
 
 foreach ($cmd in 'git', 'node') {
   if (-not (Get-Command $cmd -ErrorAction SilentlyContinue)) {
@@ -14,10 +14,10 @@ foreach ($cmd in 'git', 'node') {
 }
 
 if (Test-Path (Join-Path $dir '.git')) {
-  Write-Host ("  " + [char]0x2193 + " updating cc-statusline…") -ForegroundColor DarkGray
+  Write-Host ("  " + [char]0x2193 + " updating claudegochi…") -ForegroundColor DarkGray
   git -C $dir pull --ff-only --quiet
 } else {
-  Write-Host ("  " + [char]0x2193 + " downloading cc-statusline…") -ForegroundColor DarkGray
+  Write-Host ("  " + [char]0x2193 + " downloading claudegochi…") -ForegroundColor DarkGray
   git clone --depth 1 --quiet $repo $dir
 }
 

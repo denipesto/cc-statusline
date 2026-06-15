@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// cc-statusline entrypoint. Reads Claude Code's status JSON on stdin,
+// claudegochi entrypoint. Reads Claude Code's status JSON on stdin,
 // renders the enabled widgets (config order), prints ONE line to stdout.
 // Each widget is isolated: a throwing/slow widget never kills the line.
 
@@ -10,6 +10,7 @@ import context from "./widgets/context.mjs";
 import tamagotchi from "./widgets/tamagotchi.mjs";
 import quote from "./widgets/quote.mjs";
 import vocab from "./widgets/vocab.mjs";
+import jp from "./widgets/jp.mjs";
 import limits from "./widgets/limits.mjs";
 
 // widget name -> module. Add new widgets here as they land.
@@ -18,6 +19,7 @@ const REGISTRY = {
   tamagotchi,
   quote,
   vocab,
+  jp,
   limits,
 };
 

@@ -1,4 +1,4 @@
-# cc-statusline
+# claudegochi
 
 A useful status line for Claude Code: context remaining, plus 🐱 **claudegochi** —
 a tamagotchi whose mood reflects your session.
@@ -13,24 +13,24 @@ Requires Node.js, git and the Claude Code CLI. Paste the command — it clones a
 
 **Windows (PowerShell):**
 ```powershell
-irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.ps1 | iex
+irm https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/install.ps1 | iex
 ```
 
 **macOS / Linux / Git Bash:**
 ```sh
-curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/install.sh | sh
 ```
 
-The bootstrap clones the repo into `~/.cc-statusline` and runs the installer.
+The bootstrap clones the repo into `~/.claudegochi` and runs the installer.
 Then **restart Claude Code**.
 
 ### Uninstall in one line
 
 ```powershell
-irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.ps1 | iex
+irm https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/uninstall.ps1 | iex
 ```
 ```sh
-curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.sh | sh
+curl -fsSL https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/uninstall.sh | sh
 ```
 
 Removes the status line from `settings.json` (your config and the backup are left in place).
@@ -38,8 +38,8 @@ Removes the status line from `settings.json` (your config and the backup are lef
 ### Manual (clone + installer)
 
 ```sh
-git clone https://github.com/denipesto/cc-statusline.git
-cd cc-statusline
+git clone https://github.com/denipesto/claudegochi.git
+cd claudegochi
 node bin/install.mjs
 ```
 
@@ -113,7 +113,7 @@ Any keys you set are merged over the defaults, so a partial file is fine.
 
 ## How claudegochi grows
 
-claudegochi is a persistent pet (saved in `~/.cc-statusline-pet.json`, shared across
+claudegochi is a persistent pet (saved in `~/.claudegochi-pet.json`, shared across
 all projects):
 
 - **Needs** — hunger tracks your context fill; energy drops over a long session.
@@ -132,6 +132,7 @@ In `"mode": "normal"` the `widgets` list is rendered in order, joined by `separa
 | `context` | context bar + `%` + tokens left |
 | `quote` | a short craft/building quote of the day |
 | `vocab` | meeting/standup English — word + IPA + RU (~1200 phrases in `src/data/vocab.json`); rotation set by `vocabEvery` |
+| `jp` | Japanese learning — 日本語 + romaji + RU (`src/data/jp.json`); rotation set by `vocabEvery` |
 | `limits` | Claude.ai (Pro/Max) usage limits — 5-hour + weekly dot-meters with reset time (auto-hidden on API-key usage) |
 | `tamagotchi` | the pet (also the whole of `tamagotchi` mode) |
 

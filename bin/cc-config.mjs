@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// cc-statusline config editor.
+// claudegochi config editor.
 //   node bin/cc-config.mjs                 -> interactive TUI (arrow keys + Enter)
 //                                             in a real terminal; no LLM, no tokens
 //   node bin/cc-config.mjs show            -> print current settings
@@ -77,7 +77,7 @@ const grn = x("38;5;114"), dim = x("2"), bold = x("1"), cyan = x("38;5;80"), inv
 
 // ── non-interactive: show / set ─────────────────────────────────────
 function show(cfg) {
-  console.log(bold("cc-statusline settings") + dim("  (" + configPath.replace(/\\/g, "/") + ")"));
+  console.log(bold("claudegochi settings") + dim("  (" + configPath.replace(/\\/g, "/") + ")"));
   for (const k of ORDER) console.log("  " + k.padEnd(16) + grn(JSON.stringify(cfg[k] ?? null)));
   console.log(dim("\nset:  node cc-config.mjs <key> <value>   ·   keys: " + ORDER.join(", ")));
   console.log(dim("aliases: theme, style, name, project, git, animate"));
@@ -107,7 +107,7 @@ function nextKey() {
 }
 function drawMain(cfg, idx, note) {
   clear();
-  W(bold(cyan(" claudegochi")) + dim("  ·  cc-statusline settings") + "\n\n");
+  W(bold(cyan(" claudegochi")) + dim("  ·  settings") + "\n\n");
   ORDER.forEach((k, i) => {
     const val = grn(JSON.stringify(cfg[k] ?? null));
     const row = " " + k.padEnd(16) + val + " ";

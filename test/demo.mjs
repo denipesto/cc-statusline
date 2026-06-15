@@ -27,7 +27,7 @@ const OPEN = DAY5 + 2000;
 function show(label, fixN, petState, { dur = 0, now = OPEN } = {}) {
   const data = {
     model: { id: "claude-opus-4-8" },
-    workspace: { project_dir: "C:/dev/cc-statusline" },
+    workspace: { project_dir: "C:/dev/claudegochi" },
     transcript_path: fix(fixN),
     cost: { total_duration_ms: dur },
     session_id: "demo",

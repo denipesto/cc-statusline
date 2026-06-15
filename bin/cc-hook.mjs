@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // UserPromptSubmit hook: intercepts prompts that start with "ccg" and runs the
-// cc-statusline config editor LOCALLY — no model turn, no tokens. Exit code 2
+// claudegochi config editor LOCALLY — no model turn, no tokens. Exit code 2
 // blocks the prompt from reaching Claude and shows our output to the user.
 //
 // Type "ccg" alone to see settings, or "ccg theme cool" to change one.

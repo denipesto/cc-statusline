@@ -1,10 +1,10 @@
 {
-  "name": "cc-statusline",
+  "name": "claudegochi",
   "version": "0.1.0",
-  "description": "Useful Claude Code status line + spinner verbs (the anti-Kickbacks)",
+  "description": "A useful Claude Code status line with claudegochi — a tamagotchi pet, plus context, quotes, vocab and usage-limit widgets",
   "type": "module",
   "bin": {
-    "cc-statusline": "src/statusline.mjs"
+    "claudegochi": "src/statusline.mjs"
   },
   "scripts": {
     "setup": "node bin/install.mjs",

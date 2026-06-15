@@ -1,13 +1,13 @@
 // Persistent claudegochi state: XP / levels / evolution stages / streaks, and
 // event detection (feeding via /compact, new commits, daily streak). One global
-// pet lives across all projects in ~/.cc-statusline-pet.json.
+// pet lives across all projects in ~/.claudegochi-pet.json.
 
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
 import { execSync } from "node:child_process";
 
-const STATE = path.join(os.homedir(), ".cc-statusline-pet.json");
+const STATE = path.join(os.homedir(), ".claudegochi-pet.json");
 
 const DEFAULT = {
   xp: 0, bornDay: null, lastDay: null, streak: 0, feeds: 0,

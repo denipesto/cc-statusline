@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// cc-statusline installer. Wires (or removes) the statusLine entry in
+// claudegochi installer. Wires (or removes) the statusLine entry in
 // ~/.claude/settings.json. Uses absolute node + script paths (PATH-proof),
 // backs up settings.json, and leaves the rest of the config untouched.
 //
@@ -92,7 +92,7 @@ function removeHook(settings) {
 const short = (p) => p.replace(os.homedir(), "~").replace(/\\/g, "/");
 
 const slashCommand = `---
-description: cc-statusline settings (show current, or pass a key to change)
+description: claudegochi settings (show current, or pass a key to change)
 argument-hint: [theme cool | mode normal | show]
 allowed-tools: Bash(node "${configCli}":*)
 ---
@@ -118,7 +118,7 @@ function saveJson(file, obj) {
 
 async function run() {
   console.log("");
-  console.log("  " + bold(cyan("cc-statusline")) + dim("  ·  status line for Claude Code"));
+  console.log("  " + bold(cyan("claudegochi")) + dim("  ·  status line for Claude Code"));
   console.log("");
 
   const settings = loadJson(settingsPath, {});
@@ -189,7 +189,7 @@ async function run() {
 
   const cfgLine = [wantMode && `mode → ${wantMode}`, wantLang && `lang → ${wantLang}`].filter(Boolean).join("   ");
   console.log(box([
-    `${grn("✓")} ${white(bold("cc-statusline is ready!"))}`,
+    `${grn("✓")} ${white(bold("claudegochi is ready!"))}`,
     `${dim("settings")}  ${short(settingsPath)}`,
     `${dim("script  ")}  ${short(scriptPath)}`,
     bak ? `${dim("backup  ")}  ${short(bak)}` : "",
@@ -200,8 +200,8 @@ async function run() {
   console.log("  " + dim("change settings, no tokens — just type:  ") + cyan("ccg theme cool"));
   console.log("  " + dim("interactive menu (in a real terminal):   ") + cyan(`node "${configCli}"`));
   const removeCmd = process.platform === "win32"
-    ? "irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.ps1 | iex"
-    : "curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/scripts/uninstall.sh | sh";
+    ? "irm https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/uninstall.ps1 | iex"
+    : "curl -fsSL https://raw.githubusercontent.com/denipesto/claudegochi/main/scripts/uninstall.sh | sh";
   console.log("  " + dim("remove anytime:  ") + cyan(removeCmd));
   console.log("");
 }
