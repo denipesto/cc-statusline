@@ -76,37 +76,16 @@ const commandPath = path.join(os.homedir(), ".claude", "commands", "claudegochi.
 const short = (p) => p.replace(os.homedir(), "~").replace(/\\/g, "/");
 
 const slashCommand = `---
-description: Configure claudegochi / cc-statusline (interactive menu, or pass args)
-argument-hint: [blank for menu | theme cool | mode normal | name Murka]
-allowed-tools: Bash(node "${configCli}":*), AskUserQuestion
+description: cc-statusline settings (show current, or pass a key to change)
+argument-hint: [theme cool | mode normal | show]
+allowed-tools: Bash(node "${configCli}":*)
 ---
-Current cc-statusline settings:
-!\`node "${configCli}" show\`
+!\`node "${configCli}" $ARGUMENTS\`
 
-Arguments the user passed: "$ARGUMENTS"
-
-**If arguments were given**, apply them directly: run \`node "${configCli}" $ARGUMENTS\`
-and confirm the change in one short line. Stop.
-
-**If NO arguments were given**, run an interactive menu so the user picks with
-arrow keys + Enter. Use the AskUserQuestion tool:
-
-1. First question - "What do you want to change?" with options (put the CURRENT
-   value from above in each description):
-   Theme / Mode / Pet name / Pet style / Something else
-2. Then a follow-up AskUserQuestion for the chosen setting's value:
-   - Theme: warm / cool / mono
-   - Mode: tamagotchi (the pet) / normal (plain context bar)
-   - Pet name: project folder name / fixed "claudegochi"
-   - Pet style: sprite (3 lines) / compact (1 line)
-   - Something else: first ask which key (lang, petReactGit, petAnimate,
-     contextWindow, refreshInterval), then its value
-3. Apply with \`node "${configCli}" <key> <value>\` (map Theme to petTheme,
-   Mode to mode, Pet name to petNameProject true|false, Pet style to petStyle)
-   and confirm in one short line.
-
-One change per run unless the user asks to keep going. Config applies on the next
-status-line render (refreshInterval needs a restart).`;
+Relay the output above in one short line (confirm the change, or summarise current
+settings). If no arguments were given, also tell the user that for an instant
+arrow-key menu with no token cost they can run it directly with the bang prefix:
+\`!node "${configCli}"\``;
 
 function loadJson(file, fallback) {
   try {
@@ -197,7 +176,8 @@ async function run() {
   ].filter(Boolean)));
   console.log("");
   console.log("  " + grn("→") + " " + bold("Restart Claude Code") + dim(" (close & reopen the terminal) to apply."));
-  console.log("  " + dim("then tweak it from chat:  ") + cyan("/claudegochi theme cool"));
+  console.log("  " + dim("settings menu (instant, no tokens):  ") + cyan(`!node "${configCli}"`));
+  console.log("  " + dim("or from chat:  ") + cyan("/claudegochi theme cool"));
   const removeCmd = process.platform === "win32"
     ? "irm https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.ps1 | iex"
     : "curl -fsSL https://raw.githubusercontent.com/denipesto/cc-statusline/main/uninstall.sh | sh";

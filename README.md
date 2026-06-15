@@ -58,19 +58,27 @@ node bin/install.mjs --uninstall         # remove statusLine from settings.json
 
 (`npm run remove` = `--uninstall`.)
 
-## Configure from chat — `/claudegochi`
+## Configure interactively
 
-The installer registers a `/claudegochi` slash command. Type it in Claude Code for
-an **interactive menu** (arrow keys + Enter), or pass arguments directly:
+**Instant menu, no tokens** — run the editor directly in your terminal (in Claude
+Code, prefix with `!`). Arrow keys + Enter, drills into each setting:
 
 ```
-/claudegochi              # interactive menu
+!node ~/.cc-statusline/bin/cc-config.mjs
+```
+
+It's a local TUI — no LLM, no latency, no token cost.
+
+**From chat** — the installer also registers a thin `/claudegochi` slash command
+for quick one-off changes (this one does use the model):
+
+```
 /claudegochi theme cool   # palette: warm | cool | mono
 /claudegochi mode normal  # plain context bar (no pet)
 /claudegochi show         # print current settings
 ```
 
-(New slash commands appear after you restart Claude Code.)
+(The slash command appears after you restart Claude Code.)
 
 ## Configure — `config.json`
 
