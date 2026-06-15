@@ -6,7 +6,7 @@
 // config.json: { "mode":"tamagotchi", "petName":"claudegochi", "petStyle":"sprite",
 //                "petNameProject":false, "petReactGit":true }
 
-import { red, gray, bold, dim, brightGreen, brightYellow, brightRed, cyan, meter } from "../colors.mjs";
+import { red, gray, bold, dim, brightGreen, brightYellow, brightRed, cyan, meter, bar, fmtTokens } from "../colors.mjs";
 import { contextState } from "../tokens.mjs";
 import { tick, xpForLevel } from "../pet.mjs";
 
@@ -24,7 +24,7 @@ function petName(data, config) {
 // 3-line sprite per evolution stage; eyes (3 chars) + mouth (1) come from mood.
 function sprite(stage, eyes, mouth) {
   switch (stage) {
-    case "egg":    return [" .-=-.", `( ${eyes} )`, " `-_-'"];
+    case "egg":    return [" .---.", `( ${eyes} )`, " `---'"];
     case "kitten": return [" /\\,/\\", `(=${eyes}=)`, ` > ${mouth} <`];
     case "elder":  return [" /\\_/\\", `[ ${eyes} ]`, ` > ${mouth} <`];
     default:       return [" /\\_/\\", `( ${eyes} )`, ` > ${mouth} <`]; // cat
@@ -47,11 +47,6 @@ function mood(ratio, energy, hour, flash) {
   if (ratio < 0.25 && energy > 0.5) return { eyes: "^‿^", mouth: "w", key: "ecstatic", paint: brightGreen };
   if (ratio < 0.45)  return { eyes: "^_^", mouth: "w", key: "content", paint: brightGreen };
   return { eyes: "o_o", mouth: "u", key: "ok", paint: brightGreen };
-}
-
-function hearts(sat) {
-  const n = Math.max(0, Math.min(5, Math.round(sat * 5)));
-  return red("♥".repeat(n)) + gray("♡".repeat(5 - n));
 }
 
 export default {
@@ -81,7 +76,6 @@ export default {
 
     // needs
     const ratio = s.ratio;
-    const sat = 1 - ratio;
     const durMs = data.cost?.total_duration_ms || 0;
     const energy = Math.max(0, Math.min(1, 1 - durMs / (3 * 3600 * 1000)));
     const hour = (ctx.now != null ? new Date(ctx.now) : new Date()).getHours();
@@ -102,30 +96,33 @@ export default {
     else say = tr(m.key);
     if (animate && drowsy) say += " " + ["z", "Z", "ᶻ"][frame % 3];
 
-    // compact one-liner
+    const name = petName(data, cfg);
+    const stageWord = tr(`stage.${pet.stage}`);
+    const pct = Math.round(ratio * 100);
+    const ctxBar = colorFor(ratio)(bar(ratio, 8));
+    const pctTxt = colorFor(ratio)(`${pct}%`);
+
+    // compact one-liner: face · name · level · context% · mood
     if (cfg.petStyle === "compact") {
-      const name = petName(data, cfg);
       return [
-        paint(`( ${eyes} )`), bold(name), dim(`Lv.${pet.level}`),
-        hearts(sat), dim("·"), dim(say),
+        paint(`(${eyes})`), bold(name), dim(`Lv.${pet.level}`), dim("·"),
+        `${dim("ctx")} ${ctxBar} ${pctTxt}`, dim("·"), paint(say),
       ].join(" ");
     }
 
-    // 3-line sprite
+    // 3-line sprite: who · context · mood
     const [l0, l1, l2] = sprite(pet.stage, eyes, m.mouth);
     const w = Math.max(l0.length, l1.length, l2.length);
     const cat = [l0, l1, l2].map((l) => paint(l.padEnd(w)));
 
-    const name = petName(data, cfg);
-    const stageWord = tr(`stage.${pet.stage}`);
-    const energyBar = brightYellow(meter(energy, 4));
-    const streak = pet.streak > 1 ? "  " + brightRed(`♦${pet.streak}d`) : "";
-    const xpBar = cyan(meter(pet.xpInto / pet.xpNeed, 6));
+    const xpPct = Math.round((pet.xpInto / pet.xpNeed) * 100);
+    const evo = dim(`Lv.${pet.level} ${stageWord} `) + cyan(meter(pet.xpInto / pet.xpNeed, 4)) + dim(` ${xpPct}%`);
+    const streak = pet.streak > 1 ? "  " + brightRed(`🔥${pet.streak}`) : "";
 
     return [
-      `${cat[0]}   ${bold(name)}  ${dim(`Lv.${pet.level} ${stageWord}`)}`,
-      `${cat[1]}   ${hearts(sat)}  ${dim("⚡")}${energyBar}${streak}`,
-      `${cat[2]}   ${dim(say)}   ${dim("xp")} ${xpBar}`,
+      `${cat[0]}   ${bold(name)}   ${evo}${streak}`,
+      `${cat[1]}   ${dim("ctx")} ${ctxBar} ${pctTxt}  ${dim("· " + fmtTokens(s.left) + " left")}`,
+      `${cat[2]}   ${paint(say)}`,
     ].join("\n");
   },
 };
