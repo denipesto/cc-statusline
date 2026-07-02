@@ -12,5 +12,6 @@
   "petReactGit": true,
   "petAnimate": true,
   "vocabEvery": 60,
+  "limitsStyle": "meter",
   "refreshInterval": 2
 }

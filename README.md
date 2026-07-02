@@ -107,6 +107,7 @@ Any keys you set are merged over the defaults, so a partial file is fine.
 | `petInspire` | `true` \| `false` | rotate an inspiring line (goal / quote / progress / cheer) when in a good mood |
 | `goal` | string \| `null` | your goal of the day, shown as a north-star (`ccg goal finish the auth flow`, clear with `ccg goal none`) |
 | `vocabEvery` | integer ≥ 1 | seconds between `vocab` phrases (default 60) |
+| `limitsStyle` | `"meter"` \| `"compact"` | `limits` widget: two dot-meter lines, or a compact `c8/100(2h58m) a27/100 f43/100` appended inline to the previous line |
 | `refreshInterval` | integer ≥ 1 | seconds between timer refreshes (the installer writes this into `settings.json` so the animation keeps ticking while idle) |
 | `contextWindow` | `null` \| number | context window (`null` = auto: 200k / 1M for `[1m]`) |
 | `separator` | string | separator between widgets |
@@ -133,7 +134,7 @@ In `"mode": "normal"` the `widgets` list is rendered in order, joined by `separa
 | `quote` | a short craft/building quote of the day |
 | `vocab` | meeting/standup English — word + IPA + RU (~1200 phrases in `src/data/vocab.json`); rotation set by `vocabEvery` |
 | `jp` | Japanese learning — 日本語 + romaji + RU (`src/data/jp.json`); rotation set by `vocabEvery` |
-| `limits` | Claude.ai (Pro/Max) usage limits — 5-hour + weekly dot-meters with reset time (auto-hidden on API-key usage) |
+| `limits` | Claude.ai (Pro/Max) usage limits (auto-hidden on API-key usage). `limitsStyle: "meter"` = 5-hour + weekly dot-meter lines from the statusline feed; `"compact"` = inline `c50/100(3h08m) a7/100 f7/100` (current session / weekly all models / weekly top-model), sourced from the claude.ai usage API via a 60s background-refreshed cache (`bin/cc-usage-refresh.mjs`, uses your local Claude Code OAuth token) — the same numbers as `/usage` and claude.ai settings |
 | `tamagotchi` | the pet (also the whole of `tamagotchi` mode) |
 
 ```json

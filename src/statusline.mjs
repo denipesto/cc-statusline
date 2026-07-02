@@ -48,7 +48,13 @@ async function main() {
     if (!widget) continue;
     try {
       const out = await widget.render(data, ctx);
-      if (out) parts.push(out);
+      if (!out) continue;
+      // widgets with inline(config) === true append to the previous line
+      if (typeof widget.inline === "function" && widget.inline(config) && parts.length) {
+        parts[parts.length - 1] += " " + dim("·") + " " + out;
+      } else {
+        parts.push(out);
+      }
     } catch {
       // a single widget failing must not break the whole status line
     }

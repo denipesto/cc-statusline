@@ -24,6 +24,9 @@ export const defaultConfig = {
   petTheme: "warm",
   // vocab widget: seconds between phrases
   vocabEvery: 60,
+  // limits widget: "meter" = two dot-meter lines; "compact" = inline
+  // `c8/100(2h58m) a27/100 f43/100` appended to the previous widget's line
+  limitsStyle: "meter",
   // show the current project's folder name instead of petName
   petNameProject: false,
   // react to git commits (cheap, throttled); set false to disable git calls

@@ -41,6 +41,7 @@ const KEYS = {
   petName: STR,
   petNameProject: BOOL,
   vocabEvery: INT1,
+  limitsStyle: ENUM("meter", "compact"),
   lang: LANGS.length ? ENUM(...LANGS) : STR,
   petReactGit: BOOL,
   petAnimate: BOOL,
@@ -54,6 +55,7 @@ const OPTS = {
   petTheme: ["warm", "cool", "mono"],
   petStyle: ["sprite", "compact"],
   petNameProject: [true, false],
+  limitsStyle: ["meter", "compact"],
   lang: LANGS.length ? LANGS : null,
   petReactGit: [true, false],
   petAnimate: [true, false],
@@ -62,7 +64,7 @@ const OPTS = {
   contextWindow: null,
   refreshInterval: null,
 };
-const ORDER = ["mode", "petChar", "petTheme", "petStyle", "petName", "petNameProject", "lang", "petReactGit", "petAnimate", "vocabEvery", "contextWindow", "refreshInterval"];
+const ORDER = ["mode", "petChar", "petTheme", "petStyle", "petName", "petNameProject", "lang", "petReactGit", "petAnimate", "vocabEvery", "limitsStyle", "contextWindow", "refreshInterval"];
 
 function load() {
   try { return JSON.parse(fs.readFileSync(configPath, "utf8").replace(/^﻿/, "")); }
